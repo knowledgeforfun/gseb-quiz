@@ -1,4 +1,4 @@
-<style>
+
 
 *{
     margin:0;
@@ -7,7 +7,7 @@
     font-family:Arial,Helvetica,sans-serif;
 }
 
-body{
+body{    
 
     background:linear-gradient(135deg,#0f172a,#1d4ed8,#312e81);
 
@@ -536,20 +536,15 @@ transition:all .25s ease;
 
 }
 
-.option:active{
-
-transform:scale(.98);
-
-}
-
- border:2px solid #2563eb;
-
+.option.selected{
+    border:2px solid #2563eb;
     background:#dbeafe;
-
     box-shadow:0 0 12px rgba(37,99,235,.35);
-
 }
 
+.option:active{
+    transform:scale(.98);
+}
 .whatsapp-note{
     display:block;
     margin-top:8px;
@@ -617,4 +612,4 @@ grid-template-columns:repeat(2,1fr);
 }
 
 }
-</style>
+
