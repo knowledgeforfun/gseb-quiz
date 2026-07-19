@@ -133,9 +133,9 @@ fetch(API_URL, {
 
 function startExam(){
 
-    document.getElementById("studentDisplay").innerHTML =
-        "👤 " + student.name;
-
+         document.getElementById("studentDisplay").textContent =
+    student.name;
+     
     loginScreen.style.display="none";
 
     quizScreen.style.display="block";
