@@ -815,3 +815,29 @@ border:2px solid #8b5cf6;
 .time-card{
 border:2px solid #06b6d4;
 }
+.result-trophy{
+
+font-size:80px;
+
+animation:trophy 2s infinite ease-in-out;
+
+}
+
+@keyframes trophy{
+
+0%{transform:translateY(0);}
+
+50%{transform:translateY(-8px) rotate(3deg);}
+
+100%{transform:translateY(0);}
+
+}
+#finalPercentage{
+
+font-size:34px;
+
+font-weight:700;
+
+color:#FFD700;
+
+}
