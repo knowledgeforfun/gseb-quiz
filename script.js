@@ -445,17 +445,18 @@ function finishQuiz(){
     document.getElementById("finalStudent").innerHTML =
         "👤 " + student.name;
 
-    document.getElementById("finalScore").innerHTML =
-    "✅ Correct : " + score +
-    "<br>❌ Wrong : " + wrong +
-    "<br>⏭ Skipped : " + skipped +
-    "<br>📝 Total : " + questions.length;
+  document.getElementById("correctCount").innerHTML = score;
 
-    document.getElementById("finalPercentage").innerHTML =
-        "📊 Percentage : " + percentage + "%";
+document.getElementById("wrongCount").innerHTML = wrong;
 
-    document.getElementById("finalTime").innerHTML =
-        "⏱ Time : " + document.getElementById("timer").innerHTML;
+document.getElementById("skipCount").innerHTML = skipped;
+
+document.getElementById("totalCount").innerHTML = questions.length;
+
+document.getElementById("finalPercentage").innerHTML =
+percentage + "%";
+document.getElementById("finalTime").innerHTML =
+document.getElementById("timer").innerHTML;
 
     // Save Result to Google Sheet
    fetch(API_URL, {
