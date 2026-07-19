@@ -555,22 +555,20 @@ background:#dbeafe;
 box-shadow
 </style>
 
-    .whatsapp-note{
-
+.whatsapp-note{
     display:block;
-
     margin-top:8px;
-
     font-size:13px;
-
     line-height:1.5;
-
     color:#dbeafe;
-
 }
 
 .whatsapp-note strong{
-
     color:#ffffff;
+}
 
+.whatsapp-note i{
+    color:#25D366;
+    font-size:16px;
+    margin-right:5px;
 }
