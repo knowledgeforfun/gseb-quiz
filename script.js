@@ -1,5 +1,3 @@
-<script>
-
 // =======================================
 // GSEB Statistics Quiz Engine
 // Module 1
@@ -464,4 +462,3 @@ function finishQuiz(){
 });
 
 }
-</script>
