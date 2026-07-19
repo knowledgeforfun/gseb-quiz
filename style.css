@@ -568,16 +568,10 @@ transform:scale(.98);
     margin-right:5px;
 }
         
-quiz-grid{
-
-display:grid;
-
-grid-template-columns:repeat(3,1fr);
-
-gap:15px;
-
-margin:25px 0;
-
+.quiz-grid{
+    display:grid !important;
+    grid-template-columns:1fr 1fr !important;
+    gap:12px;
 }
 
 .quiz-card{
