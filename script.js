@@ -133,17 +133,14 @@ fetch(API_URL, {
 
 function startExam(){
 
-         document.getElementById("studentDisplay").textContent =
-    student.name;
-     
-    loginScreen.style.display="none";
+    document.getElementById("studentDisplay").textContent = student.name;
 
-    quizScreen.style.display="block";
+    loginScreen.style.display = "none";
+    quizScreen.style.display = "block";
 
     startTime = new Date();
 
-startTimer();
-loadQuestion();
+    finishQuiz();
 }
 
 function createPalette(){
