@@ -628,3 +628,82 @@ box-shadow
     color:#fff;
 
 }
+    .quiz-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:15px;
+
+margin:25px 0;
+
+}
+
+.info-card{
+
+background:rgba(255,255,255,.10);
+
+border:1px solid rgba(255,255,255,.18);
+
+border-radius:16px;
+
+padding:18px 10px;
+
+text-align:center;
+
+transition:.3s;
+
+backdrop-filter:blur(8px);
+
+}
+
+.info-card:hover{
+
+transform:translateY(-4px);
+
+background:rgba(255,255,255,.16);
+
+box-shadow:0 12px 25px rgba(0,0,0,.18);
+
+}
+
+.info-card .icon{
+
+font-size:28px;
+
+margin-bottom:10px;
+
+}
+
+.info-card .title{
+
+font-size:14px;
+
+color:#EAF2FF;
+
+margin-bottom:6px;
+
+font-weight:600;
+
+}
+
+.info-card .value{
+
+font-size:18px;
+
+font-weight:700;
+
+color:#fff;
+
+}
+
+@media(max-width:768px){
+
+.quiz-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
