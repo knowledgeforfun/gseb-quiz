@@ -554,3 +554,23 @@ background:#dbeafe;
 
 box-shadow
 </style>
+
+    .whatsapp-note{
+
+    display:block;
+
+    margin-top:8px;
+
+    font-size:13px;
+
+    line-height:1.5;
+
+    color:#dbeafe;
+
+}
+
+.whatsapp-note strong{
+
+    color:#ffffff;
+
+}
