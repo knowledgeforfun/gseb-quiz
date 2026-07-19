@@ -1,4 +1,3 @@
-<script>
 
 const questions = [
 
@@ -553,5 +552,3 @@ answer:0
 }
 
 ];
-
-</script>
