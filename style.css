@@ -841,3 +841,35 @@ font-weight:700;
 color:#FFD700;
 
 }
+#finalPercentage{
+
+font-size:34px;
+
+font-weight:700;
+
+color:#FFD700;
+
+}
+.result-card button{
+
+height:58px;
+
+font-size:22px;
+
+font-weight:700;
+
+border-radius:18px;
+
+background:linear-gradient(90deg,#2563eb,#3b82f6);
+
+transition:.35s;
+
+}
+
+.result-card button:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 15px 30px rgba(37,99,235,.45);
+
+}
