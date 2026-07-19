@@ -26,8 +26,8 @@ let timer;
 let seconds = 0;
 
 let questionTimer;
-let questionTime = 20;
-let remainingTime = 20;
+let questionTime = 15;
+let remainingTime = 15;
 let skipped = 0;
 let questionStatus = [];
 // ---------- Page Elements ----------
@@ -306,18 +306,8 @@ if(remainingTime>5){
     timerNumber.classList.remove("timer-warning");
 }
 
-if(remainingTime<=10){
 
-timer.classList.add("timer-warning");
-
-}else{
-
-timer.classList.remove("timer-warning");
-
-}
-
-       document.getElementById("questionTimer").innerHTML =
-    remainingTime;
+       timerNumber.innerHTML = remainingTime;
 
         if(remainingTime <= 0){
 
