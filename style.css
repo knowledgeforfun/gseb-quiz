@@ -471,17 +471,25 @@ border:2px solid rgba(255,255,255,.2);
 }
 .timer-warning{
 
-    animation:blink .8s infinite;
+    animation:timerBlink .8s infinite;
 
-    color:#ef4444 !important;
+    color:#ffffff !important;
+
+    background:#ef4444;
+
+    border-radius:10px;
+
+    box-shadow:0 0 18px rgba(239,68,68,.55);
 
 }
 
-@keyframes blink{
+@keyframes timerBlink{
 
 0%{
 
 transform:scale(1);
+
+box-shadow:0 0 8px rgba(239,68,68,.35);
 
 }
 
@@ -489,15 +497,41 @@ transform:scale(1);
 
 transform:scale(1.08);
 
+box-shadow:0 0 25px rgba(239,68,68,.85);
+
 }
 
 100%{
 
 transform:scale(1);
 
-}
+box-shadow:0 0 8px rgba(239,68,68,.35);
 
 }
 
+}
+
+.timer-safe{
+    border:2px solid #22c55e !important;
+}
+
+.timer-safe .time{
+    color:#22c55e;
+}
+
+.timer-medium{
+    border:2px solid #f59e0b !important;
+}
+
+.timer-medium .time{
+    color:#f59e0b;
+}
+
+.timer-danger{
+    border:2px solid #ef4444 !important;
+}
+
+.timer-danger .time{
+    color:#ef4444;
+}
 </style>
-
