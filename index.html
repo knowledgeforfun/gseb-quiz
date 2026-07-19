@@ -199,33 +199,47 @@
 
 <p>Thank you for participating</p>
 
-</div>
-
 <h2 id="finalStudent"></h2>
 
-<div class="result-stats">
+</div>
 
-<div class="stat-box">
+<div class="result-grid">
 
-<div class="stat-icon">📊</div>
+<div class="result-item">
+<h4>✅ Correct</h4>
+<p id="correctCount"></p>
+</div>
 
-<div id="finalPercentage"></div>
+<div class="result-item">
+<h4>❌ Wrong</h4>
+<p id="wrongCount"></p>
+</div>
+
+<div class="result-item">
+<h4>⏭ Skipped</h4>
+<p id="skipCount"></p>
+</div>
+
+<div class="result-item">
+<h4>📝 Total</h4>
+<p id="totalCount"></p>
+</div>
+
+<div class="result-item">
+<h4>📊 Percentage</h4>
+<p id="finalPercentage"></p>
+</div>
+
+<div class="result-item">
+<h4>⏱ Time</h4>
+<p id="finalTime"></p>
+</div>
 
 </div>
 
-<div class="stat-box">
-
-<div class="stat-icon">📝</div>
-
-<div id="finalScore"></div>
-
-</div>
-
-<div class="stat-box">
-
-<div class="stat-icon">⏱</div>
-
-<div id="finalTime"></div>
+<button onclick="location.reload()">
+🔄 Restart Quiz
+</button>
 
 </div>
 
