@@ -476,17 +476,6 @@ function finishQuiz(){
 
 });
 
-})
-.then(res=>res.json())
-.then(data=>{
 
-    console.log("Saved",data);
-
-})
-.catch(err=>{
-
-    console.log(err);
-
-});
 
 }
