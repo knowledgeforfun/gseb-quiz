@@ -143,8 +143,7 @@ function startExam(){
     startTime = new Date();
 
     startTimer();
-
-    loadQuestion();
+finishQuiz();
 
 }
 
