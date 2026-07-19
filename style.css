@@ -469,7 +469,35 @@ border:2px solid #ef4444;
 border:2px solid rgba(255,255,255,.2);
 
 }
+.timer-warning{
 
+    animation:blink .8s infinite;
+
+    color:#ef4444 !important;
+
+}
+
+@keyframes blink{
+
+0%{
+
+transform:scale(1);
+
+}
+
+50%{
+
+transform:scale(1.08);
+
+}
+
+100%{
+
+transform:scale(1);
+
+}
+
+}
 
 </style>
 
