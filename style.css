@@ -553,7 +553,6 @@ border:2px solid #2563eb;
 background:#dbeafe;
 
 box-shadow
-</style>
 
 .whatsapp-note{
     display:block;
@@ -577,60 +576,69 @@ box-shadow
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:15px;
-}
-   .quiz-grid{
+}.quiz-grid{
 
-display:grid !important;
+display:grid;
 
-grid-template-columns:repeat(3,minmax(0,1fr));
+grid-template-columns:repeat(3,1fr);
 
-gap:12px;
+gap:15px;
 
 margin:25px 0;
 
-width:100%;
-
 }
 
-.info-card{
+.quiz-card{
 
 background:rgba(255,255,255,.12);
 
+padding:18px;
+
 border-radius:15px;
 
-padding:16px;
+border:1px solid rgba(255,255,255,.15);
 
 text-align:center;
 
-border:1px solid rgba(255,255,255,.18);
+transition:.3s;
 
 }
 
-.info-card .icon{
+.quiz-card:hover{
 
-font-size:26px;
+transform:translateY(-4px);
+
+background:rgba(255,255,255,.18);
+
+}
+
+.quiz-icon{
+
+font-size:28px;
+
+margin-bottom:10px;
+
+}
+
+.quiz-title{
+
+font-size:14px;
+
+font-weight:600;
+
+color:#dbeafe;
 
 margin-bottom:8px;
 
 }
 
-.info-card .title{
-
-font-size:13px;
-
-color:#dbeafe;
-
-}
-
-.info-card .value{
-
-margin-top:6px;
+.quiz-value{
 
 font-size:18px;
 
-font-weight:bold;
+font-weight:700;
 
-color:white;
+color:#fff;
 
 }
 
@@ -643,3 +651,4 @@ grid-template-columns:repeat(2,1fr);
 }
 
 }
+</style>
