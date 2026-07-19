@@ -4,6 +4,7 @@
 // =======================================
 
 // ---------- Student Data ----------
+const API_URL = "https://gseb-quiz-api.pratikkanakhara1.workers.dev/api";
 const API_URL = "https://script.google.com/macros/s/AKfycbwpvvDP0BQXstkO7Ga6_Fo_5tl4_prYS2ERWRyud23hXhU4GOO2jr_Id5Nx3vzUnbvqPg/exec";
 let student = {
      name: "",
@@ -101,6 +102,9 @@ if(!/^[6-9]\d{9}$/.test(student.mobile)){
 
 fetch(API_URL, {
     method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
     body: JSON.stringify({
         action: "checkMobile",
         mobile: student.mobile
@@ -109,7 +113,7 @@ fetch(API_URL, {
 .then(res => res.json())
 .then(data => {
 
-    if(data.exists){
+    if (data.exists) {
 
         alert("This WhatsApp Number has already appeared for this test.");
         return;
@@ -125,7 +129,6 @@ fetch(API_URL, {
     alert("Unable to connect to server.");
 
 });
-
 }
 
 function startExam(){
@@ -427,26 +430,39 @@ function finishQuiz(){
         "⏱ Time : " + document.getElementById("timer").innerHTML;
 
     // Save Result to Google Sheet
-    fetch(API_URL, {
+   fetch(API_URL, {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
 
-    method:"POST",
+        action: "saveResult",
 
-    body:JSON.stringify({
+        name: student.name,
+        roll: student.roll,
+        school: student.school,
+        mobile: student.mobile,
 
-        action:"saveResult",
-
-        name:student.name,
-        roll:student.roll,
-        school:student.school,
-        mobile:student.mobile,
-
-        correct:score,
-        wrong:wrong,
-        skipped:skipped,
-        percentage:percentage,
-        time:document.getElementById("timer").innerHTML
+        correct: score,
+        wrong: wrong,
+        skipped: skipped,
+        percentage: percentage,
+        time: document.getElementById("timer").innerHTML
 
     })
+})
+.then(res => res.json())
+.then(data => {
+
+    console.log("Result Saved", data);
+
+})
+.catch(err => {
+
+    console.error(err);
+
+});
 
 })
 .then(res=>res.json())
