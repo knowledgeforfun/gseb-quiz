@@ -458,11 +458,7 @@ margin-top:4px;
 
 }
 
-.timer-danger{
 
-border:2px solid #ef4444;
-
-}
 
 .timer-normal{
 
@@ -546,13 +542,13 @@ transform:scale(.98);
 
 }
 
-.option.selected{
+ border:2px solid #2563eb;
 
-border:2px solid #2563eb;
+    background:#dbeafe;
 
-background:#dbeafe;
+    box-shadow:0 0 12px rgba(37,99,235,.35);
 
-box-shadow
+}
 
 .whatsapp-note{
     display:block;
@@ -572,11 +568,7 @@ box-shadow
     margin-right:5px;
 }
         
-.quiz-grid{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:15px;
-}.quiz-grid{
+quiz-grid{
 
 display:grid;
 
@@ -590,17 +582,11 @@ margin:25px 0;
 
 .quiz-card{
 
-background:rgba(255,255,255,.12);
+background:rgba(255,255,255,.10);
 
-padding:18px;
+backdrop-filter:blur(10px);
 
-border-radius:15px;
-
-border:1px solid rgba(255,255,255,.15);
-
-text-align:center;
-
-transition:.3s;
+box-shadow:0 8px 20px rgba(0,0,0,.15);
 
 }
 
@@ -614,9 +600,7 @@ background:rgba(255,255,255,.18);
 
 .quiz-icon{
 
-font-size:28px;
-
-margin-bottom:10px;
+font-size:32px;
 
 }
 
