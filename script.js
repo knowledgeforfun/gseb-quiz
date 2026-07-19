@@ -210,8 +210,8 @@ function loadQuestion(){
     nextBtn.style.display = "none";
 
     let q = questions[currentQuestion];
-    console.log(q);
-console.log(q.options);
+    // console.log(q);
+// console.log(q.options);
 
     document.getElementById("questionText").innerHTML =
         q.question;
@@ -282,6 +282,9 @@ function startQuestionTimer(){
         remainingTime--;
   const timerNumber = document.getElementById("questionTimer");
 const timerCard = timerNumber.parentElement;
+
+// console.log("timerNumber =", timerNumber);
+// console.log("timerCard =", timerCard);
 
 // Reset
 timerCard.classList.remove("timer-safe","timer-medium","timer-danger","timer-warning");
