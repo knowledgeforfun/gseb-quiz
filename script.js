@@ -142,9 +142,8 @@ function startExam(){
 
     startTime = new Date();
 
-    startTimer();
-finishQuiz();
-
+startTimer();
+loadQuestion();
 }
 
 function createPalette(){
