@@ -280,8 +280,31 @@ function startQuestionTimer(){
     questionTimer = setInterval(function(){
 
         remainingTime--;
-         const timer =
-document.getElementById("questionTimer");
+  const timerNumber = document.getElementById("questionTimer");
+const timerCard = timerNumber.parentElement;
+
+// Reset
+timerCard.classList.remove("timer-safe","timer-medium","timer-danger","timer-warning");
+
+if(remainingTime>10){
+
+    timerCard.classList.add("timer-safe");
+
+}
+else if(remainingTime>5){
+
+    timerCard.classList.add("timer-medium");
+
+}
+else{
+
+    timerCard.classList.add("timer-danger");
+    timerNumber.classList.add("timer-warning");
+
+}
+if(remainingTime>5){
+    timerNumber.classList.remove("timer-warning");
+}
 
 if(remainingTime<=10){
 
