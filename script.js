@@ -280,6 +280,18 @@ function startQuestionTimer(){
     questionTimer = setInterval(function(){
 
         remainingTime--;
+         const timer =
+document.getElementById("questionTimer");
+
+if(remainingTime<=10){
+
+timer.classList.add("timer-warning");
+
+}else{
+
+timer.classList.remove("timer-warning");
+
+}
 
        document.getElementById("questionTimer").innerHTML =
     remainingTime;
