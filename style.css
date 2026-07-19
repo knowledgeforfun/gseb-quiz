@@ -534,4 +534,23 @@ box-shadow:0 0 8px rgba(239,68,68,.35);
 .timer-danger .time{
     color:#ef4444;
 }
+.option{
+
+transition:all .25s ease;
+
+}
+
+.option:active{
+
+transform:scale(.98);
+
+}
+
+.option.selected{
+
+border:2px solid #2563eb;
+
+background:#dbeafe;
+
+box-shadow
 </style>
