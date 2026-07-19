@@ -78,22 +78,29 @@
 
    <div class="top-bar">
 
-    <div id="studentDisplay"></div>
-
-    <div>
-        Question
-        <span id="questionNumber">1</span> /
-        <span id="totalQuestions">50</span>
+    <div class="header-left">
+        👤 <span id="studentDisplay"></span>
     </div>
 
-    <div>
+    <div class="header-center">
+        <h3>
+            Question
+            <span id="questionNumber">1</span> /
+            <span id="totalQuestions">50</span>
+        </h3>
+        <small>Statistics Quiz</small>
+    </div>
 
-        <div id="questionTimer">
-            ⏱ 20
+    <div class="header-right">
+
+        <div class="timer-card timer-danger">
+            <div class="time" id="questionTimer">20</div>
+            <div class="label">Question Left</div>
         </div>
 
-        <div id="timer">
-            00:00
+        <div class="timer-card timer-normal">
+            <div class="time" id="timer">00:00</div>
+            <div class="label">Elapsed</div>
         </div>
 
     </div>
