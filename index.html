@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSEB Statistics Quiz</title>
+
+  <?!= include('style'); ?>
+</head>
+
+<body>
+
+<!-- ================= LOGIN SCREEN ================= -->
+
+<div id="loginScreen" class="screen">
+
+  <div class="login-card">
+
+    <h1>📚 GSEB Statistics Quiz</h1>
+
+    <p class="subtitle">
+      Standard 12 Commerce (New Syllabus)
+    </p>
+
+    <div class="input-group">
+      <label>Student Name</label>
+      <input type="text" id="studentName" placeholder="Enter Full Name">
+    </div>
+
+    <div class="input-group">
+      <label>Roll Number</label>
+      <input type="text" id="rollNo" placeholder="Enter Roll Number">
+    </div>
+
+    <div class="input-group">
+
+    <label>Mobile Number <span style="color:red">*</span></label>
+
+    <input
+        type="tel"
+        id="mobileNumber"
+        maxlength="10"
+        placeholder="Enter WhatsApp Number"
+    >
+
+    <small style="color:#666;">
+        📱 WhatsApp Number
+    </small>
+
+</div>
+
+    <div class="input-group">
+      <label>School Name</label>
+      <input type="text" id="schoolName" placeholder="Enter School Name">
+    </div>
+
+    <div class="agree">
+      <input type="checkbox" id="agree">
+      <label for="agree">
+        I confirm the above information is correct.
+      </label>
+    </div>
+
+    <button id="startBtn">
+      Start Quiz
+    </button>
+
+  </div>
+
+</div>
+
+<!-- ================= QUIZ SCREEN ================= -->
+
+<div id="quizScreen" class="screen" style="display:none;">
+
+  <div class="quiz-container">
+
+   <div class="top-bar">
+
+    <div id="studentDisplay"></div>
+
+    <div>
+        Question
+        <span id="questionNumber">1</span> /
+        <span id="totalQuestions">50</span>
+    </div>
+
+    <div>
+
+        <div id="questionTimer">
+            ⏱ 20
+        </div>
+
+        <div id="timer">
+            00:00
+        </div>
+
+    </div>
+
+</div>
+
+    <div class="progress">
+
+      <div id="progressBar"></div>
+
+    </div>
+
+    <div class="quiz-layout">
+
+    <div class="question-area">
+
+        <div class="question-card">
+
+            <h2 id="questionText"></h2>
+
+            <div id="optionsContainer"></div>
+
+            <button id="nextBtn">
+                Next Question
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="palette">
+
+        <h3>Question Status</h3>
+
+        <div id="paletteContainer"></div>
+
+    </div>
+
+</div>
+
+  </div>
+
+</div>
+
+<!-- ================= RESULT SCREEN ================= -->
+
+<div id="resultScreen" class="screen" style="display:none;">
+
+  <div class="login-card">
+
+    <h1>🎉 Quiz Completed</h1>
+
+    <h2 id="finalStudent"></h2>
+
+    <p id="finalScore"></p>
+
+    <p id="finalPercentage"></p>
+
+    <p id="finalTime"></p>
+
+    <button onclick="location.reload()">
+      Restart Quiz
+    </button>
+
+  </div>
+
+</div>
+
+<?!= include('questions'); ?>
+
+<?!= include('script'); ?>
+
+</body>
+</html>
