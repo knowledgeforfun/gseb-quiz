@@ -14,6 +14,7 @@ let student = {
     mobile: ""
 };
 
+
 // ---------- Quiz Variables ----------
 
 let currentQuestion = 0;
@@ -100,13 +101,19 @@ if(!/^[6-9]\d{9}$/.test(student.mobile)){
 
     }
 
-google.script.run
-.withSuccessHandler(function(exists){
+fetch(API_URL, {
+    method: "POST",
+    body: JSON.stringify({
+        action: "checkMobile",
+        mobile: student.mobile
+    })
+})
+.then(res => res.json())
+.then(data => {
 
-    if(exists){
+    if(data.exists){
 
         alert("This WhatsApp Number has already appeared for this test.");
-
         return;
 
     }
@@ -114,8 +121,12 @@ google.script.run
     startExam();
 
 })
-.checkMobile(student.mobile);
+.catch(err => {
 
+    console.error(err);
+    alert("Unable to connect to server.");
+
+});
 
 }
 
@@ -418,20 +429,39 @@ function finishQuiz(){
         "⏱ Time : " + document.getElementById("timer").innerHTML;
 
     // Save Result to Google Sheet
-    google.script.run.saveResult({
+    fetch(API_URL, {
 
-       name: student.name,
-roll: student.roll,
-school: student.school,
-mobile: student.mobile,
+    method:"POST",
 
-        correct: score,
-        wrong: wrong,
-        skipped: skipped,
-        percentage: percentage,
-        time: document.getElementById("timer").innerHTML
+    body:JSON.stringify({
 
-    });
+        action:"saveResult",
+
+        name:student.name,
+        roll:student.roll,
+        school:student.school,
+        mobile:student.mobile,
+
+        correct:score,
+        wrong:wrong,
+        skipped:skipped,
+        percentage:percentage,
+        time:document.getElementById("timer").innerHTML
+
+    })
+
+})
+.then(res=>res.json())
+.then(data=>{
+
+    console.log("Saved",data);
+
+})
+.catch(err=>{
+
+    console.log(err);
+
+});
 
 }
 </script>
