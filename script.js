@@ -274,15 +274,15 @@ function startQuestionTimer(){
 
     remainingTime = questionTime;
 
-    document.getElementById("questionTimer").innerHTML =
-        "⏱ " + remainingTime;
+   document.getElementById("questionTimer").innerHTML =
+    remainingTime;
 
     questionTimer = setInterval(function(){
 
         remainingTime--;
 
-        document.getElementById("questionTimer").innerHTML =
-            "⏱ " + remainingTime;
+       document.getElementById("questionTimer").innerHTML =
+    remainingTime;
 
         if(remainingTime <= 0){
 
