@@ -269,28 +269,12 @@ const optionLetters = ["A", "B", "C", "D"];
 
 optionLetters.forEach(function(letter, index){
 
-    let btn = document.createElement("button");
-
-    btn.className = "option";
-
-    btn.innerHTML = q.options[letter];
-
-    btn.onclick = function(){
-
-        checkAnswer(letter, btn);
-
-    };
-
-    container.appendChild(btn);
-
-});
-
         let btn =
             document.createElement("button");
 
         btn.className = "option";
 
-        btn.innerHTML = option;
+        btn.innerHTML = q.options[letter];
 
         btn.onclick=function(){
 
