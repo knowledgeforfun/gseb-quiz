@@ -425,7 +425,8 @@ function checkAnswer(index,button){
 
         button.classList.add("wrong");
 
-        options[q.answer].classList.add("correct");
+        const answerIndex = ["A","B","C","D"].indexOf(q.answer);
+options[answerIndex].classList.add("correct");
 
         questionStatus[currentQuestion]="wrong";
 
