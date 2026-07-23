@@ -278,7 +278,7 @@ optionLetters.forEach(function(letter, index){
 
         btn.onclick=function(){
 
-            checkAnswer(index,btn);
+            checkAnswer(letter, btn);
 
         };
 
