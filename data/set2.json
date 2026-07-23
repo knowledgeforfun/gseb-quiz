@@ -1,0 +1,1302 @@
+[
+    {
+        "id": 101,
+        "chapter": "1. Index Number",
+        "question": "What is the unit of measurement for an index number?",
+        "options": {
+            "A": "Percentage (%)",
+            "B": "Rupees (₹)",
+            "C": "Unitless (Free from unit)",
+            "D": "Kilograms (kg)"
+        },
+        "answer": "C",
+        "explanation": "An index number is a relative measure based on a ratio, making it free from any unit of measurement."
+    },
+    {
+        "id": 102,
+        "chapter": "1. Index Number",
+        "question": "Which index number specifically helps the government to frame tax policies and determine dearness allowance?",
+        "options": {
+            "A": "Wholesale Price Index",
+            "B": "Cost of Living Index Number",
+            "C": "National Income Index",
+            "D": "Human Development Index"
+        },
+        "answer": "B",
+        "explanation": "The cost of living index number is used to study changes in the cost of living of people and helps determine purchasing power, real wage, and dearness allowance."
+    },
+    {
+        "id": 103,
+        "chapter": "1. Index Number",
+        "question": "In which method of calculating index numbers does the base year constantly change every year?",
+        "options": {
+            "A": "Fixed Base Method",
+            "B": "Chain Base Method",
+            "C": "Laspeyre's Method",
+            "D": "Paasche's Method"
+        },
+        "answer": "B",
+        "explanation": "In the chain base method, for every current year, its preceding year is taken as the base year, meaning the base keeps changing."
+    },
+    {
+        "id": 104,
+        "chapter": "1. Index Number",
+        "question": "Which of the following describes an 'Implicit Weight' in the construction of a cost of living index?",
+        "options": {
+            "A": "Weights expressed numerically according to consumption.",
+            "B": "An indirect method of assigning weights determined by the number of varieties selected.",
+            "C": "Weights determined by total expenditure in the base year.",
+            "D": "Weights based strictly on base year prices."
+        },
+        "answer": "B",
+        "explanation": "Implicit weight is an indirect method where weights are determined as per the number of varieties of different items selected, and cannot be expressed numerically."
+    },
+    {
+        "id": 105,
+        "chapter": "1. Index Number",
+        "question": "If the method of total expenditure uses current year quantities (q1) for finding total expenditure, which index number formula does it become equivalent to?",
+        "options": {
+            "A": "Laspeyre's index number",
+            "B": "Paasche's index number",
+            "C": "Fisher's index number",
+            "D": "Chain base index number"
+        },
+        "answer": "B",
+        "explanation": "When current year quantity (q1) is used for finding total expenditure, the formula becomes Sum(p1*q1) / Sum(p0*q1) * 100, which is exactly Paasche's index."
+    },
+    {
+        "id": 106,
+        "chapter": "2. Linear Correlation",
+        "question": "What does a scatter diagram show if all plotted points lie exactly on a single line moving upwards from left to right?",
+        "options": {
+            "A": "Perfect negative correlation",
+            "B": "Partial positive correlation",
+            "C": "Perfect positive correlation",
+            "D": "Lack of linear correlation"
+        },
+        "answer": "C",
+        "explanation": "If all points lie on one line going in the upward direction from left to right, it shows a perfect positive correlation (r = 1)."
+    },
+    {
+        "id": 107,
+        "chapter": "2. Linear Correlation",
+        "question": "The sum of the differences in ranks (Σd) in Spearman's rank correlation method is always equal to:",
+        "options": {
+            "A": "1",
+            "B": "-1",
+            "C": "0",
+            "D": "n (number of pairs)"
+        },
+        "answer": "C",
+        "explanation": "Mathematically, the sum of differences between corresponding ranks, Σ(Rx - Ry), is always zero."
+    },
+    {
+        "id": 108,
+        "chapter": "2. Linear Correlation",
+        "question": "If the correlation coefficient between variables x and y is r(x, y) = 0.6, what is the value of r(-x, -y)?",
+        "options": {
+            "A": "-0.6",
+            "B": "0.6",
+            "C": "0",
+            "D": "1.0"
+        },
+        "answer": "B",
+        "explanation": "If the signs of BOTH variables are changed, the sign of the correlation coefficient remains unchanged. Hence r(-x, -y) = r(x, y) = 0.6."
+    },
+    {
+        "id": 109,
+        "chapter": "2. Linear Correlation",
+        "question": "Which correlation method is more suitable and stable when there is high dispersion or extreme values among the observations?",
+        "options": {
+            "A": "Karl Pearson's Method",
+            "B": "Scatter Diagram Method",
+            "C": "Spearman's Rank Correlation Method",
+            "D": "Method of Least Squares"
+        },
+        "answer": "C",
+        "explanation": "Spearman's Rank correlation coefficient is preferred when there is more dispersion or extreme values because it operates on ranks, making it more stable than Karl Pearson's coefficient."
+    },
+    {
+        "id": 110,
+        "chapter": "2. Linear Correlation",
+        "question": "If the points in a scatter diagram are widely spread out randomly without forming any specific upward or downward pattern, what does it indicate?",
+        "options": {
+            "A": "High degree of positive correlation",
+            "B": "High degree of negative correlation",
+            "C": "Partial linear correlation",
+            "D": "Lack of linear correlation"
+        },
+        "answer": "D",
+        "explanation": "Randomly scattered points without a specific pattern indicate an absence (lack) of linear correlation between the two variables."
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 15, Variance of X = 64, and Variance of Y = 49. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.27",
+            "B": "0.62",
+            "C": "0.00",
+            "D": "0.02"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(64) = 8.0, Sy = sqrt(49) = 7.0. r = 15 / (8.0 * 7.0) = 0.27",
+        "id": 111
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 125.8 and the fixed base index number for the preceding year is 142.0. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "174.44",
+            "B": "178.64",
+            "C": "88.59",
+            "D": "184.14"
+        },
+        "answer": "B",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (125.8 * 142.0) / 100 = 178.64",
+        "id": 112
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In Spearman's rank correlation, if a particular observation is repeated 4 times (a tie occurs), what is the Correction Factor (CF) added for this specific tied group?",
+        "options": {
+            "A": "5.00",
+            "B": "5.67",
+            "C": "1.00",
+            "D": "10.00"
+        },
+        "answer": "A",
+        "explanation": "CF = (m³ - m) / 12 = (4³ - 4) / 12 = (64 - 4) / 12 = 5.00",
+        "id": 113
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In Spearman's rank correlation, if a particular observation is repeated 5 times (a tie occurs), what is the Correction Factor (CF) added for this specific tied group?",
+        "options": {
+            "A": "20.00",
+            "B": "1.67",
+            "C": "10.83",
+            "D": "10.00"
+        },
+        "answer": "D",
+        "explanation": "CF = (m³ - m) / 12 = (5³ - 5) / 12 = (125 - 5) / 12 = 10.00",
+        "id": 114
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In Spearman's rank correlation, if a particular observation is repeated 2 times (a tie occurs), what is the Correction Factor (CF) added for this specific tied group?",
+        "options": {
+            "A": "0.17",
+            "B": "1.00",
+            "C": "0.83",
+            "D": "0.50"
+        },
+        "answer": "D",
+        "explanation": "CF = (m³ - m) / 12 = (2³ - 2) / 12 = (8 - 2) / 12 = 0.50",
+        "id": 115
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹36000 and the cost of living index number for that period is 115, what is the real income?",
+        "options": {
+            "A": "26608.70",
+            "B": "26666.67",
+            "C": "36000.00",
+            "D": "31304.35"
+        },
+        "answer": "D",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (36000 / 115) * 100 = 31304.35",
+        "id": 116
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹48000 and the cost of living index number for that period is 145, what is the real income?",
+        "options": {
+            "A": "28137.93",
+            "B": "29090.91",
+            "C": "38068.97",
+            "D": "33103.45"
+        },
+        "answer": "D",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (48000 / 145) * 100 = 33103.45",
+        "id": 117
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹51 and in the current year is ₹73, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "69.86",
+            "B": "132.94",
+            "C": "158.64",
+            "D": "143.14"
+        },
+        "answer": "D",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (73 / 51) * 100 = 143.14",
+        "id": 118
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹32000 and the cost of living index number for that period is 115, what is the real income?",
+        "options": {
+            "A": "32000.00",
+            "B": "23652.17",
+            "C": "23703.70",
+            "D": "27826.09"
+        },
+        "answer": "D",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (32000 / 115) * 100 = 27826.09",
+        "id": 119
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 15, Variance of X = 49, and Variance of Y = 81. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.24",
+            "B": "-0.01",
+            "C": "0.00",
+            "D": "0.59"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(49) = 7.0, Sy = sqrt(81) = 9.0. r = 15 / (7.0 * 9.0) = 0.24",
+        "id": 120
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹42000 and the cost of living index number for that period is 115, what is the real income?",
+        "options": {
+            "A": "31043.48",
+            "B": "31111.11",
+            "C": "42000.00",
+            "D": "36521.74"
+        },
+        "answer": "D",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (42000 / 115) * 100 = 36521.74",
+        "id": 121
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹48000 and the cost of living index number for that period is 135, what is the real income?",
+        "options": {
+            "A": "40888.89",
+            "B": "35555.56",
+            "C": "30967.74",
+            "D": "30222.22"
+        },
+        "answer": "B",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (48000 / 135) * 100 = 35555.56",
+        "id": 122
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In Spearman's rank correlation, if a particular observation is repeated 3 times (a tie occurs), what is the Correction Factor (CF) added for this specific tied group?",
+        "options": {
+            "A": "4.00",
+            "B": "2.00",
+            "C": "2.50",
+            "D": "0.50"
+        },
+        "answer": "B",
+        "explanation": "CF = (m³ - m) / 12 = (3³ - 3) / 12 = (27 - 3) / 12 = 2.00",
+        "id": 123
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹46 and in the current year is ₹73, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "63.01",
+            "B": "158.70",
+            "C": "148.50",
+            "D": "174.20"
+        },
+        "answer": "B",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (73 / 46) * 100 = 158.70",
+        "id": 124
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 35, Variance of X = 49, and Variance of Y = 49. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.71",
+            "B": "0.46",
+            "C": "1.00",
+            "D": "0.01"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(49) = 7.0, Sy = sqrt(49) = 7.0. r = 35 / (7.0 * 7.0) = 0.71",
+        "id": 125
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 45, Variance of X = 64, and Variance of Y = 81. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.62",
+            "B": "0.38",
+            "C": "0.97",
+            "D": "0.01"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(64) = 8.0, Sy = sqrt(81) = 9.0. r = 45 / (8.0 * 9.0) = 0.62",
+        "id": 126
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹55 and in the current year is ₹77, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "129.80",
+            "B": "140.00",
+            "C": "155.50",
+            "D": "71.43"
+        },
+        "answer": "B",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (77 / 55) * 100 = 140.00",
+        "id": 127
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹55 and in the current year is ₹72, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "120.71",
+            "B": "76.39",
+            "C": "146.41",
+            "D": "130.91"
+        },
+        "answer": "D",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (72 / 55) * 100 = 130.91",
+        "id": 128
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹32000 and the cost of living index number for that period is 210, what is the real income?",
+        "options": {
+            "A": "13913.04",
+            "B": "15238.10",
+            "C": "12952.38",
+            "D": "17523.81"
+        },
+        "answer": "B",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (32000 / 210) * 100 = 15238.10",
+        "id": 129
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 105.5 and the fixed base index number for the preceding year is 112.0. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "118.16",
+            "B": "123.66",
+            "C": "94.20",
+            "D": "113.96"
+        },
+        "answer": "A",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (105.5 * 112.0) / 100 = 118.16",
+        "id": 130
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -20, Variance of X = 16, and Variance of Y = 36. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.48",
+            "B": "-0.83",
+            "C": "-1.00",
+            "D": "-0.03"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(16) = 4.0, Sy = sqrt(36) = 6.0. r = -20 / (4.0 * 6.0) = -0.83",
+        "id": 131
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹32000 and the cost of living index number for that period is 175, what is the real income?",
+        "options": {
+            "A": "21028.57",
+            "B": "15542.86",
+            "C": "16410.26",
+            "D": "18285.71"
+        },
+        "answer": "D",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (32000 / 175) * 100 = 18285.71",
+        "id": 132
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹32000 and the cost of living index number for that period is 145, what is the real income?",
+        "options": {
+            "A": "19393.94",
+            "B": "25379.31",
+            "C": "18758.62",
+            "D": "22068.97"
+        },
+        "answer": "D",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (32000 / 145) * 100 = 22068.97",
+        "id": 133
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 120.4 and the fixed base index number for the preceding year is 112.0. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "107.50",
+            "B": "140.35",
+            "C": "130.65",
+            "D": "134.85"
+        },
+        "answer": "D",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (120.4 * 112.0) / 100 = 134.85",
+        "id": 134
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹50000 and the cost of living index number for that period is 175, what is the real income?",
+        "options": {
+            "A": "24285.71",
+            "B": "32857.14",
+            "C": "28571.43",
+            "D": "25641.03"
+        },
+        "answer": "C",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (50000 / 175) * 100 = 28571.43",
+        "id": 135
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 120.4 and the fixed base index number for the preceding year is 124.5. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "96.71",
+            "B": "149.90",
+            "C": "145.70",
+            "D": "155.40"
+        },
+        "answer": "B",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (120.4 * 124.5) / 100 = 149.90",
+        "id": 136
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹36000 and the cost of living index number for that period is 210, what is the real income?",
+        "options": {
+            "A": "14571.43",
+            "B": "15652.17",
+            "C": "17142.86",
+            "D": "19714.29"
+        },
+        "answer": "C",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (36000 / 210) * 100 = 17142.86",
+        "id": 137
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 35, Variance of X = 49, and Variance of Y = 81. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.56",
+            "B": "0.01",
+            "C": "0.31",
+            "D": "0.91"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(49) = 7.0, Sy = sqrt(81) = 9.0. r = 35 / (7.0 * 9.0) = 0.56",
+        "id": 138
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹48000 and the cost of living index number for that period is 175, what is the real income?",
+        "options": {
+            "A": "23314.29",
+            "B": "31542.86",
+            "C": "27428.57",
+            "D": "24615.38"
+        },
+        "answer": "C",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (48000 / 175) * 100 = 27428.57",
+        "id": 139
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹20 and in the current year is ₹31, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "155.00",
+            "B": "144.80",
+            "C": "64.52",
+            "D": "170.50"
+        },
+        "answer": "A",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (31 / 20) * 100 = 155.00",
+        "id": 140
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 15, Variance of X = 25, and Variance of Y = 16. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.50",
+            "B": "0.04",
+            "C": "0.75",
+            "D": "1.00"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(25) = 5.0, Sy = sqrt(16) = 4.0. r = 15 / (5.0 * 4.0) = 0.75",
+        "id": 141
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹52 and in the current year is ₹88, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "184.73",
+            "B": "59.09",
+            "C": "169.23",
+            "D": "159.03"
+        },
+        "answer": "C",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (88 / 52) * 100 = 169.23",
+        "id": 142
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 120.4 and the fixed base index number for the preceding year is 142.0. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "176.47",
+            "B": "84.79",
+            "C": "166.77",
+            "D": "170.97"
+        },
+        "answer": "D",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (120.4 * 142.0) / 100 = 170.97",
+        "id": 143
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹22 and in the current year is ₹81, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "368.18",
+            "B": "27.16",
+            "C": "383.68",
+            "D": "357.98"
+        },
+        "answer": "A",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (81 / 22) * 100 = 368.18",
+        "id": 144
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹57 and in the current year is ₹102, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "178.95",
+            "B": "55.88",
+            "C": "168.75",
+            "D": "194.45"
+        },
+        "answer": "A",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (102 / 57) * 100 = 178.95",
+        "id": 145
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 5, Variance of X = 16, and Variance of Y = 25. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.25",
+            "B": "0.01",
+            "C": "0.60",
+            "D": "0.00"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(16) = 4.0, Sy = sqrt(25) = 5.0. r = 5 / (4.0 * 5.0) = 0.25",
+        "id": 146
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹42000 and the cost of living index number for that period is 210, what is the real income?",
+        "options": {
+            "A": "23000.00",
+            "B": "18260.87",
+            "C": "17000.00",
+            "D": "20000.00"
+        },
+        "answer": "D",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (42000 / 210) * 100 = 20000.00",
+        "id": 147
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 5, Variance of X = 36, and Variance of Y = 81. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.09",
+            "B": "0.00",
+            "C": "0.44",
+            "D": "-0.16"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(36) = 6.0, Sy = sqrt(81) = 9.0. r = 5 / (6.0 * 9.0) = 0.09",
+        "id": 148
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 5, Variance of X = 64, and Variance of Y = 25. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.00",
+            "B": "0.47",
+            "C": "0.12",
+            "D": "-0.12"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(64) = 8.0, Sy = sqrt(25) = 5.0. r = 5 / (8.0 * 5.0) = 0.12",
+        "id": 149
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 115.0 and the fixed base index number for the preceding year is 112.0. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "134.30",
+            "B": "124.60",
+            "C": "128.80",
+            "D": "102.68"
+        },
+        "answer": "C",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (115.0 * 112.0) / 100 = 128.80",
+        "id": 150
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -25, Variance of X = 64, and Variance of Y = 36. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.77",
+            "B": "-0.52",
+            "C": "-0.17",
+            "D": "-0.01"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(64) = 8.0, Sy = sqrt(36) = 6.0. r = -25 / (8.0 * 6.0) = -0.52",
+        "id": 151
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 15, Variance of X = 36, and Variance of Y = 36. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.77",
+            "B": "0.42",
+            "C": "0.17",
+            "D": "0.01"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(36) = 6.0, Sy = sqrt(36) = 6.0. r = 15 / (6.0 * 6.0) = 0.42",
+        "id": 152
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹50000 and the cost of living index number for that period is 135, what is the real income?",
+        "options": {
+            "A": "31481.48",
+            "B": "37037.04",
+            "C": "42592.59",
+            "D": "32258.06"
+        },
+        "answer": "B",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (50000 / 135) * 100 = 37037.04",
+        "id": 153
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -5, Variance of X = 64, and Variance of Y = 16. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.41",
+            "B": "-0.00",
+            "C": "-0.16",
+            "D": "0.19"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(64) = 8.0, Sy = sqrt(16) = 4.0. r = -5 / (8.0 * 4.0) = -0.16",
+        "id": 154
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹36 and in the current year is ₹59, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "61.02",
+            "B": "153.69",
+            "C": "179.39",
+            "D": "163.89"
+        },
+        "answer": "D",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (59 / 36) * 100 = 163.89",
+        "id": 155
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 5, Variance of X = 36, and Variance of Y = 16. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.01",
+            "B": "0.56",
+            "C": "-0.04",
+            "D": "0.21"
+        },
+        "answer": "D",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(36) = 6.0, Sy = sqrt(16) = 4.0. r = 5 / (6.0 * 4.0) = 0.21",
+        "id": 156
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹42000 and the cost of living index number for that period is 175, what is the real income?",
+        "options": {
+            "A": "21538.46",
+            "B": "24000.00",
+            "C": "27600.00",
+            "D": "20400.00"
+        },
+        "answer": "B",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (42000 / 175) * 100 = 24000.00",
+        "id": 157
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹48000 and the cost of living index number for that period is 210, what is the real income?",
+        "options": {
+            "A": "20869.57",
+            "B": "19428.57",
+            "C": "26285.71",
+            "D": "22857.14"
+        },
+        "answer": "D",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (48000 / 210) * 100 = 22857.14",
+        "id": 158
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 5, Variance of X = 25, and Variance of Y = 36. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.52",
+            "B": "0.17",
+            "C": "0.01",
+            "D": "-0.08"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(25) = 5.0, Sy = sqrt(36) = 6.0. r = 5 / (5.0 * 6.0) = 0.17",
+        "id": 159
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -25, Variance of X = 49, and Variance of Y = 25. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.71",
+            "B": "-0.02",
+            "C": "-0.36",
+            "D": "-0.96"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(49) = 7.0, Sy = sqrt(25) = 5.0. r = -25 / (7.0 * 5.0) = -0.71",
+        "id": 160
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 125.8 and the fixed base index number for the preceding year is 124.5. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "156.62",
+            "B": "101.04",
+            "C": "152.42",
+            "D": "162.12"
+        },
+        "answer": "A",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (125.8 * 124.5) / 100 = 156.62",
+        "id": 161
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹36000 and the cost of living index number for that period is 145, what is the real income?",
+        "options": {
+            "A": "21103.45",
+            "B": "21818.18",
+            "C": "24827.59",
+            "D": "28551.72"
+        },
+        "answer": "C",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (36000 / 145) * 100 = 24827.59",
+        "id": 162
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 120.4 and the fixed base index number for the preceding year is 130.6. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "153.04",
+            "B": "162.74",
+            "C": "92.19",
+            "D": "157.24"
+        },
+        "answer": "D",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (120.4 * 130.6) / 100 = 157.24",
+        "id": 163
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹50000 and the cost of living index number for that period is 115, what is the real income?",
+        "options": {
+            "A": "50000.00",
+            "B": "37037.04",
+            "C": "36956.52",
+            "D": "43478.26"
+        },
+        "answer": "D",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (50000 / 115) * 100 = 43478.26",
+        "id": 164
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹63 and in the current year is ₹120, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "190.48",
+            "B": "180.28",
+            "C": "52.50",
+            "D": "205.98"
+        },
+        "answer": "A",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (120 / 63) * 100 = 190.48",
+        "id": 165
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹42000 and the cost of living index number for that period is 135, what is the real income?",
+        "options": {
+            "A": "26444.44",
+            "B": "35777.78",
+            "C": "27096.77",
+            "D": "31111.11"
+        },
+        "answer": "D",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (42000 / 135) * 100 = 31111.11",
+        "id": 166
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹74 and in the current year is ₹92, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "139.82",
+            "B": "124.32",
+            "C": "80.43",
+            "D": "114.12"
+        },
+        "answer": "B",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (92 / 74) * 100 = 124.32",
+        "id": 167
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹36000 and the cost of living index number for that period is 175, what is the real income?",
+        "options": {
+            "A": "18461.54",
+            "B": "20571.43",
+            "C": "17485.71",
+            "D": "23657.14"
+        },
+        "answer": "B",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (36000 / 175) * 100 = 20571.43",
+        "id": 168
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 105.5 and the fixed base index number for the preceding year is 142.0. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "149.81",
+            "B": "145.61",
+            "C": "155.31",
+            "D": "74.30"
+        },
+        "answer": "A",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (105.5 * 142.0) / 100 = 149.81",
+        "id": 169
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -15, Variance of X = 25, and Variance of Y = 25. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.85",
+            "B": "-0.60",
+            "C": "-0.02",
+            "D": "-0.25"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(25) = 5.0, Sy = sqrt(25) = 5.0. r = -15 / (5.0 * 5.0) = -0.60",
+        "id": 170
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹21 and in the current year is ₹54, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "257.14",
+            "B": "272.64",
+            "C": "38.89",
+            "D": "246.94"
+        },
+        "answer": "A",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (54 / 21) * 100 = 257.14",
+        "id": 171
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 22, Variance of X = 25, and Variance of Y = 25. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "1.00",
+            "B": "0.63",
+            "C": "0.88",
+            "D": "0.04"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(25) = 5.0, Sy = sqrt(25) = 5.0. r = 22 / (5.0 * 5.0) = 0.88",
+        "id": 172
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -25, Variance of X = 49, and Variance of Y = 36. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.25",
+            "B": "-0.85",
+            "C": "-0.01",
+            "D": "-0.60"
+        },
+        "answer": "D",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(49) = 7.0, Sy = sqrt(36) = 6.0. r = -25 / (7.0 * 6.0) = -0.60",
+        "id": 173
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹75 and in the current year is ₹123, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "60.98",
+            "B": "164.00",
+            "C": "179.50",
+            "D": "153.80"
+        },
+        "answer": "B",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (123 / 75) * 100 = 164.00",
+        "id": 174
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 115.0 and the fixed base index number for the preceding year is 124.5. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "138.98",
+            "B": "92.37",
+            "C": "148.68",
+            "D": "143.18"
+        },
+        "answer": "D",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (115.0 * 124.5) / 100 = 143.18",
+        "id": 175
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 35, Variance of X = 64, and Variance of Y = 25. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.62",
+            "B": "1.00",
+            "C": "0.02",
+            "D": "0.88"
+        },
+        "answer": "D",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(64) = 8.0, Sy = sqrt(25) = 5.0. r = 35 / (8.0 * 5.0) = 0.88",
+        "id": 176
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -5, Variance of X = 49, and Variance of Y = 36. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.00",
+            "B": "0.23",
+            "C": "-0.37",
+            "D": "-0.12"
+        },
+        "answer": "D",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(49) = 7.0, Sy = sqrt(36) = 6.0. r = -5 / (7.0 * 6.0) = -0.12",
+        "id": 177
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹36000 and the cost of living index number for that period is 135, what is the real income?",
+        "options": {
+            "A": "26666.67",
+            "B": "22666.67",
+            "C": "30666.67",
+            "D": "23225.81"
+        },
+        "answer": "A",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (36000 / 135) * 100 = 26666.67",
+        "id": 178
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹38 and in the current year is ₹86, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "44.19",
+            "B": "226.32",
+            "C": "241.82",
+            "D": "216.12"
+        },
+        "answer": "B",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (86 / 38) * 100 = 226.32",
+        "id": 179
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 125.8 and the fixed base index number for the preceding year is 130.6. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "164.29",
+            "B": "160.09",
+            "C": "169.79",
+            "D": "96.32"
+        },
+        "answer": "A",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (125.8 * 130.6) / 100 = 164.29",
+        "id": 180
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹58 and in the current year is ₹86, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "138.08",
+            "B": "163.78",
+            "C": "67.44",
+            "D": "148.28"
+        },
+        "answer": "D",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (86 / 58) * 100 = 148.28",
+        "id": 181
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 15, Variance of X = 25, and Variance of Y = 25. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.95",
+            "B": "0.02",
+            "C": "0.35",
+            "D": "0.60"
+        },
+        "answer": "D",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(25) = 5.0, Sy = sqrt(25) = 5.0. r = 15 / (5.0 * 5.0) = 0.60",
+        "id": 182
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 15, Variance of X = 64, and Variance of Y = 36. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.66",
+            "B": "0.31",
+            "C": "0.06",
+            "D": "0.01"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(64) = 8.0, Sy = sqrt(36) = 6.0. r = 15 / (8.0 * 6.0) = 0.31",
+        "id": 183
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -5, Variance of X = 36, and Variance of Y = 25. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.42",
+            "B": "0.18",
+            "C": "-0.01",
+            "D": "-0.17"
+        },
+        "answer": "D",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(36) = 6.0, Sy = sqrt(25) = 5.0. r = -5 / (6.0 * 5.0) = -0.17",
+        "id": 184
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹45 and in the current year is ₹98, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "45.92",
+            "B": "217.78",
+            "C": "207.58",
+            "D": "233.28"
+        },
+        "answer": "B",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (98 / 45) * 100 = 217.78",
+        "id": 185
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹69 and in the current year is ₹117, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "169.57",
+            "B": "159.37",
+            "C": "185.07",
+            "D": "58.97"
+        },
+        "answer": "A",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (117 / 69) * 100 = 169.57",
+        "id": 186
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -5, Variance of X = 16, and Variance of Y = 81. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.21",
+            "B": "-0.00",
+            "C": "-0.14",
+            "D": "-0.39"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(16) = 4.0, Sy = sqrt(81) = 9.0. r = -5 / (4.0 * 9.0) = -0.14",
+        "id": 187
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 105.5 and the fixed base index number for the preceding year is 124.5. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "131.35",
+            "B": "127.15",
+            "C": "84.74",
+            "D": "136.85"
+        },
+        "answer": "A",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (105.5 * 124.5) / 100 = 131.35",
+        "id": 188
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -25, Variance of X = 49, and Variance of Y = 81. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.05",
+            "B": "-0.01",
+            "C": "-0.40",
+            "D": "-0.65"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(49) = 7.0, Sy = sqrt(81) = 9.0. r = -25 / (7.0 * 9.0) = -0.40",
+        "id": 189
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹88 and in the current year is ₹102, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "115.91",
+            "B": "86.27",
+            "C": "131.41",
+            "D": "105.71"
+        },
+        "answer": "A",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (102 / 88) * 100 = 115.91",
+        "id": 190
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 110.2 and the fixed base index number for the preceding year is 124.5. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "142.70",
+            "B": "88.51",
+            "C": "137.20",
+            "D": "133.00"
+        },
+        "answer": "C",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (110.2 * 124.5) / 100 = 137.20",
+        "id": 191
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹41 and in the current year is ₹90, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "45.56",
+            "B": "209.31",
+            "C": "235.01",
+            "D": "219.51"
+        },
+        "answer": "D",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (90 / 41) * 100 = 219.51",
+        "id": 192
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = -20, Variance of X = 36, and Variance of Y = 16. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.83",
+            "B": "-0.03",
+            "C": "-1.00",
+            "D": "-0.48"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(36) = 6.0, Sy = sqrt(16) = 4.0. r = -20 / (6.0 * 4.0) = -0.83",
+        "id": 193
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹23 and in the current year is ₹37, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "176.37",
+            "B": "62.16",
+            "C": "160.87",
+            "D": "150.67"
+        },
+        "answer": "C",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (37 / 23) * 100 = 160.87",
+        "id": 194
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly disposable income of a family is ₹42000 and the cost of living index number for that period is 145, what is the real income?",
+        "options": {
+            "A": "33310.34",
+            "B": "24620.69",
+            "C": "28965.52",
+            "D": "25454.55"
+        },
+        "answer": "C",
+        "explanation": "Real Income = (Income / Cost of living index number) * 100 = (42000 / 145) * 100 = 28965.52",
+        "id": 195
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 25, Variance of X = 49, and Variance of Y = 81. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.40",
+            "B": "0.75",
+            "C": "0.15",
+            "D": "0.01"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(49) = 7.0, Sy = sqrt(81) = 9.0. r = 25 / (7.0 * 9.0) = 0.40",
+        "id": 196
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the price of a commodity in the base year is ₹68 and in the current year is ₹85, what is the price relative (expressed as a percentage)?",
+        "options": {
+            "A": "80.00",
+            "B": "125.00",
+            "C": "140.50",
+            "D": "114.80"
+        },
+        "answer": "B",
+        "explanation": "Price relative = (Price in current year / Price in base year) * 100 = (85 / 68) * 100 = 125.00",
+        "id": 197
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 5, Variance of X = 49, and Variance of Y = 16. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "-0.07",
+            "B": "0.53",
+            "C": "0.01",
+            "D": "0.18"
+        },
+        "answer": "D",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(49) = 7.0, Sy = sqrt(16) = 4.0. r = 5 / (7.0 * 4.0) = 0.18",
+        "id": 198
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The chain base index number for the current year is 110.2 and the fixed base index number for the preceding year is 142.0. What is the fixed base index number for the current year?",
+        "options": {
+            "A": "152.28",
+            "B": "156.48",
+            "C": "161.98",
+            "D": "77.61"
+        },
+        "answer": "B",
+        "explanation": "Fixed Base Index of Current Year = (Chain Base Index of Current Year * Fixed Base Index of Preceding Year) / 100 = (110.2 * 142.0) / 100 = 156.48",
+        "id": 199
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "Given Covariance(x,y) = 15, Variance of X = 49, and Variance of Y = 36. Find the linear correlation coefficient (r).",
+        "options": {
+            "A": "0.36",
+            "B": "0.01",
+            "C": "0.11",
+            "D": "0.71"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy). Sx = sqrt(49) = 7.0, Sy = sqrt(36) = 6.0. r = 15 / (7.0 * 6.0) = 0.36",
+        "id": 200
+    }
+]

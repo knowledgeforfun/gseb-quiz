@@ -1,0 +1,1302 @@
+[
+    {
+        "chapter": "1. Index Number",
+        "question": "Which of the following index number tests requires the condition P01 x P12 x P20 = 1?",
+        "options": {
+            "A": "Time Reversal Test",
+            "B": "Factor Reversal Test",
+            "C": "Circular Test",
+            "D": "Unit Test"
+        },
+        "answer": "C",
+        "explanation": "The circular test is an extension of the time reversal test and requires the product of indices forming a circular loop to be 1.",
+        "id": 401
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the two lines of regression are 4x - 5y + 33 = 0 and 20x - 9y = 107, what is the intersection point representing the means of X and Y?",
+        "options": {
+            "A": "(13, 17)",
+            "B": "(17, 13)",
+            "C": "(14, 18)",
+            "D": "(18, 14)"
+        },
+        "answer": "A",
+        "explanation": "Solving the two equations simultaneously: 4x - 5y = -33 and 20x - 9y = 107 yields x = 13 and y = 17, which are the means of X and Y.",
+        "id": 402
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Why is the regression line of Y on X not the same as the regression line of X on Y (unless r = +1 or -1)?",
+        "options": {
+            "A": "Because they minimize deviations along different axes.",
+            "B": "Because the variances are different.",
+            "C": "Because the means are different.",
+            "D": "Because the scale changes."
+        },
+        "answer": "A",
+        "explanation": "Y on X minimizes vertical (Y) deviations, whereas X on Y minimizes horizontal (X) deviations.",
+        "id": 403
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "In computing a 4-yearly centered moving average, what are the effective weights assigned to the 5 data points involved in the centered sum?",
+        "options": {
+            "A": "1, 1, 1, 1, 1",
+            "B": "1, 2, 2, 2, 1",
+            "C": "1, 2, 3, 2, 1",
+            "D": "2, 2, 2, 2, 2"
+        },
+        "answer": "B",
+        "explanation": "A 4-yearly centered moving average averages two 4-yearly sums, resulting in weights 1, 2, 2, 2, 1 for the 5 years involved.",
+        "id": 404
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "Which of the following accurately describes the relationship between Fisher's (F), Laspeyre's (L), and Paasche's (P) index numbers?",
+        "options": {
+            "A": "F is the arithmetic mean of L and P",
+            "B": "F is the harmonic mean of L and P",
+            "C": "F lies strictly between L and P",
+            "D": "F is always greater than L and P"
+        },
+        "answer": "C",
+        "explanation": "Since Fisher's index is the geometric mean of Laspeyre's and Paasche's, and GM always lies between the two numbers, F lies between L and P.",
+        "id": 405
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If variable X is multiplied by -2 and variable Y is divided by 3, what happens to the Karl Pearson's correlation coefficient r(x,y)?",
+        "options": {
+            "A": "It gets multiplied by -2/3",
+            "B": "Its sign gets reversed",
+            "C": "It remains exactly the same",
+            "D": "It gets multiplied by -6"
+        },
+        "answer": "B",
+        "explanation": "Correlation is independent of scale magnitude but is affected by the sign of the scale factors. Since one is negative (-2) and one is positive (1/3), the sign of r reverses.",
+        "id": 406
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In rank correlation, if the difference in ranks for all pairs is identically zero, the correlation coefficient is:",
+        "options": {
+            "A": "0",
+            "B": "+1",
+            "C": "-1",
+            "D": "Undefined"
+        },
+        "answer": "B",
+        "explanation": "If sum of d^2 = 0, then r = 1 - (0) = 1. Perfect positive rank correlation.",
+        "id": 407
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the regression coefficients are b_yx = -0.8 and b_xy = -0.45, what is the coefficient of determination?",
+        "options": {
+            "A": "0.36",
+            "B": "-0.36",
+            "C": "0.6",
+            "D": "-0.6"
+        },
+        "answer": "A",
+        "explanation": "Coefficient of determination is r^2. r^2 = b_yx * b_xy = (-0.8) * (-0.45) = 0.36.",
+        "id": 408
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "When fitting a straight line trend y = a + bx by the method of least squares, the normal equations are obtained by setting the partial derivatives of the sum of squared errors to:",
+        "options": {
+            "A": "Minimum values",
+            "B": "Maximum values",
+            "C": "Zero",
+            "D": "One"
+        },
+        "answer": "C",
+        "explanation": "In calculus, to find the minimum of the sum of squared errors, the partial derivatives with respect to parameters 'a' and 'b' are set to zero.",
+        "id": 409
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "What is the primary reason the geometric mean is preferred for averaging price relatives in index numbers?",
+        "options": {
+            "A": "It is easier to compute.",
+            "B": "It gives equal weight to equal ratio changes.",
+            "C": "It is not affected by zero values.",
+            "D": "It automatically satisfies the circular test."
+        },
+        "answer": "B",
+        "explanation": "The geometric mean gives equal weight to equal ratio changes (e.g., doubling and halving balance out), making it mathematically superior for index numbers.",
+        "id": 410
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 3x - 9y + 393 = 0 and 7x - 2y + 24 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(47, 10)",
+            "B": "(12, 45)",
+            "C": "(9, 48)",
+            "D": "(10, 47)"
+        },
+        "answer": "D",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 10 and ȳ = 47.",
+        "id": 411
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 122 + 4.4t. If the origin of the time series is shifted backward by 5 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 100.00 - 4.4t",
+            "B": "y = 144.00 + 4.4t",
+            "C": "y = 100.00 + 4.4t",
+            "D": "y = 122 + 22.0t"
+        },
+        "answer": "C",
+        "explanation": "To shift the origin backward by 5 years, replace t with (t + -5). New equation: y = 122 + 4.4(t + -5) = 122 + 4.4t + -22.0 = 100.00 + 4.4t.",
+        "id": 412
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 106 + 3.7t. If the origin of the time series is shifted backward by 3 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 94.90 + 3.7t",
+            "B": "y = 117.10 + 3.7t",
+            "C": "y = 94.90 - 3.7t",
+            "D": "y = 106 + 11.1t"
+        },
+        "answer": "A",
+        "explanation": "To shift the origin backward by 3 years, replace t with (t + -3). New equation: y = 106 + 3.7(t + -3) = 106 + 3.7t + -11.1 = 94.90 + 3.7t.",
+        "id": 413
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹81300 and the cost of living index is 180. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹39746.66",
+            "B": "₹40650.00",
+            "C": "₹45166.67",
+            "D": "₹36133.33"
+        },
+        "answer": "D",
+        "explanation": "Real income = (Income / CLI) * 100 = (81300 / 180) * 100 = 45166.67. Loss in value = Nominal Income - Real Income = 81300 - 45166.67 = 36133.33.",
+        "id": 414
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient between X and Y is -0.84, what percentage of the total variance in Y remains unexplained by the linear regression of Y on X?",
+        "options": {
+            "A": "70.56%",
+            "B": "16.0%",
+            "C": "14.72%",
+            "D": "29.44%"
+        },
+        "answer": "D",
+        "explanation": "The coefficient of determination (r²) is the explained variance. r² = -0.84² = 0.7056. Unexplained variance = 1 - r² = 1 - 0.7056 = 0.2944. In percentage: 29.44%.",
+        "id": 415
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 36 and two new variables are defined as u = (x - 10) / 10 and v = (y - 15) / 3, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "1080.0000",
+            "B": "36.0000",
+            "C": "1.2000",
+            "D": "3.6000"
+        },
+        "answer": "C",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 10 and c_y = 3. Cov(u, v) = 36 / (10 * 3) = 1.2000.",
+        "id": 416
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹67600 and the cost of living index is 220. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹33800.00",
+            "B": "₹40560.00",
+            "C": "₹30727.27",
+            "D": "₹36872.73"
+        },
+        "answer": "D",
+        "explanation": "Real income = (Income / CLI) * 100 = (67600 / 220) * 100 = 30727.27. Loss in value = Nominal Income - Real Income = 67600 - 30727.27 = 36872.73.",
+        "id": 417
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient between X and Y is -0.95, what percentage of the total variance in Y remains unexplained by the linear regression of Y on X?",
+        "options": {
+            "A": "9.75%",
+            "B": "5.0%",
+            "C": "4.88%",
+            "D": "90.25%"
+        },
+        "answer": "A",
+        "explanation": "The coefficient of determination (r²) is the explained variance. r² = -0.95² = 0.9025. Unexplained variance = 1 - r² = 1 - 0.9025 = 0.0975. In percentage: 9.75%.",
+        "id": 418
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 5x - 5y + 90 = 0 and 5x - 3y + 22 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(15, 35)",
+            "B": "(34, 16)",
+            "C": "(16, 34)",
+            "D": "(18, 32)"
+        },
+        "answer": "C",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 16 and ȳ = 34.",
+        "id": 419
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 207 + 7.4t. If the origin of the time series is shifted backward by 3 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 184.80 - 7.4t",
+            "B": "y = 207 + 22.2t",
+            "C": "y = 229.20 + 7.4t",
+            "D": "y = 184.80 + 7.4t"
+        },
+        "answer": "D",
+        "explanation": "To shift the origin backward by 3 years, replace t with (t + -3). New equation: y = 207 + 7.4(t + -3) = 207 + 7.4t + -22.2 = 184.80 + 7.4t.",
+        "id": 420
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 198 + 7.0t. If the origin of the time series is shifted forward by 4 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 170.00 + 7.0t",
+            "B": "y = 226.00 - 7.0t",
+            "C": "y = 226.00 + 7.0t",
+            "D": "y = 198 + 28.0t"
+        },
+        "answer": "C",
+        "explanation": "To shift the origin forward by 4 years, replace t with (t + 4). New equation: y = 198 + 7.0(t + 4) = 198 + 7.0t + 28.0 = 226.00 + 7.0t.",
+        "id": 421
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 49 and two new variables are defined as u = (x - 10) / 10 and v = (y - 15) / 4, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "1.2250",
+            "B": "49.0000",
+            "C": "4.9000",
+            "D": "1960.0000"
+        },
+        "answer": "A",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 10 and c_y = 4. Cov(u, v) = 49 / (10 * 4) = 1.2250.",
+        "id": 422
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 20 and two new variables are defined as u = (x - 10) / 4 and v = (y - 15) / 2, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "160.0000",
+            "B": "20.0000",
+            "C": "2.5000",
+            "D": "5.0000"
+        },
+        "answer": "C",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 4 and c_y = 2. Cov(u, v) = 20 / (4 * 2) = 2.5000.",
+        "id": 423
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹61800 and the cost of living index is 300. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹20600.00",
+            "B": "₹45320.00",
+            "C": "₹30900.00",
+            "D": "₹41200.00"
+        },
+        "answer": "D",
+        "explanation": "Real income = (Income / CLI) * 100 = (61800 / 300) * 100 = 20600.00. Loss in value = Nominal Income - Real Income = 61800 - 20600.00 = 41200.00.",
+        "id": 424
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹52900 and the cost of living index is 400. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹39675.00",
+            "B": "₹26450.00",
+            "C": "₹13225.00",
+            "D": "₹43642.50"
+        },
+        "answer": "A",
+        "explanation": "Real income = (Income / CLI) * 100 = (52900 / 400) * 100 = 13225.00. Loss in value = Nominal Income - Real Income = 52900 - 13225.00 = 39675.00.",
+        "id": 425
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient between X and Y is 0.84, what percentage of the total variance in Y remains unexplained by the linear regression of Y on X?",
+        "options": {
+            "A": "29.44%",
+            "B": "70.56%",
+            "C": "14.72%",
+            "D": "16.0%"
+        },
+        "answer": "A",
+        "explanation": "The coefficient of determination (r²) is the explained variance. r² = 0.84² = 0.7056. Unexplained variance = 1 - r² = 1 - 0.7056 = 0.2944. In percentage: 29.44%.",
+        "id": 426
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 77 and two new variables are defined as u = (x - 10) / 2 and v = (y - 15) / 5, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "7.7000",
+            "B": "770.0000",
+            "C": "77.0000",
+            "D": "38.5000"
+        },
+        "answer": "A",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 2 and c_y = 5. Cov(u, v) = 77 / (2 * 5) = 7.7000.",
+        "id": 427
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 4x - 6y + 52 = 0 and 6x - 5y - 50 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(34, 33)",
+            "B": "(37, 30)",
+            "C": "(35, 32)",
+            "D": "(32, 35)"
+        },
+        "answer": "C",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 35 and ȳ = 32.",
+        "id": 428
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient between X and Y is -0.72, what percentage of the total variance in Y remains unexplained by the linear regression of Y on X?",
+        "options": {
+            "A": "28.0%",
+            "B": "51.84%",
+            "C": "48.16%",
+            "D": "24.08%"
+        },
+        "answer": "C",
+        "explanation": "The coefficient of determination (r²) is the explained variance. r² = -0.72² = 0.5184. Unexplained variance = 1 - r² = 1 - 0.5184 = 0.4816. In percentage: 48.16%.",
+        "id": 429
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹89400 and the cost of living index is 300. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹65560.00",
+            "B": "₹44700.00",
+            "C": "₹59600.00",
+            "D": "₹29800.00"
+        },
+        "answer": "C",
+        "explanation": "Real income = (Income / CLI) * 100 = (89400 / 300) * 100 = 29800.00. Loss in value = Nominal Income - Real Income = 89400 - 29800.00 = 59600.00.",
+        "id": 430
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 106 + 2.9t. If the origin of the time series is shifted backward by 4 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 106 + 11.6t",
+            "B": "y = 94.40 - 2.9t",
+            "C": "y = 117.60 + 2.9t",
+            "D": "y = 94.40 + 2.9t"
+        },
+        "answer": "D",
+        "explanation": "To shift the origin backward by 4 years, replace t with (t + -4). New equation: y = 106 + 2.9(t + -4) = 106 + 2.9t + -11.6 = 94.40 + 2.9t.",
+        "id": 431
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 2x - 8y + 228 = 0 and 9x - 3y - 129 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(25, 36)",
+            "B": "(26, 35)",
+            "C": "(28, 33)",
+            "D": "(35, 26)"
+        },
+        "answer": "B",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 26 and ȳ = 35.",
+        "id": 432
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 145 + 6.0t. If the origin of the time series is shifted backward by 5 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 145 + 30.0t",
+            "B": "y = 115.00 - 6.0t",
+            "C": "y = 175.00 + 6.0t",
+            "D": "y = 115.00 + 6.0t"
+        },
+        "answer": "D",
+        "explanation": "To shift the origin backward by 5 years, replace t with (t + -5). New equation: y = 145 + 6.0(t + -5) = 145 + 6.0t + -30.0 = 115.00 + 6.0t.",
+        "id": 433
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹48400 and the cost of living index is 150. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹16133.33",
+            "B": "₹17746.66",
+            "C": "₹32266.67",
+            "D": "₹24200.00"
+        },
+        "answer": "A",
+        "explanation": "Real income = (Income / CLI) * 100 = (48400 / 150) * 100 = 32266.67. Loss in value = Nominal Income - Real Income = 48400 - 32266.67 = 16133.33.",
+        "id": 434
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹52100 and the cost of living index is 150. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹26050.00",
+            "B": "₹34733.33",
+            "C": "₹17366.67",
+            "D": "₹19103.34"
+        },
+        "answer": "C",
+        "explanation": "Real income = (Income / CLI) * 100 = (52100 / 150) * 100 = 34733.33. Loss in value = Nominal Income - Real Income = 52100 - 34733.33 = 17366.67.",
+        "id": 435
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 2x - 7y + 183 = 0 and 5x - 4y - 69 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(39, 45)",
+            "B": "(47, 37)",
+            "C": "(45, 39)",
+            "D": "(44, 40)"
+        },
+        "answer": "C",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 45 and ȳ = 39.",
+        "id": 436
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 150 + 2.6t. If the origin of the time series is shifted forward by 4 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 150 + 10.4t",
+            "B": "y = 160.40 + 2.6t",
+            "C": "y = 160.40 - 2.6t",
+            "D": "y = 139.60 + 2.6t"
+        },
+        "answer": "B",
+        "explanation": "To shift the origin forward by 4 years, replace t with (t + 4). New equation: y = 150 + 2.6(t + 4) = 150 + 2.6t + 10.4 = 160.40 + 2.6t.",
+        "id": 437
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 261 + 7.1t. If the origin of the time series is shifted forward by 7 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 211.30 + 7.1t",
+            "B": "y = 261 + 49.7t",
+            "C": "y = 310.70 + 7.1t",
+            "D": "y = 310.70 - 7.1t"
+        },
+        "answer": "C",
+        "explanation": "To shift the origin forward by 7 years, replace t with (t + 7). New equation: y = 261 + 7.1(t + 7) = 261 + 7.1t + 49.7 = 310.70 + 7.1t.",
+        "id": 438
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 4x - 10y + 128 = 0 and 5x - 3y - 125 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(45, 28)",
+            "B": "(30, 43)",
+            "C": "(42, 31)",
+            "D": "(43, 30)"
+        },
+        "answer": "D",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 43 and ȳ = 30.",
+        "id": 439
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 5x - 7y + 271 = 0 and 8x - 3y + 40 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(13, 48)",
+            "B": "(12, 49)",
+            "C": "(48, 13)",
+            "D": "(15, 46)"
+        },
+        "answer": "A",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 13 and ȳ = 48.",
+        "id": 440
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 125 + 3.0t. If the origin of the time series is shifted forward by 7 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 146.00 + 3.0t",
+            "B": "y = 104.00 + 3.0t",
+            "C": "y = 125 + 21.0t",
+            "D": "y = 146.00 - 3.0t"
+        },
+        "answer": "A",
+        "explanation": "To shift the origin forward by 7 years, replace t with (t + 7). New equation: y = 125 + 3.0(t + 7) = 125 + 3.0t + 21.0 = 146.00 + 3.0t.",
+        "id": 441
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 5x - 5y + 45 = 0 and 6x - 4y - 32 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(33, 44)",
+            "B": "(34, 43)",
+            "C": "(43, 34)",
+            "D": "(36, 41)"
+        },
+        "answer": "B",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 34 and ȳ = 43.",
+        "id": 442
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹60700 and the cost of living index is 180. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹29675.56",
+            "B": "₹26977.78",
+            "C": "₹30350.00",
+            "D": "₹33722.22"
+        },
+        "answer": "B",
+        "explanation": "Real income = (Income / CLI) * 100 = (60700 / 180) * 100 = 33722.22. Loss in value = Nominal Income - Real Income = 60700 - 33722.22 = 26977.78.",
+        "id": 443
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 4x - 10y - 60 = 0 and 8x - 3y - 290 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(42, 8)",
+            "B": "(39, 11)",
+            "C": "(40, 10)",
+            "D": "(10, 40)"
+        },
+        "answer": "C",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 40 and ȳ = 10.",
+        "id": 444
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 69 and two new variables are defined as u = (x - 10) / 3 and v = (y - 15) / 2, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "11.5000",
+            "B": "414.0000",
+            "C": "69.0000",
+            "D": "23.0000"
+        },
+        "answer": "A",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 3 and c_y = 2. Cov(u, v) = 69 / (3 * 2) = 11.5000.",
+        "id": 445
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 69 and two new variables are defined as u = (x - 10) / 4 and v = (y - 15) / 4, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "17.2500",
+            "B": "1104.0000",
+            "C": "69.0000",
+            "D": "4.3125"
+        },
+        "answer": "D",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 4 and c_y = 4. Cov(u, v) = 69 / (4 * 4) = 4.3125.",
+        "id": 446
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 31 and two new variables are defined as u = (x - 10) / 10 and v = (y - 15) / 2, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "31.0000",
+            "B": "1.5500",
+            "C": "3.1000",
+            "D": "620.0000"
+        },
+        "answer": "B",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 10 and c_y = 2. Cov(u, v) = 31 / (10 * 2) = 1.5500.",
+        "id": 447
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 5x - 7y + 204 = 0 and 8x - 3y + 23 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(13, 35)",
+            "B": "(10, 38)",
+            "C": "(37, 11)",
+            "D": "(11, 37)"
+        },
+        "answer": "D",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 11 and ȳ = 37.",
+        "id": 448
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹57500 and the cost of living index is 240. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹33541.67",
+            "B": "₹23958.33",
+            "C": "₹36895.84",
+            "D": "₹28750.00"
+        },
+        "answer": "A",
+        "explanation": "Real income = (Income / CLI) * 100 = (57500 / 240) * 100 = 23958.33. Loss in value = Nominal Income - Real Income = 57500 - 23958.33 = 33541.67.",
+        "id": 449
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹65700 and the cost of living index is 300. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹21900.00",
+            "B": "₹48180.00",
+            "C": "₹32850.00",
+            "D": "₹43800.00"
+        },
+        "answer": "D",
+        "explanation": "Real income = (Income / CLI) * 100 = (65700 / 300) * 100 = 21900.00. Loss in value = Nominal Income - Real Income = 65700 - 21900.00 = 43800.00.",
+        "id": 450
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient between X and Y is 0.72, what percentage of the total variance in Y remains unexplained by the linear regression of Y on X?",
+        "options": {
+            "A": "48.16%",
+            "B": "24.08%",
+            "C": "51.84%",
+            "D": "28.0%"
+        },
+        "answer": "A",
+        "explanation": "The coefficient of determination (r²) is the explained variance. r² = 0.72² = 0.5184. Unexplained variance = 1 - r² = 1 - 0.5184 = 0.4816. In percentage: 48.16%.",
+        "id": 451
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 4x - 5y + 47 = 0 and 10x - 2y - 208 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(26, 32)",
+            "B": "(27, 31)",
+            "C": "(29, 29)",
+            "D": "(31, 27)"
+        },
+        "answer": "B",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 27 and ȳ = 31.",
+        "id": 452
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 206 + 4.4t. If the origin of the time series is shifted backward by 3 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 192.80 + 4.4t",
+            "B": "y = 206 + 13.2t",
+            "C": "y = 192.80 - 4.4t",
+            "D": "y = 219.20 + 4.4t"
+        },
+        "answer": "A",
+        "explanation": "To shift the origin backward by 3 years, replace t with (t + -3). New equation: y = 206 + 4.4(t + -3) = 206 + 4.4t + -13.2 = 192.80 + 4.4t.",
+        "id": 453
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹71800 and the cost of living index is 400. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹53850.00",
+            "B": "₹59235.00",
+            "C": "₹35900.00",
+            "D": "₹17950.00"
+        },
+        "answer": "A",
+        "explanation": "Real income = (Income / CLI) * 100 = (71800 / 400) * 100 = 17950.00. Loss in value = Nominal Income - Real Income = 71800 - 17950.00 = 53850.00.",
+        "id": 454
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 4x - 5y - 77 = 0 and 9x - 3y - 264 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(33, 11)",
+            "B": "(32, 12)",
+            "C": "(35, 9)",
+            "D": "(11, 33)"
+        },
+        "answer": "A",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 33 and ȳ = 11.",
+        "id": 455
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 276 + 4.7t. If the origin of the time series is shifted backward by 5 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 252.50 + 4.7t",
+            "B": "y = 276 + 23.5t",
+            "C": "y = 299.50 + 4.7t",
+            "D": "y = 252.50 - 4.7t"
+        },
+        "answer": "A",
+        "explanation": "To shift the origin backward by 5 years, replace t with (t + -5). New equation: y = 276 + 4.7(t + -5) = 276 + 4.7t + -23.5 = 252.50 + 4.7t.",
+        "id": 456
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 36 and two new variables are defined as u = (x - 10) / 5 and v = (y - 15) / 4, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "7.2000",
+            "B": "36.0000",
+            "C": "720.0000",
+            "D": "1.8000"
+        },
+        "answer": "D",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 5 and c_y = 4. Cov(u, v) = 36 / (5 * 4) = 1.8000.",
+        "id": 457
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 5x - 9y + 278 = 0 and 9x - 3y - 120 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(47, 29)",
+            "B": "(28, 48)",
+            "C": "(31, 45)",
+            "D": "(29, 47)"
+        },
+        "answer": "D",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 29 and ȳ = 47.",
+        "id": 458
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 76 and two new variables are defined as u = (x - 10) / 10 and v = (y - 15) / 3, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "2280.0000",
+            "B": "76.0000",
+            "C": "2.5333",
+            "D": "7.6000"
+        },
+        "answer": "C",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 10 and c_y = 3. Cov(u, v) = 76 / (10 * 3) = 2.5333.",
+        "id": 459
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 244 + 6.9t. If the origin of the time series is shifted forward by 6 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 285.40 + 6.9t",
+            "B": "y = 244 + 41.4t",
+            "C": "y = 285.40 - 6.9t",
+            "D": "y = 202.60 + 6.9t"
+        },
+        "answer": "A",
+        "explanation": "To shift the origin forward by 6 years, replace t with (t + 6). New equation: y = 244 + 6.9(t + 6) = 244 + 6.9t + 41.4 = 285.40 + 6.9t.",
+        "id": 460
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹80000 and the cost of living index is 220. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹43636.36",
+            "B": "₹48000.00",
+            "C": "₹36363.64",
+            "D": "₹40000.00"
+        },
+        "answer": "A",
+        "explanation": "Real income = (Income / CLI) * 100 = (80000 / 220) * 100 = 36363.64. Loss in value = Nominal Income - Real Income = 80000 - 36363.64 = 43636.36.",
+        "id": 461
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 71 and two new variables are defined as u = (x - 10) / 3 and v = (y - 15) / 4, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "71.0000",
+            "B": "852.0000",
+            "C": "23.6667",
+            "D": "5.9167"
+        },
+        "answer": "D",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 3 and c_y = 4. Cov(u, v) = 71 / (3 * 4) = 5.9167.",
+        "id": 462
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹53600 and the cost of living index is 280. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹19142.86",
+            "B": "₹26800.00",
+            "C": "₹37902.85",
+            "D": "₹34457.14"
+        },
+        "answer": "D",
+        "explanation": "Real income = (Income / CLI) * 100 = (53600 / 280) * 100 = 19142.86. Loss in value = Nominal Income - Real Income = 53600 - 19142.86 = 34457.14.",
+        "id": 463
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 45 and two new variables are defined as u = (x - 10) / 5 and v = (y - 15) / 5, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "1125.0000",
+            "B": "45.0000",
+            "C": "9.0000",
+            "D": "1.8000"
+        },
+        "answer": "D",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 5 and c_y = 5. Cov(u, v) = 45 / (5 * 5) = 1.8000.",
+        "id": 464
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 16 and two new variables are defined as u = (x - 10) / 5 and v = (y - 15) / 2, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "160.0000",
+            "B": "1.6000",
+            "C": "3.2000",
+            "D": "16.0000"
+        },
+        "answer": "B",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 5 and c_y = 2. Cov(u, v) = 16 / (5 * 2) = 1.6000.",
+        "id": 465
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 264 + 3.0t. If the origin of the time series is shifted backward by 5 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 264 + 15.0t",
+            "B": "y = 249.00 - 3.0t",
+            "C": "y = 279.00 + 3.0t",
+            "D": "y = 249.00 + 3.0t"
+        },
+        "answer": "D",
+        "explanation": "To shift the origin backward by 5 years, replace t with (t + -5). New equation: y = 264 + 3.0(t + -5) = 264 + 3.0t + -15.0 = 249.00 + 3.0t.",
+        "id": 466
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 4x - 7y + 66 = 0 and 7x - 2y - 151 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(29, 26)",
+            "B": "(31, 24)",
+            "C": "(28, 27)",
+            "D": "(26, 29)"
+        },
+        "answer": "A",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 29 and ȳ = 26.",
+        "id": 467
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹67600 and the cost of living index is 320. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹33800.00",
+            "B": "₹51122.50",
+            "C": "₹46475.00",
+            "D": "₹21125.00"
+        },
+        "answer": "C",
+        "explanation": "Real income = (Income / CLI) * 100 = (67600 / 320) * 100 = 21125.00. Loss in value = Nominal Income - Real Income = 67600 - 21125.00 = 46475.00.",
+        "id": 468
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 181 + 3.1t. If the origin of the time series is shifted forward by 4 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 181 + 12.4t",
+            "B": "y = 168.60 + 3.1t",
+            "C": "y = 193.40 + 3.1t",
+            "D": "y = 193.40 - 3.1t"
+        },
+        "answer": "C",
+        "explanation": "To shift the origin forward by 4 years, replace t with (t + 4). New equation: y = 181 + 3.1(t + 4) = 181 + 3.1t + 12.4 = 193.40 + 3.1t.",
+        "id": 469
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 51 and two new variables are defined as u = (x - 10) / 2 and v = (y - 15) / 4, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "25.5000",
+            "B": "408.0000",
+            "C": "6.3750",
+            "D": "51.0000"
+        },
+        "answer": "C",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 2 and c_y = 4. Cov(u, v) = 51 / (2 * 4) = 6.3750.",
+        "id": 470
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 242 + 4.0t. If the origin of the time series is shifted backward by 4 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 242 + 16.0t",
+            "B": "y = 258.00 + 4.0t",
+            "C": "y = 226.00 - 4.0t",
+            "D": "y = 226.00 + 4.0t"
+        },
+        "answer": "D",
+        "explanation": "To shift the origin backward by 4 years, replace t with (t + -4). New equation: y = 242 + 4.0(t + -4) = 242 + 4.0t + -16.0 = 226.00 + 4.0t.",
+        "id": 471
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹77800 and the cost of living index is 320. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹58836.25",
+            "B": "₹38900.00",
+            "C": "₹24312.50",
+            "D": "₹53487.50"
+        },
+        "answer": "D",
+        "explanation": "Real income = (Income / CLI) * 100 = (77800 / 320) * 100 = 24312.50. Loss in value = Nominal Income - Real Income = 77800 - 24312.50 = 53487.50.",
+        "id": 472
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 68 and two new variables are defined as u = (x - 10) / 5 and v = (y - 15) / 3, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "4.5333",
+            "B": "13.6000",
+            "C": "68.0000",
+            "D": "1020.0000"
+        },
+        "answer": "A",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 5 and c_y = 3. Cov(u, v) = 68 / (5 * 3) = 4.5333.",
+        "id": 473
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 204 + 6.9t. If the origin of the time series is shifted forward by 4 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 231.60 - 6.9t",
+            "B": "y = 176.40 + 6.9t",
+            "C": "y = 231.60 + 6.9t",
+            "D": "y = 204 + 27.6t"
+        },
+        "answer": "C",
+        "explanation": "To shift the origin forward by 4 years, replace t with (t + 4). New equation: y = 204 + 6.9(t + 4) = 204 + 6.9t + 27.6 = 231.60 + 6.9t.",
+        "id": 474
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 78 and two new variables are defined as u = (x - 10) / 2 and v = (y - 15) / 4, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "39.0000",
+            "B": "9.7500",
+            "C": "624.0000",
+            "D": "78.0000"
+        },
+        "answer": "B",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 2 and c_y = 4. Cov(u, v) = 78 / (2 * 4) = 9.7500.",
+        "id": 475
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹87000 and the cost of living index is 300. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹43500.00",
+            "B": "₹63800.00",
+            "C": "₹58000.00",
+            "D": "₹29000.00"
+        },
+        "answer": "C",
+        "explanation": "Real income = (Income / CLI) * 100 = (87000 / 300) * 100 = 29000.00. Loss in value = Nominal Income - Real Income = 87000 - 29000.00 = 58000.00.",
+        "id": 476
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹48400 and the cost of living index is 320. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹36602.50",
+            "B": "₹15125.00",
+            "C": "₹24200.00",
+            "D": "₹33275.00"
+        },
+        "answer": "D",
+        "explanation": "Real income = (Income / CLI) * 100 = (48400 / 320) * 100 = 15125.00. Loss in value = Nominal Income - Real Income = 48400 - 15125.00 = 33275.00.",
+        "id": 477
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 2x - 7y + 120 = 0 and 6x - 5y - 56 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(31, 26)",
+            "B": "(33, 24)",
+            "C": "(30, 27)",
+            "D": "(26, 31)"
+        },
+        "answer": "A",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 31 and ȳ = 26.",
+        "id": 478
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 3x - 8y + 273 = 0 and 7x - 2y - 63 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(42, 21)",
+            "B": "(21, 42)",
+            "C": "(23, 40)",
+            "D": "(20, 43)"
+        },
+        "answer": "B",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 21 and ȳ = 42.",
+        "id": 479
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 4x - 7y + 30 = 0 and 8x - 2y - 252 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(37, 27)",
+            "B": "(26, 38)",
+            "C": "(38, 26)",
+            "D": "(40, 24)"
+        },
+        "answer": "C",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 38 and ȳ = 26.",
+        "id": 480
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹71500 and the cost of living index is 150. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹47666.67",
+            "B": "₹35750.00",
+            "C": "₹23833.33",
+            "D": "₹26216.66"
+        },
+        "answer": "C",
+        "explanation": "Real income = (Income / CLI) * 100 = (71500 / 150) * 100 = 47666.67. Loss in value = Nominal Income - Real Income = 71500 - 47666.67 = 23833.33.",
+        "id": 481
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 77 and two new variables are defined as u = (x - 10) / 2 and v = (y - 15) / 2, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "19.2500",
+            "B": "77.0000",
+            "C": "38.5000",
+            "D": "308.0000"
+        },
+        "answer": "A",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 2 and c_y = 2. Cov(u, v) = 77 / (2 * 2) = 19.2500.",
+        "id": 482
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 144 + 3.8t. If the origin of the time series is shifted forward by 7 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 144 + 26.6t",
+            "B": "y = 170.60 + 3.8t",
+            "C": "y = 117.40 + 3.8t",
+            "D": "y = 170.60 - 3.8t"
+        },
+        "answer": "B",
+        "explanation": "To shift the origin forward by 7 years, replace t with (t + 7). New equation: y = 144 + 3.8(t + 7) = 144 + 3.8t + 26.6 = 170.60 + 3.8t.",
+        "id": 483
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 39 and two new variables are defined as u = (x - 10) / 4 and v = (y - 15) / 2, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "4.8750",
+            "B": "39.0000",
+            "C": "9.7500",
+            "D": "312.0000"
+        },
+        "answer": "A",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 4 and c_y = 2. Cov(u, v) = 39 / (4 * 2) = 4.8750.",
+        "id": 484
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹67800 and the cost of living index is 280. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹33900.00",
+            "B": "₹24214.29",
+            "C": "₹43585.71",
+            "D": "₹47944.28"
+        },
+        "answer": "C",
+        "explanation": "Real income = (Income / CLI) * 100 = (67800 / 280) * 100 = 24214.29. Loss in value = Nominal Income - Real Income = 67800 - 24214.29 = 43585.71.",
+        "id": 485
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 23 and two new variables are defined as u = (x - 10) / 4 and v = (y - 15) / 5, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "1.1500",
+            "B": "23.0000",
+            "C": "5.7500",
+            "D": "460.0000"
+        },
+        "answer": "A",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 4 and c_y = 5. Cov(u, v) = 23 / (4 * 5) = 1.1500.",
+        "id": 486
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 54 and two new variables are defined as u = (x - 10) / 2 and v = (y - 15) / 4, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "432.0000",
+            "B": "6.7500",
+            "C": "27.0000",
+            "D": "54.0000"
+        },
+        "answer": "B",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 2 and c_y = 4. Cov(u, v) = 54 / (2 * 4) = 6.7500.",
+        "id": 487
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The trend equation for a certain production series is y = 153 + 2.5t. If the origin of the time series is shifted forward by 7 years, what will be the new trend equation?",
+        "options": {
+            "A": "y = 170.50 + 2.5t",
+            "B": "y = 153 + 17.5t",
+            "C": "y = 170.50 - 2.5t",
+            "D": "y = 135.50 + 2.5t"
+        },
+        "answer": "A",
+        "explanation": "To shift the origin forward by 7 years, replace t with (t + 7). New equation: y = 153 + 2.5(t + 7) = 153 + 2.5t + 17.5 = 170.50 + 2.5t.",
+        "id": 488
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 50 and two new variables are defined as u = (x - 10) / 2 and v = (y - 15) / 3, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "8.3333",
+            "B": "25.0000",
+            "C": "300.0000",
+            "D": "50.0000"
+        },
+        "answer": "A",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 2 and c_y = 3. Cov(u, v) = 50 / (2 * 3) = 8.3333.",
+        "id": 489
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 2x - 8y + 238 = 0 and 6x - 4y + 54 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(15, 31)",
+            "B": "(33, 13)",
+            "C": "(13, 33)",
+            "D": "(12, 34)"
+        },
+        "answer": "C",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 13 and ȳ = 33.",
+        "id": 490
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹83000 and the cost of living index is 240. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹53258.34",
+            "B": "₹41500.00",
+            "C": "₹34583.33",
+            "D": "₹48416.67"
+        },
+        "answer": "D",
+        "explanation": "Real income = (Income / CLI) * 100 = (83000 / 240) * 100 = 34583.33. Loss in value = Nominal Income - Real Income = 83000 - 34583.33 = 48416.67.",
+        "id": 491
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 62 and two new variables are defined as u = (x - 10) / 4 and v = (y - 15) / 2, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "62.0000",
+            "B": "7.7500",
+            "C": "496.0000",
+            "D": "15.5000"
+        },
+        "answer": "B",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 4 and c_y = 2. Cov(u, v) = 62 / (4 * 2) = 7.7500.",
+        "id": 492
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹56800 and the cost of living index is 300. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹37866.67",
+            "B": "₹41653.34",
+            "C": "₹18933.33",
+            "D": "₹28400.00"
+        },
+        "answer": "A",
+        "explanation": "Real income = (Income / CLI) * 100 = (56800 / 300) * 100 = 18933.33. Loss in value = Nominal Income - Real Income = 56800 - 18933.33 = 37866.67.",
+        "id": 493
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹42300 and the cost of living index is 180. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹23500.00",
+            "B": "₹21150.00",
+            "C": "₹20680.00",
+            "D": "₹18800.00"
+        },
+        "answer": "D",
+        "explanation": "Real income = (Income / CLI) * 100 = (42300 / 180) * 100 = 23500.00. Loss in value = Nominal Income - Real Income = 42300 - 23500.00 = 18800.00.",
+        "id": 494
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "If Covariance(x, y) = 77 and two new variables are defined as u = (x - 10) / 5 and v = (y - 15) / 3, what is the exact value of Covariance(u, v)?",
+        "options": {
+            "A": "1155.0000",
+            "B": "15.4000",
+            "C": "5.1333",
+            "D": "77.0000"
+        },
+        "answer": "C",
+        "explanation": "Cov(u, v) = Cov(x, y) / (c_x * c_y). Here, the scale factors are c_x = 5 and c_y = 3. Cov(u, v) = 77 / (5 * 3) = 5.1333.",
+        "id": 495
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 4x - 6y + 62 = 0 and 9x - 4y - 60 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(18, 19)",
+            "B": "(21, 16)",
+            "C": "(16, 21)",
+            "D": "(15, 22)"
+        },
+        "answer": "C",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 16 and ȳ = 21.",
+        "id": 496
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient between X and Y is 0.95, what percentage of the total variance in Y remains unexplained by the linear regression of Y on X?",
+        "options": {
+            "A": "5.0%",
+            "B": "90.25%",
+            "C": "4.88%",
+            "D": "9.75%"
+        },
+        "answer": "D",
+        "explanation": "The coefficient of determination (r²) is the explained variance. r² = 0.95² = 0.9025. Unexplained variance = 1 - r² = 1 - 0.9025 = 0.0975. In percentage: 9.75%.",
+        "id": 497
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹62000 and the cost of living index is 250. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹37200.00",
+            "B": "₹24800.00",
+            "C": "₹40920.00",
+            "D": "₹31000.00"
+        },
+        "answer": "A",
+        "explanation": "Real income = (Income / CLI) * 100 = (62000 / 250) * 100 = 24800.00. Loss in value = Nominal Income - Real Income = 62000 - 24800.00 = 37200.00.",
+        "id": 498
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "The two regression equations are given as: 3x - 8y + 266 = 0 and 5x - 5y + 35 = 0. Find the mean values of x and y respectively.",
+        "options": {
+            "A": "(41, 50)",
+            "B": "(42, 49)",
+            "C": "(44, 47)",
+            "D": "(49, 42)"
+        },
+        "answer": "B",
+        "explanation": "The intersection point of the two regression lines gives the means (x̄, ȳ). Solving the equations simultaneously gives x̄ = 42 and ȳ = 49.",
+        "id": 499
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "A person's nominal income is ₹73400 and the cost of living index is 320. What is the exact loss in the purchasing power of their income (the amount by which nominal income exceeds real income)?",
+        "options": {
+            "A": "₹22937.50",
+            "B": "₹50462.50",
+            "C": "₹36700.00",
+            "D": "₹55508.75"
+        },
+        "answer": "B",
+        "explanation": "Real income = (Income / CLI) * 100 = (73400 / 320) * 100 = 22937.50. Loss in value = Nominal Income - Real Income = 73400 - 22937.50 = 50462.50.",
+        "id": 500
+    }
+]

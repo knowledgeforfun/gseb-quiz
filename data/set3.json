@@ -1,0 +1,1302 @@
+[
+    {
+        "id": 201,
+        "chapter": "1. Index Number",
+        "question": "Which average is considered the best or ideal average for the construction of an index number?",
+        "options": {
+            "A": "Arithmetic Mean",
+            "B": "Harmonic Mean",
+            "C": "Geometric Mean",
+            "D": "Median"
+        },
+        "answer": "C",
+        "explanation": "Theoretically, the geometric mean is the ideal average for the construction of an index number, which is why Fisher's index is considered ideal."
+    },
+    {
+        "id": 202,
+        "chapter": "1. Index Number",
+        "question": "In the family budget method of calculating the cost of living index number, what is used as the weight (W)?",
+        "options": {
+            "A": "p1q1",
+            "B": "p0q0",
+            "C": "p1q0",
+            "D": "p0q1"
+        },
+        "answer": "B",
+        "explanation": "In the method of family budget, the expenditure of every item in the base year, which is p0q0, is taken as the weight W."
+    },
+    {
+        "id": 203,
+        "chapter": "1. Index Number",
+        "question": "What is the primary purpose of the Cost of Living Index Number?",
+        "options": {
+            "A": "To measure changes in wholesale prices",
+            "B": "To measure changes in national income",
+            "C": "To measure the changes in the cost of living of people of a certain section",
+            "D": "To measure the rate of industrial production"
+        },
+        "answer": "C",
+        "explanation": "The cost of living index number is constructed to measure and study the changes in the cost of living of people from different sections of the society."
+    },
+    {
+        "id": 204,
+        "chapter": "1. Index Number",
+        "question": "Which of the following index numbers is known as the 'barometer of the economy'?",
+        "options": {
+            "A": "Wholesale Price Index Number",
+            "B": "General Index Number",
+            "C": "Cost of Living Index Number",
+            "D": "Index Number"
+        },
+        "answer": "D",
+        "explanation": "As a barometer is used to predict weather, an index number is a necessary tool for measuring changes in economic activities, hence it is called the barometer of the economy."
+    },
+    {
+        "id": 205,
+        "chapter": "1. Index Number",
+        "question": "In Paasche's index number formula, the weights are assigned based on the quantities of which period?",
+        "options": {
+            "A": "Base year",
+            "B": "Current year",
+            "C": "Average of base and current year",
+            "D": "Previous year"
+        },
+        "answer": "B",
+        "explanation": "In Paasche's method, the current year quantity (q1) is used as the weight for the price relatives."
+    },
+    {
+        "id": 206,
+        "chapter": "2. Linear Correlation",
+        "question": "If the changes in the values of two correlated variables are in the same direction, what type of correlation exists between them?",
+        "options": {
+            "A": "Negative Correlation",
+            "B": "Zero Correlation",
+            "C": "Positive Correlation",
+            "D": "Spurious Correlation"
+        },
+        "answer": "C",
+        "explanation": "When the changes in the values of two correlated variables are in the same direction, the correlation is said to be positive."
+    },
+    {
+        "id": 207,
+        "chapter": "2. Linear Correlation",
+        "question": "The correlation between the constant speed of a vehicle and the time taken by it to cover a fixed distance is an example of:",
+        "options": {
+            "A": "Perfect Positive Correlation",
+            "B": "Partial Positive Correlation",
+            "C": "Perfect Negative Correlation",
+            "D": "Lack of correlation"
+        },
+        "answer": "C",
+        "explanation": "As speed increases at a constant proportion, the time taken decreases in a constant proportion, making it a perfect negative correlation."
+    },
+    {
+        "id": 208,
+        "chapter": "2. Linear Correlation",
+        "question": "If the value of the correlation coefficient r is exactly 0, what does it signify about the relationship between the two variables?",
+        "options": {
+            "A": "There is a perfect non-linear relationship.",
+            "B": "There is a lack of linear correlation.",
+            "C": "There is a high degree of negative correlation.",
+            "D": "The variables are perfectly correlated."
+        },
+        "answer": "B",
+        "explanation": "r = 0 strictly means there is an absence of linear correlation, though a non-linear relationship might still exist."
+    },
+    {
+        "id": 209,
+        "chapter": "2. Linear Correlation",
+        "question": "Who developed the Rank Correlation Coefficient method for qualitative variables?",
+        "options": {
+            "A": "Karl Pearson",
+            "B": "Charles Spearman",
+            "C": "Irving Fisher",
+            "D": "Sir Francis Galton"
+        },
+        "answer": "B",
+        "explanation": "The correlation coefficient computed using ranks of characteristics was suggested by Charles Spearman."
+    },
+    {
+        "id": 210,
+        "chapter": "2. Linear Correlation",
+        "question": "When the value of |r| is very close to 0 (e.g., 0.1), it indicates:",
+        "options": {
+            "A": "High degree of linear correlation",
+            "B": "Low degree of linear correlation",
+            "C": "Perfect correlation",
+            "D": "An error in calculation"
+        },
+        "answer": "B",
+        "explanation": "When |r| is nearer to 0, it means the strength of the linear relation is very less, indicating a low degree of correlation."
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 121.49 and Laspeyre's index number is 123.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "123.00",
+            "B": "118.00",
+            "C": "120.00",
+            "D": "122.00"
+        },
+        "answer": "C",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 121.49 = sqrt(123 * P). P = (121.49)² / 123 = 120.00.",
+        "id": 211
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 50 and the sum of products of group index numbers and their weights ΣIW is 10233.00. Find the cost of living index number.",
+        "options": {
+            "A": "224.76",
+            "B": "204.66",
+            "C": "192.46",
+            "D": "215.16"
+        },
+        "answer": "B",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 10233.00 / 50 = 204.66.",
+        "id": 212
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 128.00 and Laspeyre's index number is 127.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "129.00",
+            "B": "131.00",
+            "C": "132.00",
+            "D": "127.00"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 128.00 = sqrt(127 * P). P = (128.00)² / 127 = 129.00.",
+        "id": 213
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the cost of living index number for a specific class is 180, what is the purchasing power of money?",
+        "options": {
+            "A": "0.5556",
+            "B": "0.8333",
+            "C": "0.4444",
+            "D": "0.5882"
+        },
+        "answer": "A",
+        "explanation": "Purchasing power of money = 100 / Cost of Living Index Number = 100 / 180 = 0.5556",
+        "id": 214
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 200 and the sum of products of group index numbers and their weights ΣIW is 49638.00. Find the cost of living index number.",
+        "options": {
+            "A": "268.29",
+            "B": "235.99",
+            "C": "258.69",
+            "D": "248.19"
+        },
+        "answer": "D",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 49638.00 / 200 = 248.19.",
+        "id": 215
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 6 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.6000. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "18",
+            "B": "12",
+            "C": "16",
+            "D": "14"
+        },
+        "answer": "D",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.6000 = 1 - (6 * Σd²) / (6 * 35). Solving for Σd² gives 14.",
+        "id": 216
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 119.96 and Laspeyre's index number is 117.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "121.00",
+            "B": "123.00",
+            "C": "126.00",
+            "D": "125.00"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 119.96 = sqrt(117 * P). P = (119.96)² / 117 = 123.00.",
+        "id": 217
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.65, standard deviation of X is 10, and standard deviation of Y is 10. Find the Covariance(x,y).",
+        "options": {
+            "A": "60.00",
+            "B": "-65.00",
+            "C": "65.00",
+            "D": "70.00"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.65 * 10 * 10 = 65.00.",
+        "id": 218
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the cost of living index number for a specific class is 250, what is the purchasing power of money?",
+        "options": {
+            "A": "0.6000",
+            "B": "0.4000",
+            "C": "0.3200",
+            "D": "0.4167"
+        },
+        "answer": "B",
+        "explanation": "Purchasing power of money = 100 / Cost of Living Index Number = 100 / 250 = 0.4000",
+        "id": 219
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 126.00 and Laspeyre's index number is 127.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "125.00",
+            "B": "123.00",
+            "C": "127.00",
+            "D": "128.00"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 126.00 = sqrt(127 * P). P = (126.00)² / 127 = 125.00.",
+        "id": 220
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 5 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.4000. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "16",
+            "B": "10",
+            "C": "14",
+            "D": "12"
+        },
+        "answer": "D",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.4000 = 1 - (6 * Σd²) / (5 * 24). Solving for Σd² gives 12.",
+        "id": 221
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 107.93 and Laspeyre's index number is 112.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "102.00",
+            "B": "104.00",
+            "C": "107.00",
+            "D": "106.00"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 107.93 = sqrt(112 * P). P = (107.93)² / 112 = 104.00.",
+        "id": 222
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the cost of living index number for a specific class is 130, what is the purchasing power of money?",
+        "options": {
+            "A": "0.8333",
+            "B": "0.7692",
+            "C": "1.1538",
+            "D": "0.6154"
+        },
+        "answer": "B",
+        "explanation": "Purchasing power of money = 100 / Cost of Living Index Number = 100 / 130 = 0.7692",
+        "id": 223
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 136.48 and Laspeyre's index number is 134.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "142.00",
+            "B": "137.00",
+            "C": "139.00",
+            "D": "141.00"
+        },
+        "answer": "C",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 136.48 = sqrt(134 * P). P = (136.48)² / 134 = 139.00.",
+        "id": 224
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 133.48 and Laspeyre's index number is 136.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "129.00",
+            "B": "131.00",
+            "C": "133.00",
+            "D": "134.00"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 133.48 = sqrt(136 * P). P = (133.48)² / 136 = 131.00.",
+        "id": 225
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 147.50 and Laspeyre's index number is 148.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "145.00",
+            "B": "149.00",
+            "C": "147.00",
+            "D": "150.00"
+        },
+        "answer": "C",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 147.50 = sqrt(148 * P). P = (147.50)² / 148 = 147.00.",
+        "id": 226
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 7 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.3750. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "37",
+            "B": "33",
+            "C": "35",
+            "D": "39"
+        },
+        "answer": "C",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.3750 = 1 - (6 * Σd²) / (7 * 48). Solving for Σd² gives 35.",
+        "id": 227
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 115.00 and Laspeyre's index number is 114.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "119.00",
+            "B": "118.00",
+            "C": "114.00",
+            "D": "116.00"
+        },
+        "answer": "D",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 115.00 = sqrt(114 * P). P = (115.00)² / 114 = 116.00.",
+        "id": 228
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is -0.77, standard deviation of X is 12, and standard deviation of Y is 9. Find the Covariance(x,y).",
+        "options": {
+            "A": "-83.16",
+            "B": "-88.16",
+            "C": "-78.16",
+            "D": "83.16"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = -0.77 * 12 * 9 = -83.16.",
+        "id": 229
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 10 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.3818. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "104",
+            "B": "102",
+            "C": "100",
+            "D": "106"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.3818 = 1 - (6 * Σd²) / (10 * 99). Solving for Σd² gives 102.",
+        "id": 230
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 137.49 and Laspeyre's index number is 136.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "139.00",
+            "B": "141.00",
+            "C": "142.00",
+            "D": "137.00"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 137.49 = sqrt(136 * P). P = (137.49)² / 136 = 139.00.",
+        "id": 231
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 6 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.4286. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "22",
+            "B": "20",
+            "C": "18",
+            "D": "24"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.4286 = 1 - (6 * Σd²) / (6 * 35). Solving for Σd² gives 20.",
+        "id": 232
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 134.48 and Laspeyre's index number is 132.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "137.00",
+            "B": "135.00",
+            "C": "140.00",
+            "D": "139.00"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 134.48 = sqrt(132 * P). P = (134.48)² / 132 = 137.00.",
+        "id": 233
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 200 and the sum of products of group index numbers and their weights ΣIW is 32586.00. Find the cost of living index number.",
+        "options": {
+            "A": "162.93",
+            "B": "173.43",
+            "C": "183.03",
+            "D": "150.73"
+        },
+        "answer": "A",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 32586.00 / 200 = 162.93.",
+        "id": 234
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the cost of living index number for a specific class is 150, what is the purchasing power of money?",
+        "options": {
+            "A": "0.7143",
+            "B": "0.5333",
+            "C": "1.0000",
+            "D": "0.6667"
+        },
+        "answer": "D",
+        "explanation": "Purchasing power of money = 100 / Cost of Living Index Number = 100 / 150 = 0.6667",
+        "id": 235
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 126.94 and Laspeyre's index number is 131.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "123.00",
+            "B": "121.00",
+            "C": "125.00",
+            "D": "126.00"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 126.94 = sqrt(131 * P). P = (126.94)² / 131 = 123.00.",
+        "id": 236
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is -0.24, standard deviation of X is 10, and standard deviation of Y is 12. Find the Covariance(x,y).",
+        "options": {
+            "A": "-23.80",
+            "B": "-28.80",
+            "C": "28.80",
+            "D": "-33.80"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = -0.24 * 10 * 12 = -28.80.",
+        "id": 237
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the cost of living index number for a specific class is 220, what is the purchasing power of money?",
+        "options": {
+            "A": "0.3636",
+            "B": "0.4545",
+            "C": "0.4762",
+            "D": "0.6818"
+        },
+        "answer": "B",
+        "explanation": "Purchasing power of money = 100 / Cost of Living Index Number = 100 / 220 = 0.4545",
+        "id": 238
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the cost of living index number for a specific class is 160, what is the purchasing power of money?",
+        "options": {
+            "A": "0.5000",
+            "B": "0.6250",
+            "C": "0.6667",
+            "D": "0.9375"
+        },
+        "answer": "B",
+        "explanation": "Purchasing power of money = 100 / Cost of Living Index Number = 100 / 160 = 0.6250",
+        "id": 239
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 100 and the sum of products of group index numbers and their weights ΣIW is 18161.00. Find the cost of living index number.",
+        "options": {
+            "A": "181.61",
+            "B": "201.71",
+            "C": "169.41",
+            "D": "192.11"
+        },
+        "answer": "A",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 18161.00 / 100 = 181.61.",
+        "id": 240
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.65, standard deviation of X is 13, and standard deviation of Y is 5. Find the Covariance(x,y).",
+        "options": {
+            "A": "47.25",
+            "B": "37.25",
+            "C": "42.25",
+            "D": "-42.25"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.65 * 13 * 5 = 42.25.",
+        "id": 241
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 6 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.3143. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "26",
+            "B": "24",
+            "C": "22",
+            "D": "28"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.3143 = 1 - (6 * Σd²) / (6 * 35). Solving for Σd² gives 24.",
+        "id": 242
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 141.97 and Laspeyre's index number is 145.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "139.00",
+            "B": "141.00",
+            "C": "137.00",
+            "D": "142.00"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 141.97 = sqrt(145 * P). P = (141.97)² / 145 = 139.00.",
+        "id": 243
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 8 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.4762. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "48",
+            "B": "44",
+            "C": "42",
+            "D": "46"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.4762 = 1 - (6 * Σd²) / (8 * 63). Solving for Σd² gives 44.",
+        "id": 244
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 100 and the sum of products of group index numbers and their weights ΣIW is 12789.00. Find the cost of living index number.",
+        "options": {
+            "A": "138.39",
+            "B": "147.99",
+            "C": "115.69",
+            "D": "127.89"
+        },
+        "answer": "D",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 12789.00 / 100 = 127.89.",
+        "id": 245
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is -0.04, standard deviation of X is 12, and standard deviation of Y is 13. Find the Covariance(x,y).",
+        "options": {
+            "A": "-6.24",
+            "B": "6.24",
+            "C": "-11.24",
+            "D": "-1.24"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = -0.04 * 12 * 13 = -6.24.",
+        "id": 246
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 9 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.3417. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "79",
+            "B": "83",
+            "C": "77",
+            "D": "81"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.3417 = 1 - (6 * Σd²) / (9 * 80). Solving for Σd² gives 79.",
+        "id": 247
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 126.96 and Laspeyre's index number is 124.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "132.00",
+            "B": "130.00",
+            "C": "133.00",
+            "D": "128.00"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 126.96 = sqrt(124 * P). P = (126.96)² / 124 = 130.00.",
+        "id": 248
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is -0.19, standard deviation of X is 6, and standard deviation of Y is 14. Find the Covariance(x,y).",
+        "options": {
+            "A": "15.96",
+            "B": "-20.96",
+            "C": "-10.96",
+            "D": "-15.96"
+        },
+        "answer": "D",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = -0.19 * 6 * 14 = -15.96.",
+        "id": 249
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 113.00 and Laspeyre's index number is 112.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "117.00",
+            "B": "112.00",
+            "C": "114.00",
+            "D": "116.00"
+        },
+        "answer": "C",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 113.00 = sqrt(112 * P). P = (113.00)² / 112 = 114.00.",
+        "id": 250
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.69, standard deviation of X is 10, and standard deviation of Y is 4. Find the Covariance(x,y).",
+        "options": {
+            "A": "27.60",
+            "B": "22.60",
+            "C": "-27.60",
+            "D": "32.60"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.69 * 10 * 4 = 27.60.",
+        "id": 251
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the cost of living index number for a specific class is 280, what is the purchasing power of money?",
+        "options": {
+            "A": "0.2857",
+            "B": "0.3571",
+            "C": "0.5357",
+            "D": "0.3704"
+        },
+        "answer": "B",
+        "explanation": "Purchasing power of money = 100 / Cost of Living Index Number = 100 / 280 = 0.3571",
+        "id": 252
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 7 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.8750. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "7",
+            "B": "5",
+            "C": "9",
+            "D": "11"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.8750 = 1 - (6 * Σd²) / (7 * 48). Solving for Σd² gives 7.",
+        "id": 253
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 200 and the sum of products of group index numbers and their weights ΣIW is 38126.00. Find the cost of living index number.",
+        "options": {
+            "A": "210.73",
+            "B": "178.43",
+            "C": "190.63",
+            "D": "201.13"
+        },
+        "answer": "C",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 38126.00 / 200 = 190.63.",
+        "id": 254
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.23, standard deviation of X is 13, and standard deviation of Y is 5. Find the Covariance(x,y).",
+        "options": {
+            "A": "19.95",
+            "B": "-14.95",
+            "C": "14.95",
+            "D": "9.95"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.23 * 13 * 5 = 14.95.",
+        "id": 255
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 8 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.3571. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "58",
+            "B": "56",
+            "C": "52",
+            "D": "54"
+        },
+        "answer": "D",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.3571 = 1 - (6 * Σd²) / (8 * 63). Solving for Σd² gives 54.",
+        "id": 256
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 8 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.5833. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "37",
+            "B": "35",
+            "C": "39",
+            "D": "33"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.5833 = 1 - (6 * Σd²) / (8 * 63). Solving for Σd² gives 35.",
+        "id": 257
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is -0.67, standard deviation of X is 15, and standard deviation of Y is 15. Find the Covariance(x,y).",
+        "options": {
+            "A": "-155.75",
+            "B": "150.75",
+            "C": "-150.75",
+            "D": "-145.75"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = -0.67 * 15 * 15 = -150.75.",
+        "id": 258
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 141.99 and Laspeyre's index number is 140.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "144.00",
+            "B": "147.00",
+            "C": "142.00",
+            "D": "146.00"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 141.99 = sqrt(140 * P). P = (141.99)² / 140 = 144.00.",
+        "id": 259
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 100 and the sum of products of group index numbers and their weights ΣIW is 16918.00. Find the cost of living index number.",
+        "options": {
+            "A": "169.18",
+            "B": "189.28",
+            "C": "156.98",
+            "D": "179.68"
+        },
+        "answer": "A",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 16918.00 / 100 = 169.18.",
+        "id": 260
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 134.94 and Laspeyre's index number is 139.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "131.00",
+            "B": "129.00",
+            "C": "134.00",
+            "D": "133.00"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 134.94 = sqrt(139 * P). P = (134.94)² / 139 = 131.00.",
+        "id": 261
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 8 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.5476. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "38",
+            "B": "42",
+            "C": "40",
+            "D": "36"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.5476 = 1 - (6 * Σd²) / (8 * 63). Solving for Σd² gives 38.",
+        "id": 262
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 7 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.4821. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "33",
+            "B": "27",
+            "C": "29",
+            "D": "31"
+        },
+        "answer": "C",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.4821 = 1 - (6 * Σd²) / (7 * 48). Solving for Σd² gives 29.",
+        "id": 263
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.79, standard deviation of X is 10, and standard deviation of Y is 15. Find the Covariance(x,y).",
+        "options": {
+            "A": "123.50",
+            "B": "-118.50",
+            "C": "118.50",
+            "D": "113.50"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.79 * 10 * 15 = 118.50.",
+        "id": 264
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.57, standard deviation of X is 8, and standard deviation of Y is 15. Find the Covariance(x,y).",
+        "options": {
+            "A": "-68.40",
+            "B": "63.40",
+            "C": "68.40",
+            "D": "73.40"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.57 * 8 * 15 = 68.40.",
+        "id": 265
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 200 and the sum of products of group index numbers and their weights ΣIW is 34946.00. Find the cost of living index number.",
+        "options": {
+            "A": "194.83",
+            "B": "162.53",
+            "C": "174.73",
+            "D": "185.23"
+        },
+        "answer": "C",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 34946.00 / 200 = 174.73.",
+        "id": 266
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 100 and the sum of products of group index numbers and their weights ΣIW is 14712.00. Find the cost of living index number.",
+        "options": {
+            "A": "147.12",
+            "B": "167.22",
+            "C": "134.92",
+            "D": "157.62"
+        },
+        "answer": "A",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 14712.00 / 100 = 147.12.",
+        "id": 267
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 100 and the sum of products of group index numbers and their weights ΣIW is 18867.00. Find the cost of living index number.",
+        "options": {
+            "A": "188.67",
+            "B": "208.77",
+            "C": "199.17",
+            "D": "176.47"
+        },
+        "answer": "A",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 18867.00 / 100 = 188.67.",
+        "id": 268
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.23, standard deviation of X is 13, and standard deviation of Y is 14. Find the Covariance(x,y).",
+        "options": {
+            "A": "-41.86",
+            "B": "46.86",
+            "C": "41.86",
+            "D": "36.86"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.23 * 13 * 14 = 41.86.",
+        "id": 269
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 200 and the sum of products of group index numbers and their weights ΣIW is 27572.00. Find the cost of living index number.",
+        "options": {
+            "A": "157.96",
+            "B": "137.86",
+            "C": "148.36",
+            "D": "125.66"
+        },
+        "answer": "B",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 27572.00 / 200 = 137.86.",
+        "id": 270
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the cost of living index number for a specific class is 125, what is the purchasing power of money?",
+        "options": {
+            "A": "1.2000",
+            "B": "0.8000",
+            "C": "0.6400",
+            "D": "0.8696"
+        },
+        "answer": "B",
+        "explanation": "Purchasing power of money = 100 / Cost of Living Index Number = 100 / 125 = 0.8000",
+        "id": 271
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 6 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.6571. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "14",
+            "B": "12",
+            "C": "10",
+            "D": "16"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.6571 = 1 - (6 * Σd²) / (6 * 35). Solving for Σd² gives 12.",
+        "id": 272
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 9 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.6000. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "48",
+            "B": "46",
+            "C": "50",
+            "D": "52"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.6000 = 1 - (6 * Σd²) / (9 * 80). Solving for Σd² gives 48.",
+        "id": 273
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.59, standard deviation of X is 10, and standard deviation of Y is 12. Find the Covariance(x,y).",
+        "options": {
+            "A": "70.80",
+            "B": "65.80",
+            "C": "75.80",
+            "D": "-70.80"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.59 * 10 * 12 = 70.80.",
+        "id": 274
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.72, standard deviation of X is 9, and standard deviation of Y is 13. Find the Covariance(x,y).",
+        "options": {
+            "A": "84.24",
+            "B": "-84.24",
+            "C": "89.24",
+            "D": "79.24"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.72 * 9 * 13 = 84.24.",
+        "id": 275
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 136.49 and Laspeyre's index number is 138.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "133.00",
+            "B": "137.00",
+            "C": "135.00",
+            "D": "138.00"
+        },
+        "answer": "C",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 136.49 = sqrt(138 * P). P = (136.49)² / 138 = 135.00.",
+        "id": 276
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 120.96 and Laspeyre's index number is 124.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "121.00",
+            "B": "116.00",
+            "C": "118.00",
+            "D": "120.00"
+        },
+        "answer": "C",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 120.96 = sqrt(124 * P). P = (120.96)² / 124 = 118.00.",
+        "id": 277
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 100 and the sum of products of group index numbers and their weights ΣIW is 22713.00. Find the cost of living index number.",
+        "options": {
+            "A": "247.23",
+            "B": "214.93",
+            "C": "237.63",
+            "D": "227.13"
+        },
+        "answer": "D",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 22713.00 / 100 = 227.13.",
+        "id": 278
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.42, standard deviation of X is 9, and standard deviation of Y is 7. Find the Covariance(x,y).",
+        "options": {
+            "A": "31.46",
+            "B": "-26.46",
+            "C": "26.46",
+            "D": "21.46"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.42 * 9 * 7 = 26.46.",
+        "id": 279
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 7 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.7500. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "18",
+            "B": "14",
+            "C": "16",
+            "D": "12"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.7500 = 1 - (6 * Σd²) / (7 * 48). Solving for Σd² gives 14.",
+        "id": 280
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 9 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.8333. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "24",
+            "B": "20",
+            "C": "22",
+            "D": "18"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.8333 = 1 - (6 * Σd²) / (9 * 80). Solving for Σd² gives 20.",
+        "id": 281
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 7 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.9107. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "9",
+            "B": "3",
+            "C": "5",
+            "D": "7"
+        },
+        "answer": "C",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.9107 = 1 - (6 * Σd²) / (7 * 48). Solving for Σd² gives 5.",
+        "id": 282
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 7 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.7857. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "10",
+            "B": "14",
+            "C": "12",
+            "D": "16"
+        },
+        "answer": "C",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.7857 = 1 - (6 * Σd²) / (7 * 48). Solving for Σd² gives 12.",
+        "id": 283
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 10 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.4303. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "98",
+            "B": "94",
+            "C": "92",
+            "D": "96"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.4303 = 1 - (6 * Σd²) / (10 * 99). Solving for Σd² gives 94.",
+        "id": 284
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is -0.02, standard deviation of X is 14, and standard deviation of Y is 14. Find the Covariance(x,y).",
+        "options": {
+            "A": "1.08",
+            "B": "-8.92",
+            "C": "-3.92",
+            "D": "3.92"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = -0.02 * 14 * 14 = -3.92.",
+        "id": 285
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 100 and the sum of products of group index numbers and their weights ΣIW is 21630.00. Find the cost of living index number.",
+        "options": {
+            "A": "236.40",
+            "B": "204.10",
+            "C": "226.80",
+            "D": "216.30"
+        },
+        "answer": "D",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 21630.00 / 100 = 216.30.",
+        "id": 286
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 100 and the sum of products of group index numbers and their weights ΣIW is 12891.00. Find the cost of living index number.",
+        "options": {
+            "A": "116.71",
+            "B": "149.01",
+            "C": "128.91",
+            "D": "139.41"
+        },
+        "answer": "C",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 12891.00 / 100 = 128.91.",
+        "id": 287
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 5 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.3000. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "12",
+            "B": "16",
+            "C": "18",
+            "D": "14"
+        },
+        "answer": "D",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.3000 = 1 - (6 * Σd²) / (5 * 24). Solving for Σd² gives 14.",
+        "id": 288
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 6 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.7143. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "14",
+            "B": "10",
+            "C": "12",
+            "D": "8"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.7143 = 1 - (6 * Σd²) / (6 * 35). Solving for Σd² gives 10.",
+        "id": 289
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 50 and the sum of products of group index numbers and their weights ΣIW is 12012.50. Find the cost of living index number.",
+        "options": {
+            "A": "260.35",
+            "B": "250.75",
+            "C": "240.25",
+            "D": "228.05"
+        },
+        "answer": "C",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 12012.50 / 50 = 240.25.",
+        "id": 290
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 50 and the sum of products of group index numbers and their weights ΣIW is 6205.00. Find the cost of living index number.",
+        "options": {
+            "A": "124.10",
+            "B": "134.60",
+            "C": "144.20",
+            "D": "111.90"
+        },
+        "answer": "A",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 6205.00 / 50 = 124.10.",
+        "id": 291
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 100 and the sum of products of group index numbers and their weights ΣIW is 14869.00. Find the cost of living index number.",
+        "options": {
+            "A": "159.19",
+            "B": "148.69",
+            "C": "168.79",
+            "D": "136.49"
+        },
+        "answer": "B",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 14869.00 / 100 = 148.69.",
+        "id": 292
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 130.00 and Laspeyre's index number is 129.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "134.00",
+            "B": "131.00",
+            "C": "129.00",
+            "D": "133.00"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 130.00 = sqrt(129 * P). P = (130.00)² / 129 = 131.00.",
+        "id": 293
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is -0.58, standard deviation of X is 6, and standard deviation of Y is 4. Find the Covariance(x,y).",
+        "options": {
+            "A": "-13.92",
+            "B": "13.92",
+            "C": "-18.92",
+            "D": "-8.92"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = -0.58 * 6 * 4 = -13.92.",
+        "id": 294
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate dataset, the correlation coefficient r is 0.87, standard deviation of X is 8, and standard deviation of Y is 5. Find the Covariance(x,y).",
+        "options": {
+            "A": "-34.80",
+            "B": "39.80",
+            "C": "34.80",
+            "D": "29.80"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) => Cov(x,y) = r * Sx * Sy = 0.87 * 8 * 5 = 34.80.",
+        "id": 295
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 50 and the sum of products of group index numbers and their weights ΣIW is 11034.00. Find the cost of living index number.",
+        "options": {
+            "A": "240.78",
+            "B": "220.68",
+            "C": "231.18",
+            "D": "208.48"
+        },
+        "answer": "B",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 11034.00 / 50 = 220.68.",
+        "id": 296
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a rank correlation analysis with 6 pairs of observations, the Spearman's rank correlation coefficient is exactly 0.9429. Find the sum of the squares of the differences in ranks (Σd²).",
+        "options": {
+            "A": "0",
+            "B": "4",
+            "C": "2",
+            "D": "6"
+        },
+        "answer": "C",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)). 0.9429 = 1 - (6 * Σd²) / (6 * 35). Solving for Σd² gives 2.",
+        "id": 297
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the cost of living index number for a specific class is 175, what is the purchasing power of money?",
+        "options": {
+            "A": "0.4571",
+            "B": "0.8571",
+            "C": "0.5714",
+            "D": "0.6061"
+        },
+        "answer": "C",
+        "explanation": "Purchasing power of money = 100 / Cost of Living Index Number = 100 / 175 = 0.5714",
+        "id": 298
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Fisher's ideal index number is 112.98 and Laspeyre's index number is 111.00, find the value of Paasche's index number.",
+        "options": {
+            "A": "115.00",
+            "B": "113.00",
+            "C": "117.00",
+            "D": "118.00"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre * Paasche). 112.98 = sqrt(111 * P). P = (112.98)² / 111 = 115.00.",
+        "id": 299
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "In calculating the cost of living index number by the family budget method, the total weight ΣW is 100 and the sum of products of group index numbers and their weights ΣIW is 21898.00. Find the cost of living index number.",
+        "options": {
+            "A": "229.48",
+            "B": "206.78",
+            "C": "218.98",
+            "D": "239.08"
+        },
+        "answer": "C",
+        "explanation": "Cost of Living Index Number = ΣIW / ΣW = 21898.00 / 100 = 218.98.",
+        "id": 300
+    }
+]

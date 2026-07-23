@@ -1,0 +1,1302 @@
+[
+    {
+        "id": 301,
+        "chapter": "3. Linear Regression",
+        "question": "If the regression coefficient b_yx is greater than 1, what must be true about the regression coefficient b_xy?",
+        "options": {
+            "A": "It must also be greater than 1",
+            "B": "It must be exactly 1",
+            "C": "It must be less than 1",
+            "D": "It can be any value"
+        },
+        "answer": "C",
+        "explanation": "The product of the two regression coefficients b_yx and b_xy is equal to r^2. Since r^2 <= 1, if one coefficient is > 1, the other must be < 1."
+    },
+    {
+        "id": 302,
+        "chapter": "3. Linear Regression",
+        "question": "What is the relationship between the signs of the correlation coefficient (r) and the two regression coefficients (b_yx and b_xy)?",
+        "options": {
+            "A": "They can have different signs",
+            "B": "They must all have the same sign",
+            "C": "r is always positive regardless of b_yx and b_xy",
+            "D": "b_yx and b_xy have opposite signs"
+        },
+        "answer": "B",
+        "explanation": "The correlation coefficient 'r' and both regression coefficients always share the same sign (+ or -)."
+    },
+    {
+        "id": 303,
+        "chapter": "3. Linear Regression",
+        "question": "The regression coefficient is independent of change of ________ but not of ________.",
+        "options": {
+            "A": "scale, origin",
+            "B": "origin, scale",
+            "C": "X-axis, Y-axis",
+            "D": "variables, constants"
+        },
+        "answer": "B",
+        "explanation": "Regression coefficients are unaffected by the addition or subtraction of a constant (change of origin) but are affected by multiplication or division by a constant (change of scale)."
+    },
+    {
+        "id": 304,
+        "chapter": "3. Linear Regression",
+        "question": "In the linear regression equation y^ = a + bx, what does the constant 'a' represent?",
+        "options": {
+            "A": "The slope of the regression line",
+            "B": "The correlation coefficient",
+            "C": "The Y-intercept of the regression line",
+            "D": "The variance of Y"
+        },
+        "answer": "C",
+        "explanation": "In the equation y^ = a + bx, 'a' is the Y-intercept (the value of y when x = 0), and 'b' is the slope (regression coefficient)."
+    },
+    {
+        "id": 305,
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation between X and Y is perfect, what is the angle between the two regression lines?",
+        "options": {
+            "A": "90 degrees",
+            "B": "45 degrees",
+            "C": "0 degrees (they coincide)",
+            "D": "180 degrees"
+        },
+        "answer": "C",
+        "explanation": "When there is a perfect correlation (r = 1 or -1), the two regression lines coincide with each other."
+    },
+    {
+        "id": 306,
+        "chapter": "4. Time Series",
+        "question": "Which component of a time series represents long-term directional movement over a period of time?",
+        "options": {
+            "A": "Seasonal Variation",
+            "B": "Cyclical Variation",
+            "C": "Irregular Variation",
+            "D": "Secular Trend"
+        },
+        "answer": "D",
+        "explanation": "The secular trend represents the long-term, general tendency of the data to increase, decrease, or remain stable over a long period."
+    },
+    {
+        "id": 307,
+        "chapter": "4. Time Series",
+        "question": "Natural disasters like floods, earthquakes, or strikes cause which type of variation in a time series?",
+        "options": {
+            "A": "Secular Trend",
+            "B": "Seasonal Variation",
+            "C": "Cyclical Variation",
+            "D": "Irregular/Random Variation"
+        },
+        "answer": "D",
+        "explanation": "Irregular or random variations are unpredictable and caused by unforeseen events like natural disasters, strikes, or wars."
+    },
+    {
+        "id": 308,
+        "chapter": "4. Time Series",
+        "question": "The business cycle (prosperity, recession, depression, recovery) is associated with which component of time series?",
+        "options": {
+            "A": "Cyclical Variation",
+            "B": "Seasonal Variation",
+            "C": "Irregular Variation",
+            "D": "Secular Trend"
+        },
+        "answer": "A",
+        "explanation": "Cyclical variations occur over periods longer than a year and represent the phases of a business cycle."
+    },
+    {
+        "id": 309,
+        "chapter": "4. Time Series",
+        "question": "In the multiplicative model of time series, the original data (Y) is expressed as:",
+        "options": {
+            "A": "Y = T + S + C + I",
+            "B": "Y = T * S * C * I",
+            "C": "Y = T + (S * C) + I",
+            "D": "Y = (T * S) / (C * I)"
+        },
+        "answer": "B",
+        "explanation": "In the multiplicative model, the components are assumed to act proportionally, so Y = T * S * C * I."
+    },
+    {
+        "id": 310,
+        "chapter": "4. Time Series",
+        "question": "Which method is considered the best and most objective mathematical method for fitting a trend line?",
+        "options": {
+            "A": "Graphical Method",
+            "B": "Method of Semi-Averages",
+            "C": "Method of Moving Averages",
+            "D": "Method of Least Squares"
+        },
+        "answer": "D",
+        "explanation": "The Method of Least Squares is a mathematically sound and objective method that provides a unique trend line by minimizing the sum of squares of deviations."
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 29, the mean of Y is 141, and the regression coefficient b_yx is 0.57, what is the value of the constant 'a'?",
+        "options": {
+            "A": "114.47",
+            "B": "134.47",
+            "C": "124.47",
+            "D": "157.53"
+        },
+        "answer": "C",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 141 - (0.57 * 29) = 124.47.",
+        "id": 311
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 23, 60, and 49. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "49.00",
+            "B": "41.50",
+            "C": "44.00",
+            "D": "41.00"
+        },
+        "answer": "C",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (23 + 60 + 49) / 3 = 132 / 3 = 44.00.",
+        "id": 312
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 36, the mean of Y is 72, and the regression coefficient b_yx is 1.54, what is the value of the constant 'a'?",
+        "options": {
+            "A": "16.56",
+            "B": "6.56",
+            "C": "26.56",
+            "D": "127.44"
+        },
+        "answer": "A",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 72 - (1.54 * 36) = 16.56.",
+        "id": 313
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.62, the standard deviation of X is 9, and the standard deviation of Y is 10, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "0.69",
+            "B": "0.19",
+            "C": "0.56",
+            "D": "1.19"
+        },
+        "answer": "A",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.62 * (10 / 9) = 0.69.",
+        "id": 314
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 28, 35, and 52. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "35.33",
+            "B": "38.33",
+            "C": "31.50",
+            "D": "43.33"
+        },
+        "answer": "B",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (28 + 35 + 52) / 3 = 115 / 3 = 38.33.",
+        "id": 315
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 50, 49, and 45. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "49.50",
+            "B": "48.00",
+            "C": "53.00",
+            "D": "45.00"
+        },
+        "answer": "B",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (50 + 49 + 45) / 3 = 144 / 3 = 48.00.",
+        "id": 316
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 40, 49, and 48. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "50.67",
+            "B": "44.50",
+            "C": "42.67",
+            "D": "45.67"
+        },
+        "answer": "D",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (40 + 49 + 48) / 3 = 137 / 3 = 45.67.",
+        "id": 317
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 42, 43, and 66. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "55.33",
+            "B": "42.50",
+            "C": "50.33",
+            "D": "47.33"
+        },
+        "answer": "C",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (42 + 43 + 66) / 3 = 151 / 3 = 50.33.",
+        "id": 318
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 265 - 1.8t. What is the estimated trend value for t = 12?",
+        "options": {
+            "A": "233.40",
+            "B": "245.20",
+            "C": "253.40",
+            "D": "243.40"
+        },
+        "answer": "D",
+        "explanation": "Substitute t = 12 into the equation: ŷ = 265 - 1.8(12) = 243.40.",
+        "id": 319
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 21, the mean of Y is 54, and the regression coefficient b_yx is 1.98, what is the value of the constant 'a'?",
+        "options": {
+            "A": "22.42",
+            "B": "2.42",
+            "C": "12.42",
+            "D": "95.58"
+        },
+        "answer": "C",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 54 - (1.98 * 21) = 12.42.",
+        "id": 320
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.68, the standard deviation of X is 8, and the standard deviation of Y is 6, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "1.01",
+            "B": "0.51",
+            "C": "0.91",
+            "D": "0.01"
+        },
+        "answer": "B",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.68 * (6 / 8) = 0.51.",
+        "id": 321
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.75, the standard deviation of X is 4, and the standard deviation of Y is 9, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "1.69",
+            "B": "0.33",
+            "C": "2.19",
+            "D": "1.19"
+        },
+        "answer": "A",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.75 * (9 / 4) = 1.69.",
+        "id": 322
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 36, 36, and 55. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "39.33",
+            "B": "36.00",
+            "C": "42.33",
+            "D": "47.33"
+        },
+        "answer": "C",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (36 + 36 + 55) / 3 = 127 / 3 = 42.33.",
+        "id": 323
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 50, the mean of Y is 108, and the regression coefficient b_yx is -2.08, what is the value of the constant 'a'?",
+        "options": {
+            "A": "212.00",
+            "B": "222.00",
+            "C": "202.00",
+            "D": "4.00"
+        },
+        "answer": "A",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 108 - (-2.08 * 50) = 212.00.",
+        "id": 324
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 304 - 4.9t. What is the estimated trend value for t = 10?",
+        "options": {
+            "A": "265.00",
+            "B": "255.00",
+            "C": "245.00",
+            "D": "259.90"
+        },
+        "answer": "B",
+        "explanation": "Substitute t = 10 into the equation: ŷ = 304 - 4.9(10) = 255.00.",
+        "id": 325
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 37, the mean of Y is 136, and the regression coefficient b_yx is -1.73, what is the value of the constant 'a'?",
+        "options": {
+            "A": "210.01",
+            "B": "190.01",
+            "C": "200.01",
+            "D": "71.99"
+        },
+        "answer": "C",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 136 - (-1.73 * 37) = 200.01.",
+        "id": 326
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 1.18 and b_xy = 0.3, find the correlation coefficient (r).",
+        "options": {
+            "A": "-0.59",
+            "B": "0.59",
+            "C": "0.69",
+            "D": "0.35"
+        },
+        "answer": "B",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(1.18 * 0.3) = 0.59.",
+        "id": 327
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = -0.93 and b_xy = -0.89, find the correlation coefficient (r).",
+        "options": {
+            "A": "-0.91",
+            "B": "0.91",
+            "C": "0.83",
+            "D": "-0.81"
+        },
+        "answer": "A",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are negative, r must also be negative. r = -sqrt(-0.93 * -0.89) = -0.91.",
+        "id": 328
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 11, the mean of Y is 127, and the regression coefficient b_yx is -0.07, what is the value of the constant 'a'?",
+        "options": {
+            "A": "127.77",
+            "B": "117.77",
+            "C": "126.23",
+            "D": "137.77"
+        },
+        "answer": "A",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 127 - (-0.07 * 11) = 127.77.",
+        "id": 329
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 1.4 and b_xy = 0.23, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.67",
+            "B": "-0.57",
+            "C": "0.57",
+            "D": "0.32"
+        },
+        "answer": "C",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(1.4 * 0.23) = 0.57.",
+        "id": 330
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 0.46 and b_xy = 0.51, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.58",
+            "B": "0.48",
+            "C": "0.23",
+            "D": "-0.48"
+        },
+        "answer": "B",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(0.46 * 0.51) = 0.48.",
+        "id": 331
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 34, 30, and 70. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "49.67",
+            "B": "41.67",
+            "C": "44.67",
+            "D": "32.00"
+        },
+        "answer": "C",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (34 + 30 + 70) / 3 = 134 / 3 = 44.67.",
+        "id": 332
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 118 - 0.4t. What is the estimated trend value for t = 7?",
+        "options": {
+            "A": "115.20",
+            "B": "105.20",
+            "C": "125.20",
+            "D": "115.60"
+        },
+        "answer": "A",
+        "explanation": "Substitute t = 7 into the equation: ŷ = 118 - 0.4(7) = 115.20.",
+        "id": 333
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 35, 47, and 60. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "47.33",
+            "B": "41.00",
+            "C": "44.33",
+            "D": "52.33"
+        },
+        "answer": "A",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (35 + 47 + 60) / 3 = 142 / 3 = 47.33.",
+        "id": 334
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 0.17 and b_xy = 1.35, find the correlation coefficient (r).",
+        "options": {
+            "A": "-0.48",
+            "B": "0.23",
+            "C": "0.58",
+            "D": "0.48"
+        },
+        "answer": "D",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(0.17 * 1.35) = 0.48.",
+        "id": 335
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 30, 56, and 62. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "49.33",
+            "B": "43.00",
+            "C": "46.33",
+            "D": "54.33"
+        },
+        "answer": "A",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (30 + 56 + 62) / 3 = 148 / 3 = 49.33.",
+        "id": 336
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is -0.14, the standard deviation of X is 6, and the standard deviation of Y is 9, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "-0.21",
+            "B": "-0.71",
+            "C": "0.29",
+            "D": "-0.09"
+        },
+        "answer": "A",
+        "explanation": "b_yx = r * (Sy / Sx) = -0.14 * (9 / 6) = -0.21.",
+        "id": 337
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 0.36 and b_xy = 1.22, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.44",
+            "B": "0.66",
+            "C": "-0.66",
+            "D": "0.76"
+        },
+        "answer": "B",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(0.36 * 1.22) = 0.66.",
+        "id": 338
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 24, 39, and 54. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "31.50",
+            "B": "39.00",
+            "C": "44.00",
+            "D": "36.00"
+        },
+        "answer": "B",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (24 + 39 + 54) / 3 = 117 / 3 = 39.00.",
+        "id": 339
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 24, 57, and 46. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "42.33",
+            "B": "47.33",
+            "C": "40.50",
+            "D": "39.33"
+        },
+        "answer": "A",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (24 + 57 + 46) / 3 = 127 / 3 = 42.33.",
+        "id": 340
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 34, the mean of Y is 78, and the regression coefficient b_yx is 0.85, what is the value of the constant 'a'?",
+        "options": {
+            "A": "106.90",
+            "B": "39.10",
+            "C": "59.10",
+            "D": "49.10"
+        },
+        "answer": "D",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 78 - (0.85 * 34) = 49.10.",
+        "id": 341
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.23, the standard deviation of X is 3, and the standard deviation of Y is 3, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "-0.27",
+            "B": "1.59",
+            "C": "0.73",
+            "D": "0.23"
+        },
+        "answer": "D",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.23 * (3 / 3) = 0.23.",
+        "id": 342
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = -0.84 and b_xy = -0.15, find the correlation coefficient (r).",
+        "options": {
+            "A": "-0.25",
+            "B": "0.13",
+            "C": "0.35",
+            "D": "-0.35"
+        },
+        "answer": "D",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are negative, r must also be negative. r = -sqrt(-0.84 * -0.15) = -0.35.",
+        "id": 343
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is -0.5, the standard deviation of X is 8, and the standard deviation of Y is 8, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "-0.50",
+            "B": "-1.00",
+            "C": "2.37",
+            "D": "0.00"
+        },
+        "answer": "A",
+        "explanation": "b_yx = r * (Sy / Sx) = -0.5 * (8 / 8) = -0.50.",
+        "id": 344
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.37, the standard deviation of X is 4, and the standard deviation of Y is 3, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "0.49",
+            "B": "0.78",
+            "C": "-0.22",
+            "D": "0.28"
+        },
+        "answer": "D",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.37 * (3 / 4) = 0.28.",
+        "id": 345
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is -0.41, the standard deviation of X is 3, and the standard deviation of Y is 5, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "-0.18",
+            "B": "-0.68",
+            "C": "-0.25",
+            "D": "-1.18"
+        },
+        "answer": "B",
+        "explanation": "b_yx = r * (Sy / Sx) = -0.41 * (5 / 3) = -0.68.",
+        "id": 346
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 42, the mean of Y is 150, and the regression coefficient b_yx is 1.92, what is the value of the constant 'a'?",
+        "options": {
+            "A": "69.36",
+            "B": "79.36",
+            "C": "59.36",
+            "D": "230.64"
+        },
+        "answer": "A",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 150 - (1.92 * 42) = 69.36.",
+        "id": 347
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.57, the standard deviation of X is 6, and the standard deviation of Y is 2, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "1.71",
+            "B": "-0.31",
+            "C": "0.69",
+            "D": "0.19"
+        },
+        "answer": "D",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.57 * (2 / 6) = 0.19.",
+        "id": 348
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is -0.36, the standard deviation of X is 9, and the standard deviation of Y is 5, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "-0.20",
+            "B": "0.30",
+            "C": "-0.65",
+            "D": "-0.70"
+        },
+        "answer": "A",
+        "explanation": "b_yx = r * (Sy / Sx) = -0.36 * (5 / 9) = -0.20.",
+        "id": 349
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 37, 45, and 69. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "41.00",
+            "B": "55.33",
+            "C": "47.33",
+            "D": "50.33"
+        },
+        "answer": "D",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (37 + 45 + 69) / 3 = 151 / 3 = 50.33.",
+        "id": 350
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 253 + 1.2t. What is the estimated trend value for t = 8?",
+        "options": {
+            "A": "272.60",
+            "B": "261.40",
+            "C": "262.60",
+            "D": "252.60"
+        },
+        "answer": "C",
+        "explanation": "Substitute t = 8 into the equation: ŷ = 253 + 1.2(8) = 262.60.",
+        "id": 351
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = -0.21 and b_xy = -0.33, find the correlation coefficient (r).",
+        "options": {
+            "A": "-0.16",
+            "B": "-0.26",
+            "C": "0.26",
+            "D": "0.07"
+        },
+        "answer": "B",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are negative, r must also be negative. r = -sqrt(-0.21 * -0.33) = -0.26.",
+        "id": 352
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 1.46 and b_xy = 0.16, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.23",
+            "B": "-0.48",
+            "C": "0.48",
+            "D": "0.58"
+        },
+        "answer": "C",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(1.46 * 0.16) = 0.48.",
+        "id": 353
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = -1.4 and b_xy = -0.13, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.18",
+            "B": "-0.43",
+            "C": "0.43",
+            "D": "-0.33"
+        },
+        "answer": "B",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are negative, r must also be negative. r = -sqrt(-1.4 * -0.13) = -0.43.",
+        "id": 354
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 42, the mean of Y is 108, and the regression coefficient b_yx is -1.18, what is the value of the constant 'a'?",
+        "options": {
+            "A": "58.44",
+            "B": "147.56",
+            "C": "157.56",
+            "D": "167.56"
+        },
+        "answer": "C",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 108 - (-1.18 * 42) = 157.56.",
+        "id": 355
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 20, the mean of Y is 92, and the regression coefficient b_yx is 1.74, what is the value of the constant 'a'?",
+        "options": {
+            "A": "47.20",
+            "B": "67.20",
+            "C": "57.20",
+            "D": "126.80"
+        },
+        "answer": "C",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 92 - (1.74 * 20) = 57.20.",
+        "id": 356
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = -0.85 and b_xy = -0.67, find the correlation coefficient (r).",
+        "options": {
+            "A": "-0.75",
+            "B": "0.57",
+            "C": "0.75",
+            "D": "-0.65"
+        },
+        "answer": "A",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are negative, r must also be negative. r = -sqrt(-0.85 * -0.67) = -0.75.",
+        "id": 357
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 235 + 8.0t. What is the estimated trend value for t = 6?",
+        "options": {
+            "A": "293.00",
+            "B": "283.00",
+            "C": "275.00",
+            "D": "273.00"
+        },
+        "answer": "B",
+        "explanation": "Substitute t = 6 into the equation: ŷ = 235 + 8.0(6) = 283.00.",
+        "id": 358
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 14, the mean of Y is 113, and the regression coefficient b_yx is 0.35, what is the value of the constant 'a'?",
+        "options": {
+            "A": "117.90",
+            "B": "118.10",
+            "C": "108.10",
+            "D": "98.10"
+        },
+        "answer": "C",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 113 - (0.35 * 14) = 108.10.",
+        "id": 359
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 12, the mean of Y is 125, and the regression coefficient b_yx is 0.72, what is the value of the constant 'a'?",
+        "options": {
+            "A": "133.64",
+            "B": "116.36",
+            "C": "126.36",
+            "D": "106.36"
+        },
+        "answer": "B",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 125 - (0.72 * 12) = 116.36.",
+        "id": 360
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 20, 31, and 47. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "32.67",
+            "B": "37.67",
+            "C": "25.50",
+            "D": "29.67"
+        },
+        "answer": "A",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (20 + 31 + 47) / 3 = 98 / 3 = 32.67.",
+        "id": 361
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 27, the mean of Y is 116, and the regression coefficient b_yx is -2.03, what is the value of the constant 'a'?",
+        "options": {
+            "A": "170.81",
+            "B": "61.19",
+            "C": "180.81",
+            "D": "160.81"
+        },
+        "answer": "A",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 116 - (-2.03 * 27) = 170.81.",
+        "id": 362
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 24, 58, and 53. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "50.00",
+            "B": "41.00",
+            "C": "42.00",
+            "D": "45.00"
+        },
+        "answer": "D",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (24 + 58 + 53) / 3 = 135 / 3 = 45.00.",
+        "id": 363
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 34, the mean of Y is 150, and the regression coefficient b_yx is 0.26, what is the value of the constant 'a'?",
+        "options": {
+            "A": "141.16",
+            "B": "131.16",
+            "C": "158.84",
+            "D": "151.16"
+        },
+        "answer": "A",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 150 - (0.26 * 34) = 141.16.",
+        "id": 364
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 1.47 and b_xy = 0.31, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.68",
+            "B": "-0.68",
+            "C": "0.78",
+            "D": "0.46"
+        },
+        "answer": "A",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(1.47 * 0.31) = 0.68.",
+        "id": 365
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is -0.59, the standard deviation of X is 7, and the standard deviation of Y is 6, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "-0.01",
+            "B": "-0.69",
+            "C": "-1.01",
+            "D": "-0.51"
+        },
+        "answer": "D",
+        "explanation": "b_yx = r * (Sy / Sx) = -0.59 * (6 / 7) = -0.51.",
+        "id": 366
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 341 - 5.0t. What is the estimated trend value for t = 10?",
+        "options": {
+            "A": "301.00",
+            "B": "281.00",
+            "C": "291.00",
+            "D": "296.00"
+        },
+        "answer": "C",
+        "explanation": "Substitute t = 10 into the equation: ŷ = 341 - 5.0(10) = 291.00.",
+        "id": 367
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = -1.28 and b_xy = -0.11, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.38",
+            "B": "-0.38",
+            "C": "0.14",
+            "D": "-0.28"
+        },
+        "answer": "B",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are negative, r must also be negative. r = -sqrt(-1.28 * -0.11) = -0.38.",
+        "id": 368
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 0.66 and b_xy = 0.29, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.54",
+            "B": "-0.44",
+            "C": "0.19",
+            "D": "0.44"
+        },
+        "answer": "D",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(0.66 * 0.29) = 0.44.",
+        "id": 369
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 163 - 4.0t. What is the estimated trend value for t = 5?",
+        "options": {
+            "A": "147.00",
+            "B": "153.00",
+            "C": "143.00",
+            "D": "133.00"
+        },
+        "answer": "C",
+        "explanation": "Substitute t = 5 into the equation: ŷ = 163 - 4.0(5) = 143.00.",
+        "id": 370
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.73, the standard deviation of X is 2, and the standard deviation of Y is 5, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "0.29",
+            "B": "1.32",
+            "C": "1.82",
+            "D": "2.32"
+        },
+        "answer": "C",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.73 * (5 / 2) = 1.82.",
+        "id": 371
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 1.05 and b_xy = 0.82, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.86",
+            "B": "-0.93",
+            "C": "1.00",
+            "D": "0.93"
+        },
+        "answer": "D",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(1.05 * 0.82) = 0.93.",
+        "id": 372
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 290 + 1.4t. What is the estimated trend value for t = 8?",
+        "options": {
+            "A": "301.20",
+            "B": "311.20",
+            "C": "299.80",
+            "D": "291.20"
+        },
+        "answer": "A",
+        "explanation": "Substitute t = 8 into the equation: ŷ = 290 + 1.4(8) = 301.20.",
+        "id": 373
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.42, the standard deviation of X is 9, and the standard deviation of Y is 9, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "-0.08",
+            "B": "2.72",
+            "C": "0.42",
+            "D": "0.92"
+        },
+        "answer": "C",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.42 * (9 / 9) = 0.42.",
+        "id": 374
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 34, 31, and 46. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "32.50",
+            "B": "34.00",
+            "C": "37.00",
+            "D": "42.00"
+        },
+        "answer": "C",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (34 + 31 + 46) / 3 = 111 / 3 = 37.00.",
+        "id": 375
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = -0.32 and b_xy = -0.4, find the correlation coefficient (r).",
+        "options": {
+            "A": "-0.26",
+            "B": "0.36",
+            "C": "-0.36",
+            "D": "0.13"
+        },
+        "answer": "C",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are negative, r must also be negative. r = -sqrt(-0.32 * -0.4) = -0.36.",
+        "id": 376
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.04, the standard deviation of X is 2, and the standard deviation of Y is 4, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "0.02",
+            "B": "0.58",
+            "C": "-0.42",
+            "D": "0.08"
+        },
+        "answer": "D",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.04 * (4 / 2) = 0.08.",
+        "id": 377
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 47, 55, and 56. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "51.00",
+            "B": "49.67",
+            "C": "57.67",
+            "D": "52.67"
+        },
+        "answer": "D",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (47 + 55 + 56) / 3 = 158 / 3 = 52.67.",
+        "id": 378
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is -0.62, the standard deviation of X is 4, and the standard deviation of Y is 5, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "-0.50",
+            "B": "-1.28",
+            "C": "-0.28",
+            "D": "-0.78"
+        },
+        "answer": "D",
+        "explanation": "b_yx = r * (Sy / Sx) = -0.62 * (5 / 4) = -0.78.",
+        "id": 379
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 25, the mean of Y is 92, and the regression coefficient b_yx is -1.29, what is the value of the constant 'a'?",
+        "options": {
+            "A": "59.75",
+            "B": "134.25",
+            "C": "114.25",
+            "D": "124.25"
+        },
+        "answer": "D",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 92 - (-1.29 * 25) = 124.25.",
+        "id": 380
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 433 - 1.9t. What is the estimated trend value for t = 10?",
+        "options": {
+            "A": "415.90",
+            "B": "404.00",
+            "C": "414.00",
+            "D": "424.00"
+        },
+        "answer": "C",
+        "explanation": "Substitute t = 10 into the equation: ŷ = 433 - 1.9(10) = 414.00.",
+        "id": 381
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 1.25 and b_xy = 0.42, find the correlation coefficient (r).",
+        "options": {
+            "A": "-0.72",
+            "B": "0.82",
+            "C": "0.72",
+            "D": "0.53"
+        },
+        "answer": "C",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(1.25 * 0.42) = 0.72.",
+        "id": 382
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 45, 30, and 42. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "39.00",
+            "B": "37.50",
+            "C": "44.00",
+            "D": "36.00"
+        },
+        "answer": "A",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (45 + 30 + 42) / 3 = 117 / 3 = 39.00.",
+        "id": 383
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.11, the standard deviation of X is 4, and the standard deviation of Y is 3, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "0.08",
+            "B": "-0.42",
+            "C": "0.58",
+            "D": "0.15"
+        },
+        "answer": "A",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.11 * (3 / 4) = 0.08.",
+        "id": 384
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = -0.15 and b_xy = -0.81, find the correlation coefficient (r).",
+        "options": {
+            "A": "-0.35",
+            "B": "-0.25",
+            "C": "0.12",
+            "D": "0.35"
+        },
+        "answer": "A",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are negative, r must also be negative. r = -sqrt(-0.15 * -0.81) = -0.35.",
+        "id": 385
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 30, the mean of Y is 97, and the regression coefficient b_yx is 0.92, what is the value of the constant 'a'?",
+        "options": {
+            "A": "69.40",
+            "B": "124.60",
+            "C": "59.40",
+            "D": "79.40"
+        },
+        "answer": "A",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 97 - (0.92 * 30) = 69.40.",
+        "id": 386
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "For three consecutive years, the data values are 48, 51, and 48. Find the 3-yearly moving average for the middle year.",
+        "options": {
+            "A": "46.00",
+            "B": "49.50",
+            "C": "49.00",
+            "D": "54.00"
+        },
+        "answer": "C",
+        "explanation": "3-yearly moving average = (Sum of 3 consecutive years) / 3 = (48 + 51 + 48) / 3 = 147 / 3 = 49.00.",
+        "id": 387
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 0.85 and b_xy = 0.83, find the correlation coefficient (r).",
+        "options": {
+            "A": "-0.84",
+            "B": "0.84",
+            "C": "0.71",
+            "D": "0.94"
+        },
+        "answer": "B",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(0.85 * 0.83) = 0.84.",
+        "id": 388
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.37, the standard deviation of X is 3, and the standard deviation of Y is 8, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "0.99",
+            "B": "0.49",
+            "C": "1.49",
+            "D": "0.14"
+        },
+        "answer": "A",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.37 * (8 / 3) = 0.99.",
+        "id": 389
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 10, the mean of Y is 130, and the regression coefficient b_yx is -1.87, what is the value of the constant 'a'?",
+        "options": {
+            "A": "111.30",
+            "B": "158.70",
+            "C": "148.70",
+            "D": "138.70"
+        },
+        "answer": "C",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 130 - (-1.87 * 10) = 148.70.",
+        "id": 390
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 189 - 0.8t. What is the estimated trend value for t = 9?",
+        "options": {
+            "A": "171.80",
+            "B": "191.80",
+            "C": "182.60",
+            "D": "181.80"
+        },
+        "answer": "D",
+        "explanation": "Substitute t = 9 into the equation: ŷ = 189 - 0.8(9) = 181.80.",
+        "id": 391
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is -0.52, the standard deviation of X is 7, and the standard deviation of Y is 8, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "-0.59",
+            "B": "-1.09",
+            "C": "-0.46",
+            "D": "-0.09"
+        },
+        "answer": "A",
+        "explanation": "b_yx = r * (Sy / Sx) = -0.52 * (8 / 7) = -0.59.",
+        "id": 392
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 283 + 2.8t. What is the estimated trend value for t = 7?",
+        "options": {
+            "A": "299.80",
+            "B": "292.60",
+            "C": "302.60",
+            "D": "312.60"
+        },
+        "answer": "C",
+        "explanation": "Substitute t = 7 into the equation: ŷ = 283 + 2.8(7) = 302.60.",
+        "id": 393
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 194 + 4.3t. What is the estimated trend value for t = 9?",
+        "options": {
+            "A": "228.40",
+            "B": "232.70",
+            "C": "242.70",
+            "D": "222.70"
+        },
+        "answer": "B",
+        "explanation": "Substitute t = 9 into the equation: ŷ = 194 + 4.3(9) = 232.70.",
+        "id": 394
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 1.34 and b_xy = 0.62, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.83",
+            "B": "-0.91",
+            "C": "1.00",
+            "D": "0.91"
+        },
+        "answer": "D",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(1.34 * 0.62) = 0.91.",
+        "id": 395
+    },
+    {
+        "chapter": "4. Time Series",
+        "question": "The fitted linear trend equation for a time series is ŷ = 424 - 2.5t. What is the estimated trend value for t = 10?",
+        "options": {
+            "A": "409.00",
+            "B": "399.00",
+            "C": "401.50",
+            "D": "389.00"
+        },
+        "answer": "B",
+        "explanation": "Substitute t = 10 into the equation: ŷ = 424 - 2.5(10) = 399.00.",
+        "id": 396
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.55, the standard deviation of X is 9, and the standard deviation of Y is 7, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "0.43",
+            "B": "0.71",
+            "C": "-0.07",
+            "D": "0.93"
+        },
+        "answer": "A",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.55 * (7 / 9) = 0.43.",
+        "id": 397
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "Given the regression coefficients b_yx = 1.42 and b_xy = 0.61, find the correlation coefficient (r).",
+        "options": {
+            "A": "0.93",
+            "B": "-0.93",
+            "C": "0.87",
+            "D": "1.00"
+        },
+        "answer": "A",
+        "explanation": "r = ±sqrt(b_yx * b_xy). Since the regression coefficients are positive, r must also be positive. r = +sqrt(1.42 * 0.61) = 0.93.",
+        "id": 398
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "For a regression line y^ = a + bx, if the mean of X is 13, the mean of Y is 110, and the regression coefficient b_yx is -1.57, what is the value of the constant 'a'?",
+        "options": {
+            "A": "130.41",
+            "B": "89.59",
+            "C": "140.41",
+            "D": "120.41"
+        },
+        "answer": "A",
+        "explanation": "The regression line passes through (x̄, ȳ). Thus, a = ȳ - b_yx * x̄ = 110 - (-1.57 * 13) = 130.41.",
+        "id": 399
+    },
+    {
+        "chapter": "3. Linear Regression",
+        "question": "If the correlation coefficient (r) is 0.58, the standard deviation of X is 4, and the standard deviation of Y is 4, what is the regression coefficient of Y on X (b_yx)?",
+        "options": {
+            "A": "1.08",
+            "B": "0.08",
+            "C": "0.58",
+            "D": "3.18"
+        },
+        "answer": "C",
+        "explanation": "b_yx = r * (Sy / Sx) = 0.58 * (4 / 4) = 0.58.",
+        "id": 400
+    }
+]
