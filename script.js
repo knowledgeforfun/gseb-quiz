@@ -159,8 +159,14 @@ fetch(API_URL, {
 });
 }
 
-function startExam(){
-questions = questions.sort(() => Math.random() - 0.5).slice(0, 50);
+async function startExam(){
+     const response = await fetch("data/questions.json");
+const allQuestions = await response.json();
+
+questions = allQuestions
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 50);
+
      document.getElementById("studentDisplay").textContent = student.name;
 
     loginScreen.style.display = "none";
