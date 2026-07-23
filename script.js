@@ -15,7 +15,35 @@ let student = {
 
 
 // ---------- Quiz Variables ----------
+let questions = [];
 
+async function loadQuestions() {
+
+    const files = [
+        "data/set1.json",
+        "data/set2.json",
+        "data/set3.json",
+        "data/set4.json",
+        "data/set5.json"
+    ];
+
+    let allQuestions = [];
+
+    for (const file of files) {
+
+        const response = await fetch(file);
+        const data = await response.json();
+
+        allQuestions.push(...data);
+
+    }
+
+    // Random 50 Questions
+    questions = allQuestions
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 50);
+
+}
 let currentQuestion = 0;
 let score = 0;
 let wrong = 0;
