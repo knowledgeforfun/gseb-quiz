@@ -166,7 +166,7 @@ questions = allQuestions
     .slice(0, 50);
 questionStatus = Array(questions.length).fill("notVisited");
 createPalette();
-
+console.log("Palette Buttons:", document.querySelectorAll(".paletteBtn").length);
      document.getElementById("studentDisplay").textContent = student.name;
 
     loginScreen.style.display = "none";
