@@ -76,9 +76,7 @@ startBtn.addEventListener("click", startQuiz);
 
 
 function startQuiz(){
-  questionStatus = Array(questions.length).fill("notVisited");
-
-createPalette();
+  
 
     student.name =
         document.getElementById("studentName").value.trim();
@@ -166,6 +164,8 @@ const allQuestions = await response.json();
 questions = allQuestions
     .sort(() => Math.random() - 0.5)
     .slice(0, 50);
+questionStatus = Array(questions.length).fill("notVisited");
+createPalette();
 
      document.getElementById("studentDisplay").textContent = student.name;
 
@@ -426,7 +426,10 @@ function checkAnswer(index,button){
         button.classList.add("wrong");
 
         const answerIndex = ["A","B","C","D"].indexOf(q.answer);
-options[answerIndex].classList.add("correct");
+
+if(answerIndex !== -1){
+    options[answerIndex].classList.add("correct");
+}
 
         questionStatus[currentQuestion]="wrong";
 
