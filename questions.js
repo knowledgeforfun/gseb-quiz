@@ -1,6 +1,6 @@
 
 
-const questions = [
+let questions = [
 
 {
 question:"1. Which measure shows the direction and degree of linear relationship?",
