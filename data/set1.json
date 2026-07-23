@@ -1,0 +1,1302 @@
+[
+    {
+        "id": 1,
+        "chapter": "1. Index Number",
+        "question": "Which method is used to combine the changes in prices of mutually related items when their units of measurement are different?",
+        "options": {
+            "A": "Method of absolute measure",
+            "B": "Method of relative measure",
+            "C": "Method of simple difference",
+            "D": "Method of summation"
+        },
+        "answer": "B",
+        "explanation": "The method of relative measure is free from the unit of measurement, making it possible to combine changes in prices of items with different units."
+    },
+    {
+        "id": 2,
+        "chapter": "1. Index Number",
+        "question": "The year selected as the base year for constructing an index number should preferably be:",
+        "options": {
+            "A": "A year of natural calamity",
+            "B": "The most recent year always",
+            "C": "A standard or normal year free from abnormal events",
+            "D": "A year of economic disturbance"
+        },
+        "answer": "C",
+        "explanation": "The base year should be standard or normal, free from natural calamities or abnormal man-made events to avoid misleading index numbers."
+    },
+    {
+        "id": 3,
+        "chapter": "1. Index Number",
+        "question": "In the Fixed Base Method of calculating index numbers, which of the following is a major limitation?",
+        "options": {
+            "A": "It is not useful for long-term comparison.",
+            "B": "It is difficult to understand and compute.",
+            "C": "Base year cannot be changed, making it hard to remove outdated items.",
+            "D": "Uniformity is not maintained in calculation."
+        },
+        "answer": "C",
+        "explanation": "A limitation of the fixed base method is that items with reduced usage from the past cannot be easily removed, as the base year remains constant."
+    },
+    {
+        "id": 4,
+        "chapter": "1. Index Number",
+        "question": "Which of the following formulas correctly represents the conversion of a Fixed Base Index Number to a Chain Base Index Number?",
+        "options": {
+            "A": "(Fixed base index of current year / Fixed base index of preceding year) * 100",
+            "B": "(Fixed base index of preceding year / Fixed base index of current year) * 100",
+            "C": "(Chain base index of current year * Fixed base index of preceding year) / 100",
+            "D": "(Fixed base index of current year * 100) / Chain base index of preceding year"
+        },
+        "answer": "A",
+        "explanation": "Chain base index number = (Fixed base index number of current year / Fixed base index number of preceding year) * 100."
+    },
+    {
+        "id": 5,
+        "chapter": "1. Index Number",
+        "question": "In Laspeyre's index number formula, which period's quantity is assigned as weight?",
+        "options": {
+            "A": "Current year quantity",
+            "B": "Base year quantity",
+            "C": "Average of base and current year quantities",
+            "D": "Arbitrary quantity"
+        },
+        "answer": "B",
+        "explanation": "In Laspeyre's method, the base year quantity (q0) is assigned as weight to the price relative."
+    },
+    {
+        "id": 6,
+        "chapter": "1. Index Number",
+        "question": "Which index number is considered the 'ideal index number' because it satisfies both time reversal and factor reversal tests?",
+        "options": {
+            "A": "Laspeyre's Index Number",
+            "B": "Paasche's Index Number",
+            "C": "Fisher's Index Number",
+            "D": "Cost of Living Index Number"
+        },
+        "answer": "C",
+        "explanation": "Fisher's index number is the geometric mean of Laspeyre's and Paasche's, uses both base and current year quantities, and satisfies fundamental tests, making it ideal."
+    },
+    {
+        "id": 7,
+        "chapter": "1. Index Number",
+        "question": "What is the formula for calculating Real Income?",
+        "options": {
+            "A": "(Income / Cost of living index number) * 100",
+            "B": "(Cost of living index number / Income) * 100",
+            "C": "Income * Cost of living index number",
+            "D": "Income / Purchasing power of money"
+        },
+        "answer": "A",
+        "explanation": "Real income is calculated as (Income / Cost of living index number) * 100."
+    },
+    {
+        "id": 8,
+        "chapter": "1. Index Number",
+        "question": "The rate of inflation is calculated using which of the following index numbers?",
+        "options": {
+            "A": "Cost of Living Index Number",
+            "B": "Wholesale Price Index Number",
+            "C": "Human Development Index Number",
+            "D": "Index Number of Agricultural Production"
+        },
+        "answer": "B",
+        "explanation": "The Reserve Bank of India uses the Wholesale price index number to study changes in price levels and find the rate of inflation."
+    },
+    {
+        "id": 9,
+        "chapter": "2. Linear Correlation",
+        "question": "When the changes in the values of two correlated variables are in the opposite direction, the correlation is said to be:",
+        "options": {
+            "A": "Perfect Positive Correlation",
+            "B": "Partial Positive Correlation",
+            "C": "Negative Correlation",
+            "D": "Zero Correlation"
+        },
+        "answer": "C",
+        "explanation": "Negative correlation occurs when the changes in the values of two correlated variables are in opposite directions."
+    },
+    {
+        "id": 10,
+        "chapter": "2. Linear Correlation",
+        "question": "If all the points of a scatter diagram lie on one single line going in the downward direction from left to right, what is the value of the correlation coefficient (r)?",
+        "options": {
+            "A": "r = 1",
+            "B": "r = 0",
+            "C": "r = -1",
+            "D": "-1 < r < 0"
+        },
+        "answer": "C",
+        "explanation": "A straight line going in the downward direction from left to right indicates a perfect negative correlation, hence r = -1."
+    },
+    {
+        "id": 11,
+        "chapter": "2. Linear Correlation",
+        "question": "The measure of the strength of a linear correlation between two variables is called the correlation coefficient. Who first suggested this measure?",
+        "options": {
+            "A": "Spearman",
+            "B": "Karl Pearson",
+            "C": "Irving Fisher",
+            "D": "Laspeyre"
+        },
+        "answer": "B",
+        "explanation": "The numerical measure of correlation showing the strength of linear correlation was first suggested by Karl Pearson."
+    },
+    {
+        "id": 12,
+        "chapter": "2. Linear Correlation",
+        "question": "Which of the following is a property of the correlation coefficient (r)?",
+        "options": {
+            "A": "It is dependent on the unit of measurement.",
+            "B": "Its value lies between 0 and 1 only.",
+            "C": "It does not change with the change of origin and scale.",
+            "D": "r(x,y) is not equal to r(y,x)."
+        },
+        "answer": "C",
+        "explanation": "The correlation coefficient does not change with the change (transformation) of origin and scale. It is also free from units of measurement and lies between -1 and 1."
+    },
+    {
+        "id": 13,
+        "chapter": "2. Linear Correlation",
+        "question": "If r(x, y) = 0.8, what will be the value of r(-x, y)?",
+        "options": {
+            "A": "0.8",
+            "B": "-0.8",
+            "C": "0",
+            "D": "1"
+        },
+        "answer": "B",
+        "explanation": "If the sign of any one of the two variables X and Y is changed, the sign of the correlation coefficient also changes. Hence r(-x, y) = -r(x, y)."
+    },
+    {
+        "id": 14,
+        "chapter": "2. Linear Correlation",
+        "question": "In Spearman's rank correlation method, if the ranks of two variables are exactly identical for all pairs, what is the value of r?",
+        "options": {
+            "A": "0",
+            "B": "-1",
+            "C": "1",
+            "D": "0.5"
+        },
+        "answer": "C",
+        "explanation": "If ranks are identical, the difference (d) for each pair is 0. Sum of d^2 is 0. Using the formula r = 1 - (6*0)/(n(n^2-1)), r equals 1."
+    },
+    {
+        "id": 15,
+        "chapter": "2. Linear Correlation",
+        "question": "When a tie occurs in Spearman's rank correlation (observations are equal), which correction factor (CF) is added to the sum of d^2 for each tied group?",
+        "options": {
+            "A": "(m^2 - m)/12",
+            "B": "(m^3 - m)/6",
+            "C": "(m^3 - m)/12",
+            "D": "(m^2 - m^3)/12"
+        },
+        "answer": "C",
+        "explanation": "The correction factor added for each repeated observation group is (m^3 - m)/12, where m is the number of times the observation is repeated."
+    },
+    {
+        "id": 16,
+        "chapter": "1. Index Number",
+        "question": "If the index number for the base year is always taken as 100, and the current year index is 125, what does this indicate?",
+        "options": {
+            "A": "A 25% decrease in the value of the variable.",
+            "B": "A 125% increase in the value of the variable.",
+            "C": "A 25% increase in the value of the variable.",
+            "D": "No change in the value of the variable."
+        },
+        "answer": "C",
+        "explanation": "The current year index of 125 indicates a (125 - 100) = 25% rise compared to the base year."
+    },
+    {
+        "id": 17,
+        "chapter": "1. Index Number",
+        "question": "Which explicit weighting method uses the base year's quantity to find total expenditure, making it equivalent to Laspeyre's method?",
+        "options": {
+            "A": "Method of family budget",
+            "B": "Method of total expenditure using base year quantity",
+            "C": "Method of total expenditure using current year quantity",
+            "D": "Implicit weight method"
+        },
+        "answer": "B",
+        "explanation": "Using base year quantity (q0) in the total expenditure method results in the formula Sum(p1*q0)/Sum(p0*q0) * 100, which is Laspeyre's index."
+    },
+    {
+        "id": 18,
+        "chapter": "2. Linear Correlation",
+        "question": "A scatter diagram where points are widely spread around a line moving upward from left to right indicates:",
+        "options": {
+            "A": "Perfect positive correlation",
+            "B": "High degree of partial positive correlation",
+            "C": "Low degree of partial positive correlation",
+            "D": "Lack of linear correlation"
+        },
+        "answer": "C",
+        "explanation": "Points widely spread around a line indicate a low degree of correlation. The upward direction indicates it is positive."
+    },
+    {
+        "id": 19,
+        "chapter": "1. Index Number",
+        "question": "Purchasing power of money is computed as:",
+        "options": {
+            "A": "Cost of living index number * 100",
+            "B": "100 / Cost of living index number",
+            "C": "Real wage / Cost of living index number",
+            "D": "1 / (Cost of living index number * 100)"
+        },
+        "answer": "B",
+        "explanation": "Purchasing power of money = 100 / Cost of living index number (or 1 / (Index/100))."
+    },
+    {
+        "id": 20,
+        "chapter": "2. Linear Correlation",
+        "question": "If the covariance between X and Y is zero, what can be definitively said about the linear correlation coefficient (r)?",
+        "options": {
+            "A": "r = 1",
+            "B": "r = -1",
+            "C": "r = 0",
+            "D": "r could be any value between -1 and 1"
+        },
+        "answer": "C",
+        "explanation": "Since r = Cov(x,y) / (Sx * Sy), if the covariance is zero, the linear correlation coefficient r will be 0."
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 145.2 and 156.6 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "7.85%",
+            "B": "9.35%",
+            "C": "7.28%",
+            "D": "6.65%"
+        },
+        "answer": "A",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((156.6 - 145.2) / 145.2) * 100 = 7.85%",
+        "id": 21
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹15000 and the cost of living index number is 125, what is the real wage?",
+        "options": {
+            "A": "13200.00",
+            "B": "10800.00",
+            "C": "12000.00",
+            "D": "11111.11"
+        },
+        "answer": "C",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (15000 / 125) * 100 = 12000.00",
+        "id": 22
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = 48, standard deviation of x = 8, and standard deviation of y = 6. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "-1.00",
+            "B": "0.75",
+            "C": "1.00",
+            "D": "-0.40"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = 48 / (8 * 6) = 48 / 48 = 1.00",
+        "id": 23
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = -30, standard deviation of x = 5, and standard deviation of y = 10. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "-0.85",
+            "B": "-0.60",
+            "C": "-0.45",
+            "D": "0.60"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = -30 / (5 * 10) = -30 / 50 = -0.60",
+        "id": 24
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 150.0 and 158.8 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "4.67%",
+            "B": "7.37%",
+            "C": "5.54%",
+            "D": "5.87%"
+        },
+        "answer": "D",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((158.8 - 150.0) / 150.0) * 100 = 5.87%",
+        "id": 25
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 110 and Paasche's index number is 108, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "113.09",
+            "B": "109.00",
+            "C": "109.00",
+            "D": "105.02"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(110 * 108) = sqrt(11880) = 109.00",
+        "id": 26
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 6 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 0, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "-0.23",
+            "B": "1.00",
+            "C": "0.50",
+            "D": "0.80"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 0) / (6 * 35) = 1.00",
+        "id": 27
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 110 and Paasche's index number is 115, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "116.09",
+            "B": "112.50",
+            "C": "110.11",
+            "D": "112.47"
+        },
+        "answer": "D",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(110 * 115) = sqrt(12650) = 112.47",
+        "id": 28
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 110 and Paasche's index number is 112, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "112.70",
+            "B": "111.00",
+            "C": "108.13",
+            "D": "111.00"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(110 * 112) = sqrt(12320) = 111.00",
+        "id": 29
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 120.5 and 136.9 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "15.11%",
+            "B": "11.98%",
+            "C": "12.41%",
+            "D": "13.61%"
+        },
+        "answer": "D",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((136.9 - 120.5) / 120.5) * 100 = 13.61%",
+        "id": 30
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 120 and Paasche's index number is 124, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "122.00",
+            "B": "121.98",
+            "C": "123.92",
+            "D": "119.05"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(120 * 124) = sqrt(14880) = 121.98",
+        "id": 31
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 7 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 43, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.03",
+            "B": "0.53",
+            "C": "-4.38",
+            "D": "0.23"
+        },
+        "answer": "D",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 43) / (7 * 48) = 0.23",
+        "id": 32
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹20000 and the cost of living index number is 120, what is the real wage?",
+        "options": {
+            "A": "16666.67",
+            "B": "15000.00",
+            "C": "18333.34",
+            "D": "15384.62"
+        },
+        "answer": "A",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (20000 / 120) * 100 = 16666.67",
+        "id": 33
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 7 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 46, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "-0.02",
+            "B": "0.18",
+            "C": "-4.75",
+            "D": "0.48"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 46) / (7 * 48) = 0.18",
+        "id": 34
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 6 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 13, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.93",
+            "B": "0.43",
+            "C": "-1.23",
+            "D": "0.63"
+        },
+        "answer": "D",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 13) / (6 * 35) = 0.63",
+        "id": 35
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 150.0 and 158.2 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "4.27%",
+            "B": "5.47%",
+            "C": "5.18%",
+            "D": "6.97%"
+        },
+        "answer": "B",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((158.2 - 150.0) / 150.0) * 100 = 5.47%",
+        "id": 36
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 8 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 49, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.42",
+            "B": "0.22",
+            "C": "0.72",
+            "D": "-3.67"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 49) / (8 * 63) = 0.42",
+        "id": 37
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 7 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 36, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.16",
+            "B": "-3.50",
+            "C": "0.36",
+            "D": "0.66"
+        },
+        "answer": "C",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 36) / (7 * 48) = 0.36",
+        "id": 38
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹25000 and the cost of living index number is 160, what is the real wage?",
+        "options": {
+            "A": "14705.88",
+            "B": "17187.50",
+            "C": "15625.00",
+            "D": "14062.50"
+        },
+        "answer": "C",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (25000 / 160) * 100 = 15625.00",
+        "id": 39
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 7 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 37, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.34",
+            "B": "-3.62",
+            "C": "0.64",
+            "D": "0.14"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 37) / (7 * 48) = 0.34",
+        "id": 40
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹18000 and the cost of living index number is 120, what is the real wage?",
+        "options": {
+            "A": "13500.00",
+            "B": "16500.00",
+            "C": "13846.15",
+            "D": "15000.00"
+        },
+        "answer": "D",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (18000 / 120) * 100 = 15000.00",
+        "id": 41
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = 35, standard deviation of x = 15, and standard deviation of y = 6. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "0.14",
+            "B": "0.39",
+            "C": "0.54",
+            "D": "-0.39"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = 35 / (15 * 6) = 35 / 90 = 0.39",
+        "id": 42
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 6 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 29, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.17",
+            "B": "-0.03",
+            "C": "0.47",
+            "D": "-3.97"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 29) / (6 * 35) = 0.17",
+        "id": 43
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 160 and Paasche's index number is 162, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "157.52",
+            "B": "161.00",
+            "C": "161.00",
+            "D": "164.82"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(160 * 162) = sqrt(25920) = 161.00",
+        "id": 44
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = -15, standard deviation of x = 15, and standard deviation of y = 8. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "-0.12",
+            "B": "-0.37",
+            "C": "0.12",
+            "D": "0.03"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = -15 / (15 * 8) = -15 / 120 = -0.12",
+        "id": 45
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹24000 and the cost of living index number is 120, what is the real wage?",
+        "options": {
+            "A": "18000.00",
+            "B": "22000.00",
+            "C": "18461.54",
+            "D": "20000.00"
+        },
+        "answer": "D",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (24000 / 120) * 100 = 20000.00",
+        "id": 46
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 130 and Paasche's index number is 128, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "130.92",
+            "B": "129.00",
+            "C": "126.94",
+            "D": "129.00"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(130 * 128) = sqrt(16640) = 129.00",
+        "id": 47
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 160.5 and 172.2 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "8.79%",
+            "B": "7.29%",
+            "C": "6.09%",
+            "D": "6.79%"
+        },
+        "answer": "B",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((172.2 - 160.5) / 160.5) * 100 = 7.29%",
+        "id": 48
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = 35, standard deviation of x = 12, and standard deviation of y = 10. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "0.44",
+            "B": "0.04",
+            "C": "-0.29",
+            "D": "0.29"
+        },
+        "answer": "D",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = 35 / (12 * 10) = 35 / 120 = 0.29",
+        "id": 49
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 7 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 52, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.07",
+            "B": "-5.50",
+            "C": "0.37",
+            "D": "-0.13"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 52) / (7 * 48) = 0.07",
+        "id": 50
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 160.5 and 169.9 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "5.53%",
+            "B": "7.36%",
+            "C": "5.86%",
+            "D": "4.66%"
+        },
+        "answer": "C",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((169.9 - 160.5) / 160.5) * 100 = 5.86%",
+        "id": 51
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = -45, standard deviation of x = 12, and standard deviation of y = 4. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "0.94",
+            "B": "-1.00",
+            "C": "-0.94",
+            "D": "-0.79"
+        },
+        "answer": "C",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = -45 / (12 * 4) = -45 / 48 = -0.94",
+        "id": 52
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹18000 and the cost of living index number is 150, what is the real wage?",
+        "options": {
+            "A": "13200.00",
+            "B": "10800.00",
+            "C": "11250.00",
+            "D": "12000.00"
+        },
+        "answer": "D",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (18000 / 150) * 100 = 12000.00",
+        "id": 53
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 150.0 and 166.8 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "12.70%",
+            "B": "11.20%",
+            "C": "10.00%",
+            "D": "10.07%"
+        },
+        "answer": "B",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((166.8 - 150.0) / 150.0) * 100 = 11.20%",
+        "id": 54
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 160 and Paasche's index number is 155, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "157.50",
+            "B": "153.67",
+            "C": "157.48",
+            "D": "160.99"
+        },
+        "answer": "C",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(160 * 155) = sqrt(24800) = 157.48",
+        "id": 55
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 6 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 5, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.86",
+            "B": "0.66",
+            "C": "0.14",
+            "D": "1.00"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 5) / (6 * 35) = 0.86",
+        "id": 56
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 150 and Paasche's index number is 152, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "149.77",
+            "B": "151.00",
+            "C": "151.00",
+            "D": "153.32"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(150 * 152) = sqrt(22800) = 151.00",
+        "id": 57
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 150 and Paasche's index number is 146, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "147.99",
+            "B": "150.62",
+            "C": "148.00",
+            "D": "143.26"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(150 * 146) = sqrt(21900) = 147.99",
+        "id": 58
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 8 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 79, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "-0.14",
+            "B": "0.36",
+            "C": "-6.52",
+            "D": "0.06"
+        },
+        "answer": "D",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 79) / (8 * 63) = 0.06",
+        "id": 59
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 150 and Paasche's index number is 148, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "147.72",
+            "B": "149.00",
+            "C": "153.44",
+            "D": "149.00"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(150 * 148) = sqrt(22200) = 149.00",
+        "id": 60
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 140 and Paasche's index number is 142, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "136.65",
+            "B": "141.00",
+            "C": "141.00",
+            "D": "142.85"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(140 * 142) = sqrt(19880) = 141.00",
+        "id": 61
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹15000 and the cost of living index number is 200, what is the real wage?",
+        "options": {
+            "A": "8250.00",
+            "B": "7142.86",
+            "C": "7500.00",
+            "D": "6750.00"
+        },
+        "answer": "C",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (15000 / 200) * 100 = 7500.00",
+        "id": 62
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 145.2 and 161.4 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "12.66%",
+            "B": "11.16%",
+            "C": "9.96%",
+            "D": "10.04%"
+        },
+        "answer": "B",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((161.4 - 145.2) / 145.2) * 100 = 11.16%",
+        "id": 63
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 8 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 45, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.46",
+            "B": "0.76",
+            "C": "-3.29",
+            "D": "0.26"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 45) / (8 * 63) = 0.46",
+        "id": 64
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 7 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 21, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "-1.62",
+            "B": "0.42",
+            "C": "0.62",
+            "D": "0.92"
+        },
+        "answer": "C",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 21) / (7 * 48) = 0.62",
+        "id": 65
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 160 and Paasche's index number is 164, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "160.06",
+            "B": "161.99",
+            "C": "162.00",
+            "D": "165.82"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(160 * 164) = sqrt(26240) = 161.99",
+        "id": 66
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 8 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 27, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.68",
+            "B": "0.98",
+            "C": "-1.57",
+            "D": "0.48"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 27) / (8 * 63) = 0.68",
+        "id": 67
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹15000 and the cost of living index number is 120, what is the real wage?",
+        "options": {
+            "A": "12500.00",
+            "B": "13750.00",
+            "C": "11538.46",
+            "D": "11250.00"
+        },
+        "answer": "A",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (15000 / 120) * 100 = 12500.00",
+        "id": 68
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = 30, standard deviation of x = 5, and standard deviation of y = 6. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "1.00",
+            "B": "-1.00",
+            "C": "0.25",
+            "D": "0.75"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = 30 / (5 * 6) = 30 / 30 = 1.00",
+        "id": 69
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 8 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 72, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.44",
+            "B": "-0.06",
+            "C": "-5.86",
+            "D": "0.14"
+        },
+        "answer": "D",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 72) / (8 * 63) = 0.14",
+        "id": 70
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹20000 and the cost of living index number is 125, what is the real wage?",
+        "options": {
+            "A": "16000.00",
+            "B": "14400.00",
+            "C": "14814.81",
+            "D": "17600.00"
+        },
+        "answer": "A",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (20000 / 125) * 100 = 16000.00",
+        "id": 71
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 10 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 98, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.21",
+            "B": "0.41",
+            "C": "-4.94",
+            "D": "0.71"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 98) / (10 * 99) = 0.41",
+        "id": 72
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 160 and Paasche's index number is 156, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "159.75",
+            "B": "158.00",
+            "C": "155.32",
+            "D": "157.99"
+        },
+        "answer": "D",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(160 * 156) = sqrt(24960) = 157.99",
+        "id": 73
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 10 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 74, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.55",
+            "B": "0.85",
+            "C": "-3.48",
+            "D": "0.35"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 74) / (10 * 99) = 0.55",
+        "id": 74
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 8 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 81, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "-6.71",
+            "B": "0.34",
+            "C": "0.04",
+            "D": "-0.16"
+        },
+        "answer": "C",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 81) / (8 * 63) = 0.04",
+        "id": 75
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 5 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 9, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.55",
+            "B": "0.35",
+            "C": "-1.25",
+            "D": "0.85"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 9) / (5 * 24) = 0.55",
+        "id": 76
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹25000 and the cost of living index number is 250, what is the real wage?",
+        "options": {
+            "A": "10000.00",
+            "B": "9000.00",
+            "C": "9615.38",
+            "D": "11000.00"
+        },
+        "answer": "A",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (25000 / 250) * 100 = 10000.00",
+        "id": 77
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹18000 and the cost of living index number is 150, what is the real wage?",
+        "options": {
+            "A": "12000.00",
+            "B": "11250.00",
+            "C": "13200.00",
+            "D": "10800.00"
+        },
+        "answer": "A",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (18000 / 150) * 100 = 12000.00",
+        "id": 78
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 7 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 56, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.30",
+            "B": "0.00",
+            "C": "-0.20",
+            "D": "-6.00"
+        },
+        "answer": "B",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 56) / (7 * 48) = 0.00",
+        "id": 79
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹24000 and the cost of living index number is 125, what is the real wage?",
+        "options": {
+            "A": "17280.00",
+            "B": "19200.00",
+            "C": "21120.00",
+            "D": "17777.78"
+        },
+        "answer": "B",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (24000 / 125) * 100 = 19200.00",
+        "id": 80
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 130.0 and 143.8 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "9.60%",
+            "B": "12.12%",
+            "C": "10.62%",
+            "D": "9.42%"
+        },
+        "answer": "C",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((143.8 - 130.0) / 130.0) * 100 = 10.62%",
+        "id": 81
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = 19, standard deviation of x = 5, and standard deviation of y = 4. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "1.00",
+            "B": "-0.95",
+            "C": "0.70",
+            "D": "0.95"
+        },
+        "answer": "D",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = 19 / (5 * 4) = 19 / 20 = 0.95",
+        "id": 82
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 150 and Paasche's index number is 152, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "151.00",
+            "B": "151.00",
+            "C": "147.40",
+            "D": "155.60"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(150 * 152) = sqrt(22800) = 151.00",
+        "id": 83
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 160 and Paasche's index number is 162, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "161.00",
+            "B": "158.77",
+            "C": "161.00",
+            "D": "165.97"
+        },
+        "answer": "A",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(160 * 162) = sqrt(25920) = 161.00",
+        "id": 84
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = -45, standard deviation of x = 15, and standard deviation of y = 4. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "0.75",
+            "B": "-0.75",
+            "C": "-0.60",
+            "D": "-1.00"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = -45 / (15 * 4) = -45 / 60 = -0.75",
+        "id": 85
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 130.0 and 139.8 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "9.04%",
+            "B": "7.01%",
+            "C": "7.54%",
+            "D": "6.34%"
+        },
+        "answer": "C",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((139.8 - 130.0) / 130.0) * 100 = 7.54%",
+        "id": 86
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹18000 and the cost of living index number is 250, what is the real wage?",
+        "options": {
+            "A": "6923.08",
+            "B": "6480.00",
+            "C": "7920.00",
+            "D": "7200.00"
+        },
+        "answer": "D",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (18000 / 250) * 100 = 7200.00",
+        "id": 87
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "The wholesale price index numbers for year 1 and year 2 are 120.5 and 132.5 respectively. Find the rate of inflation.",
+        "options": {
+            "A": "9.96%",
+            "B": "9.06%",
+            "C": "8.76%",
+            "D": "11.46%"
+        },
+        "answer": "A",
+        "explanation": "Rate of inflation = ((Current WPI - Previous WPI) / Previous WPI) * 100 = ((132.5 - 120.5) / 120.5) * 100 = 9.96%",
+        "id": 88
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹18000 and the cost of living index number is 200, what is the real wage?",
+        "options": {
+            "A": "8571.43",
+            "B": "9900.00",
+            "C": "9000.00",
+            "D": "8100.00"
+        },
+        "answer": "C",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (18000 / 200) * 100 = 9000.00",
+        "id": 89
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 160 and Paasche's index number is 155, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "154.92",
+            "B": "157.50",
+            "C": "159.81",
+            "D": "157.48"
+        },
+        "answer": "D",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(160 * 155) = sqrt(24800) = 157.48",
+        "id": 90
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = 75, standard deviation of x = 10, and standard deviation of y = 8. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "0.94",
+            "B": "1.00",
+            "C": "0.69",
+            "D": "-0.94"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = 75 / (10 * 8) = 75 / 80 = 0.94",
+        "id": 91
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 8 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 1, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.90",
+            "B": "0.79",
+            "C": "0.99",
+            "D": "1.00"
+        },
+        "answer": "C",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 1) / (8 * 63) = 0.99",
+        "id": 92
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = 60, standard deviation of x = 15, and standard deviation of y = 4. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "1.00",
+            "B": "-0.54",
+            "C": "0.75",
+            "D": "-1.00"
+        },
+        "answer": "A",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = 60 / (15 * 4) = 60 / 60 = 1.00",
+        "id": 93
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹24000 and the cost of living index number is 160, what is the real wage?",
+        "options": {
+            "A": "14117.65",
+            "B": "16500.00",
+            "C": "13500.00",
+            "D": "15000.00"
+        },
+        "answer": "D",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (24000 / 160) * 100 = 15000.00",
+        "id": 94
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If Laspeyre's index number is 125 and Paasche's index number is 123, what is the Fisher's ideal index number (approx)?",
+        "options": {
+            "A": "127.92",
+            "B": "124.00",
+            "C": "121.17",
+            "D": "124.00"
+        },
+        "answer": "B",
+        "explanation": "Fisher's Index = sqrt(Laspeyre's * Paasche's) = sqrt(125 * 123) = sqrt(15375) = 124.00",
+        "id": 95
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 10 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 34, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "1.00",
+            "B": "-1.06",
+            "C": "0.59",
+            "D": "0.79"
+        },
+        "answer": "D",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 34) / (10 * 99) = 0.79",
+        "id": 96
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 10 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 125, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "0.24",
+            "B": "0.54",
+            "C": "-6.58",
+            "D": "0.04"
+        },
+        "answer": "A",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 125) / (10 * 99) = 0.24",
+        "id": 97
+    },
+    {
+        "chapter": "1. Index Number",
+        "question": "If the average monthly wage of a worker is ₹25000 and the cost of living index number is 125, what is the real wage?",
+        "options": {
+            "A": "18518.52",
+            "B": "22000.00",
+            "C": "20000.00",
+            "D": "18000.00"
+        },
+        "answer": "C",
+        "explanation": "Real wage = (Average Wage / Cost of Living Index) * 100 = (25000 / 125) * 100 = 20000.00",
+        "id": 98
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "In a singing competition, 5 singers were ranked by two judges. If the sum of squares of differences in their ranks (Σd²) is 14, find the Spearman's rank correlation coefficient.",
+        "options": {
+            "A": "-2.50",
+            "B": "0.60",
+            "C": "0.30",
+            "D": "0.10"
+        },
+        "answer": "C",
+        "explanation": "r = 1 - (6 * Σd²) / (n * (n² - 1)) = 1 - (6 * 14) / (5 * 24) = 0.30",
+        "id": 99
+    },
+    {
+        "chapter": "2. Linear Correlation",
+        "question": "For a bivariate data, Covariance(x,y) = -15, standard deviation of x = 8, and standard deviation of y = 4. What is the Karl Pearson's correlation coefficient (r)?",
+        "options": {
+            "A": "-0.32",
+            "B": "-0.47",
+            "C": "0.47",
+            "D": "-0.72"
+        },
+        "answer": "B",
+        "explanation": "r = Cov(x,y) / (Sx * Sy) = -15 / (8 * 4) = -15 / 32 = -0.47",
+        "id": 100
+    }
+]
