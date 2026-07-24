@@ -710,3 +710,28 @@ window.addEventListener("beforeunload",function(e){
     e.returnValue="";
 
 });
+function shareWhatsApp(){
+
+    const name = document.getElementById("finalStudent").innerText;
+
+    const score = document.getElementById("finalScore").innerText;
+
+    const percentage = document.getElementById("finalPercentage").innerText;
+
+    const message =
+`🎯 I completed the GSEB Statistics Quiz!
+
+👤 ${name}
+🏆 ${score}
+📊 ${percentage}
+
+Can you beat my score? 😎
+
+👉 https://YOUR-WEBSITE-LINK`;
+
+    window.open(
+        "https://wa.me/?text=" + encodeURIComponent(message),
+        "_blank"
+    );
+
+}
