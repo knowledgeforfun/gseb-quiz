@@ -74,6 +74,7 @@ async function loadQuestions() {
         .slice(0, 50);
 
 }
+let percentage = 0;
 let currentQuestion = 0;
 let score = 0;
 let wrong = 0;
@@ -512,6 +513,7 @@ function finishQuiz(){
     resultScreen.style.display = "block";
 
     percentage = (score/questions.length)*100;
+
     document.getElementById("performanceBadge").innerHTML = "TEST";
 document.getElementById("performanceBadge").style.background = "red";
     const badge = document.getElementById("performanceBadge");
