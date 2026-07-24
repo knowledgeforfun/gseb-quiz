@@ -208,6 +208,8 @@ console.log("Palette Buttons:", document.querySelectorAll(".paletteBtn").length)
     startTimer();
 
     loadQuestion();
+    enterFullscreen();
+    enableAntiCheat();
 
 }
 
@@ -561,6 +563,75 @@ document.getElementById("timer").innerHTML;
     console.error(err);
 
 });
+
+    // ==========================================
+// Anti Cheat Engine
+// ==========================================
+
+function enableAntiCheat(){
+
+    // Disable Right Click
+    document.addEventListener("contextmenu",function(e){
+
+        e.preventDefault();
+
+        giveWarning("Right Click Detected");
+
+    });
+
+    // Keyboard Shortcuts
+    document.addEventListener("keydown",function(e){
+
+        if(
+            e.key==="F12" ||
+
+            (e.ctrlKey && e.shiftKey && e.key.toLowerCase()=="i") ||
+
+            (e.ctrlKey && e.shiftKey && e.key.toLowerCase()=="j") ||
+
+            (e.ctrlKey && e.shiftKey && e.key.toLowerCase()=="c") ||
+
+            (e.ctrlKey && e.key.toLowerCase()=="u") ||
+
+            (e.ctrlKey && e.key.toLowerCase()=="p") ||
+
+            (e.ctrlKey && e.key.toLowerCase()=="s") ||
+
+            (e.ctrlKey && e.key.toLowerCase()=="a") ||
+
+            (e.ctrlKey && e.key.toLowerCase()=="c") ||
+
+            (e.ctrlKey && e.key.toLowerCase()=="v")
+
+        ){
+
+            e.preventDefault();
+
+            giveWarning("Restricted Keyboard Shortcut");
+
+        }
+
+    });
+
+    // Tab Change
+    document.addEventListener("visibilitychange",function(){
+
+        if(document.hidden){
+
+            giveWarning("Tab Switch Detected");
+
+        }
+
+    });
+
+    // Window Lose Focus
+    window.addEventListener("blur",function(){
+
+        giveWarning("Window Lost Focus");
+
+    });
+
+}
 // =======================================
 // Anti Refresh & Close Warning
 // =======================================
@@ -576,3 +647,66 @@ window.addEventListener("beforeunload", function (e) {
 
 
 }
+// ==========================================
+// Full Screen
+// ==========================================
+
+async function enterFullscreen(){
+
+    const elem = document.documentElement;
+
+    if(document.fullscreenElement) return;
+
+    try{
+
+        await elem.requestFullscreen();
+
+    }catch(e){
+
+        console.log(e);
+
+    }
+
+}
+
+document.addEventListener("fullscreenchange",function(){
+
+    if(!document.fullscreenElement){
+
+        giveWarning("Fullscreen Exit Detected");
+
+        setTimeout(function(){
+
+            enterFullscreen();
+
+        },500);
+
+    }
+
+});
+// ==========================================
+// Back Button Block
+// ==========================================
+
+history.pushState(null,null,location.href);
+
+window.addEventListener("popstate",function(){
+
+    history.pushState(null,null,location.href);
+
+    giveWarning("Back Button Pressed");
+
+});
+// ==========================================
+// Refresh Detection
+// ==========================================
+
+window.addEventListener("beforeunload",function(e){
+
+    if(!examStarted) return;
+
+    e.preventDefault();
+
+    e.returnValue="";
+
+});
