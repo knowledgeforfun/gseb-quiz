@@ -245,7 +245,29 @@
 <button id="shareWhatsappBtn" onclick="shareWhatsApp()">
 📲 Share on WhatsApp
 </button>
-  
+  <div id="resultCard" class="share-card">
+
+    <h2>🏆 GSEB Statistics Quiz</h2>
+
+    <h3 id="shareName"></h3>
+
+    <div id="shareBadge"></div>
+
+    <p>Score : <span id="shareScore"></span></p>
+
+    <p>Percentage : <span id="sharePercentage"></span></p>
+
+    <p style="margin-top:15px;">
+        Can You Beat My Score?
+    </p>
+
+    <strong>https://knowledgeforfun.github.io/gseb-quiz/</strong>
+
+</div>
+
+<button onclick="downloadResultCard()">
+📥 Download Result Card
+</button>
 <button onclick="location.reload()">
 🔄 Restart Quiz
 </button>
@@ -255,6 +277,6 @@
 </div>
 
 <script src="script.js"></script>
-
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </body>
 </html>
