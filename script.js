@@ -85,8 +85,8 @@ let timer;
 let seconds = 0;
 
 let questionTimer;
-let questionTime = 20;
-let remainingTime = 20;
+let questionTime = 40;
+let remainingTime = 40;
 let skipped = 0;
 let questionStatus = [];
 // ---------- Page Elements ----------
