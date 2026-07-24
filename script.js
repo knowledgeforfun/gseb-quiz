@@ -2,6 +2,35 @@
 // GSEB Statistics Quiz Engine
 // Module 1
 // =======================================
+// ===============================
+// Anti Cheat
+// ===============================
+
+let warningCount = 0;
+const MAX_WARNINGS = 3;
+
+function giveWarning(reason){
+
+    warningCount++;
+
+    alert(
+        "⚠ Warning " +
+        warningCount +
+        "/" +
+        MAX_WARNINGS +
+        "\n\n" +
+        reason
+    );
+
+    if(warningCount>=MAX_WARNINGS){
+
+        alert("Exam terminated due to cheating.");
+
+        finishQuiz();
+
+    }
+
+}
 
 // ---------- Student Data ----------
 const API_URL = "https://gseb-quiz-api.pratikkanakhara1.workers.dev/api";
