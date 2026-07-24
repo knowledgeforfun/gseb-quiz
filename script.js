@@ -741,7 +741,7 @@ function shareWhatsApp(){
 
 Can you beat my score?
 
-👉 https://YOUR-GITHUB-LINK`;
+👉 https://knowledgeforfun.github.io/gseb-quiz/`;
 
     window.open(
         "https://api.whatsapp.com/send?text=" + encodeURIComponent(message),
