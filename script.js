@@ -511,7 +511,7 @@ function finishQuiz(){
     quizScreen.style.display = "none";
     resultScreen.style.display = "block";
 
-    let percentage = ((score / questions.length) * 100).toFixed(2);
+    percentage = (score/questions.length)*100;
     document.getElementById("performanceBadge").innerHTML = "TEST";
 document.getElementById("performanceBadge").style.background = "red";
     const badge = document.getElementById("performanceBadge");
@@ -747,4 +747,30 @@ Can you beat my score?
         "https://api.whatsapp.com/send?text=" + encodeURIComponent(message),
         "_blank"
     );
+}
+async function downloadResultCard() {
+
+    // Result card me data update karo
+    document.getElementById("shareName").innerText =
+        student.name;
+
+    document.getElementById("shareScore").innerText =
+        score + " / " + questions.length;
+
+    document.getElementById("sharePercentage").innerText =
+        percentage.toFixed(2) + "%";
+
+    document.getElementById("shareBadge").innerHTML =
+        document.getElementById("performanceBadge").innerHTML;
+
+    const card = document.getElementById("resultCard");
+
+    const canvas = await html2canvas(card,{
+        scale:2
+    });
+
+    const link = document.createElement("a");
+    link.download = "GSEB_Quiz_Result.png";
+    link.href = canvas.toDataURL("image/png");
+    link.click();
 }
