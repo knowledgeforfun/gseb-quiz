@@ -712,26 +712,19 @@ window.addEventListener("beforeunload",function(e){
 });
 function shareWhatsApp(){
 
-    const name = document.getElementById("finalStudent").innerText;
-
-    const score = document.getElementById("finalScore").innerText;
-
-    const percentage = document.getElementById("finalPercentage").innerText;
-
     const message =
 `🎯 I completed the GSEB Statistics Quiz!
 
-👤 ${name}
-🏆 ${score}
-📊 ${percentage}
+👤 ${student.name}
+🏆 Score : ${score}/${questions.length}
+📊 Percentage : ${((score/questions.length)*100).toFixed(2)}%
 
-Can you beat my score? 😎
+Can you beat my score?
 
-👉 https://YOUR-WEBSITE-LINK`;
+👉 https://YOUR-GITHUB-LINK`;
 
     window.open(
-        "https://wa.me/?text=" + encodeURIComponent(message),
+        "https://api.whatsapp.com/send?text=" + encodeURIComponent(message),
         "_blank"
     );
-
 }
