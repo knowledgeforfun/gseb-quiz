@@ -15,6 +15,7 @@ let student = {
 
 
 // ---------- Quiz Variables ----------
+let examStarted = false;
 let questions = [];
 
 async function loadQuestions() {
@@ -158,6 +159,7 @@ fetch(API_URL, {
 }
 
 async function startExam(){
+     examStarted = true;
      const response = await fetch("data/questions.json");
 const allQuestions = await response.json();
 
@@ -470,7 +472,7 @@ nextBtn.onclick=function(){
 
 function finishQuiz(){
 
-  
+  examStarted = false;
 
     clearInterval(timer);
     clearInterval(questionTimer);
@@ -530,7 +532,18 @@ document.getElementById("timer").innerHTML;
     console.error(err);
 
 });
+// =======================================
+// Anti Refresh & Close Warning
+// =======================================
 
+window.addEventListener("beforeunload", function (e) {
+
+    if (!examStarted) return;
+
+    e.preventDefault();
+    e.returnValue = "";
+
+});
 
 
 }
