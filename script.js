@@ -512,6 +512,20 @@ function finishQuiz(){
     resultScreen.style.display = "block";
 
     let percentage = ((score / questions.length) * 100).toFixed(2);
+    const badge = document.getElementById("performanceBadge");
+
+if (percentage >= 80) {
+    badge.innerHTML = "🏆 Excellent";
+}
+else if (percentage >= 60) {
+    badge.innerHTML = "👍 Good";
+}
+else if (percentage >= 40) {
+    badge.innerHTML = "🙂 Average";
+}
+else {
+    badge.innerHTML = "📚 Keep Practicing";
+}
 
     document.getElementById("finalStudent").innerHTML =
         "👤 " + student.name;
