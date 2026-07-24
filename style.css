@@ -994,3 +994,77 @@ right:-150px;
 filter:blur(40px);
 
 }
+
+/* ===========================
+   Mobile Responsive
+=========================== */
+
+@media (max-width:768px){
+
+body{
+    padding:10px;
+    overflow-x:hidden;
+}
+
+.container,
+.login-box,
+.quiz-box,
+.result-box{
+    width:100%;
+    max-width:100%;
+    margin:0;
+    padding:15px;
+    box-sizing:border-box;
+}
+
+input,
+select,
+textarea,
+button{
+    width:100%;
+    box-sizing:border-box;
+    font-size:16px;
+}
+
+.option{
+    width:100%;
+    padding:14px;
+    margin-bottom:10px;
+    font-size:16px;
+    text-align:left;
+}
+
+#nextBtn,
+#startBtn{
+    width:100%;
+    padding:14px;
+    font-size:18px;
+}
+
+#paletteContainer{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:8px;
+}
+
+.paletteBtn{
+    width:45px;
+    height:45px;
+    font-size:15px;
+}
+
+#questionText{
+    font-size:18px;
+    line-height:1.5;
+}
+
+#timer,
+#questionTimer{
+    font-size:18px;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+}
