@@ -516,15 +516,19 @@ function finishQuiz(){
 
 if (percentage >= 80) {
     badge.innerHTML = "🏆 Excellent";
+    badge.style.background = "#22c55e";
 }
 else if (percentage >= 60) {
     badge.innerHTML = "👍 Good";
+    badge.style.background = "#3b82f6";
 }
 else if (percentage >= 40) {
     badge.innerHTML = "🙂 Average";
+    badge.style.background = "#f59e0b";
 }
 else {
     badge.innerHTML = "📚 Keep Practicing";
+    badge.style.background = "#ef4444";
 }
 
     document.getElementById("finalStudent").innerHTML =
