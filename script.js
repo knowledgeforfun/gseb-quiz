@@ -512,6 +512,8 @@ function finishQuiz(){
     resultScreen.style.display = "block";
 
     let percentage = ((score / questions.length) * 100).toFixed(2);
+    document.getElementById("performanceBadge").innerHTML = "TEST";
+document.getElementById("performanceBadge").style.background = "red";
     const badge = document.getElementById("performanceBadge");
 
 if (percentage >= 80) {
