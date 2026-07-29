@@ -85,8 +85,8 @@ let timer;
 let seconds = 0;
 
 let questionTimer;
-let questionTime = 40;
-let remainingTime = 40;
+// let questionTime = 40;
+// let remainingTime = 40;
 let skipped = 0;
 let questionStatus = [];
 // ---------- Page Elements ----------
@@ -269,7 +269,7 @@ function startTimer(){
 // =======================================
 
 function loadQuestion(){
-  startQuestionTimer();
+  // startQuestionTimer();
 
     selectedAnswer = null;
 
@@ -336,87 +336,13 @@ document
 .classList.add("current");
 
 }
-function startQuestionTimer(){
-
-    clearInterval(questionTimer);
-
-    remainingTime = questionTime;
-
-   document.getElementById("questionTimer").innerHTML =
-    remainingTime;
-
-    questionTimer = setInterval(function(){
-
-        remainingTime--;
-  const timerNumber = document.getElementById("questionTimer");
-const timerCard = timerNumber.parentElement;
-
-// console.log("timerNumber =", timerNumber);
-// console.log("timerCard =", timerCard);
-
-// Reset
-timerCard.classList.remove("timer-safe","timer-medium","timer-danger","timer-warning");
-
-if(remainingTime>10){
-
-    timerCard.classList.add("timer-safe");
-
-}
-else if(remainingTime>5){
-
-    timerCard.classList.add("timer-medium");
-
-}
-else{
-
-    timerCard.classList.add("timer-danger");
-    timerNumber.classList.add("timer-warning");
-
-}
-if(remainingTime>5){
-    timerNumber.classList.remove("timer-warning");
-}
-
-
-       timerNumber.innerHTML = remainingTime;
-
-        if(remainingTime <= 0){
-
-    clearInterval(questionTimer);
-
-    skipped++;
-        questionStatus[currentQuestion]="skipped";
-
-let p=document.getElementById("palette"+currentQuestion);
-
-p.className="paletteBtn skippedQ";
-
-    currentQuestion++;
-
-    if(currentQuestion >= questions.length){
-
-        finishQuiz();
-
-    }else{
-
-        loadQuestion();
-
-    }
-
-}
-
-    },1000);
-
-
-
-}
 
 // =======================================
 // Check Answer
 // =======================================
 
 function checkAnswer(index,button){
-  clearInterval(questionTimer);
+
 
     if(selectedAnswer!==null){
 
